@@ -5,13 +5,13 @@
  */
 
 :root {
-  /* Color tokens */
-  --bg: #0a0a0c;
-  --surface: #141416;
-  --surface-raised: #1a1a1d;
-  --surface-strip: #0f0f12;
-  --border: #232328;
-  --border-strong: #2e2e34;
+  /* Color tokens — dark pine-green base (4-H / rodeo green) */
+  --bg: #0d2419;
+  --surface: #123325;
+  --surface-raised: #173d2c;
+  --surface-strip: #0f2c20;
+  --border: #224d3a;
+  --border-strong: #2d6147;
   --text: #ececee;
   --text-secondary: #b6b6bd;
   --text-muted: #8e8e96;
@@ -20,12 +20,15 @@
   --navy: #1b2a63;
   --navy-deep: #0f1840;
   --navy-line: #2a3a7a;
-  --red: #d11f2d;
-  --red-soft: rgba(209, 31, 45, 0.12);
-  --red-border: rgba(209, 31, 45, 0.4);
+  /* Official 4-H green (PMS 347) — the brand accent for this site */
+  --red: #339966;
+  --red-soft: rgba(51, 153, 102, 0.14);
+  --red-border: rgba(51, 153, 102, 0.45);
   --gold: #e0a92e;
+  --silver: #c9ccd4;
+  --bronze: #cd7f32;
 
-  /* Accent maps to Texas red */
+  /* Accent maps to 4-H green */
   --accent: var(--red);
   --accent-soft: var(--red-soft);
   --accent-border: var(--red-border);
@@ -846,8 +849,8 @@ a.button:hover {
 /* ---------- Event results ---------- */
 
 .podium {
-  background: linear-gradient(135deg, var(--navy-deep), var(--navy));
-  border: 1px solid var(--navy-line);
+  background: linear-gradient(135deg, var(--surface-raised), var(--surface));
+  border: 1px solid var(--border-strong);
   border-left: 4px solid var(--gold);
   border-radius: var(--radius);
   padding: 1.1rem 1.4rem;
@@ -1210,6 +1213,20 @@ a.button:hover {
   color: var(--bronze);
 }
 
+/* Finals: accent each placing row in its medal color —
+   gold = champion, silver = runner-up, bronze = 3rd-place winner. */
+.bracket-col-finals .match:not(.is-bronze-match) .match-row.is-winner {
+  box-shadow: inset 3px 0 0 var(--gold);
+}
+
+.bracket-col-finals .match:not(.is-bronze-match) .match-row:not(.is-winner):not(.is-bye) {
+  box-shadow: inset 3px 0 0 var(--silver);
+}
+
+.bracket-col-finals .match.is-bronze-match .match-row.is-winner {
+  box-shadow: inset 3px 0 0 var(--bronze);
+}
+
 /* Finals column: Championship on top, 3rd Place Match stacked below it,
    the pair centred so the championship aligns with the Champion box. */
 .bracket-col-finals .bracket-col-matches {
@@ -1229,8 +1246,8 @@ a.button:hover {
   font-family: var(--font-display);
   font-weight: 800;
   font-size: 1.05rem;
-  color: #fff;
-  background: linear-gradient(135deg, var(--navy), var(--navy-deep));
+  color: #1c1402;
+  background: linear-gradient(135deg, var(--gold), #c0871c);
   border: 1px solid var(--gold);
   border-radius: var(--radius-sm);
   padding: 0.9rem 0.8rem;
@@ -1448,8 +1465,8 @@ a.button:hover {
   border-radius: 50%;
   display: grid;
   place-items: center;
-  background: var(--navy);
-  border: 1px solid var(--navy-line);
+  background: var(--surface-raised);
+  border: 1px solid var(--border-strong);
   font-family: var(--font-condensed);
   font-weight: 700;
   font-size: 0.74rem;
@@ -1496,20 +1513,18 @@ a.button:hover {
 }
 
 .rank-1 {
-  background: var(--red);
-  color: #fff;
+  background: var(--gold);
+  color: #1c1402;
 }
 
 .rank-2 {
-  background: transparent;
-  border: 2px solid var(--rank2-line);
-  color: var(--rank2-text);
+  background: var(--silver);
+  color: #1b1c1f;
 }
 
 .rank-3 {
-  background: transparent;
-  border: 2px solid var(--rank3-line);
-  color: var(--rank3-text);
+  background: var(--bronze);
+  color: #1c1206;
 }
 
 .rank-rest {
