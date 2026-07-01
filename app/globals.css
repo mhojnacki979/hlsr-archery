@@ -373,14 +373,14 @@ a.button:hover {
   height: 0.6rem;
   border-radius: 50%;
   background: var(--red);
-  box-shadow: 0 0 0 0 rgba(209, 31, 45, 0.6);
+  box-shadow: 0 0 0 0 rgba(51, 153, 102, 0.6);
   animation: live-pulse 1.6s infinite;
 }
 
 @keyframes live-pulse {
-  0% { box-shadow: 0 0 0 0 rgba(209, 31, 45, 0.55); }
-  70% { box-shadow: 0 0 0 0.5rem rgba(209, 31, 45, 0); }
-  100% { box-shadow: 0 0 0 0 rgba(209, 31, 45, 0); }
+  0% { box-shadow: 0 0 0 0 rgba(51, 153, 102, 0.55); }
+  70% { box-shadow: 0 0 0 0.5rem rgba(51, 153, 102, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(51, 153, 102, 0); }
 }
 
 .live-label {
@@ -816,7 +816,7 @@ a.button:hover {
   text-transform: uppercase;
   color: var(--text);
   background-color: var(--surface);
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%23d11f2d' stroke-width='1.6' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%23339966' stroke-width='1.6' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
   background-repeat: no-repeat;
   background-position: right 0.9rem center;
   border: 1px solid var(--border-strong);
