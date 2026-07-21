@@ -3,7 +3,7 @@ import { getHlsr } from '@/data/hlsr'
 import { HlsrBoards } from './hlsr-boards'
 
 export default function HomePage() {
-  const event = getHlsr(2025)
+  const event = getHlsr(2026)
   if (event === null) notFound()
 
   return (

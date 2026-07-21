@@ -10,8 +10,8 @@ export const metadata: Metadata = {
 }
 
 export default function AwardsPage() {
-  const event = getHlsr(2025)
-  const segments = buildAwards(2025)
+  const event = getHlsr(2026)
+  const segments = buildAwards(2026)
   const flagged = segments
     .flatMap((s) => s.classes)
     .filter((c) => c.confidence !== 'exact')
@@ -36,20 +36,23 @@ export default function AwardsPage() {
         </div>
       </header>
 
-      {flagged.length > 0 && (
-        <section className="awards-notice">
-          <strong>Check before awarding:</strong> {flagged.length} of{' '}
-          {segments.flatMap((s) => s.classes).length} classes did not match the prize sheet exactly.
+      <section className="awards-notice">
+        <strong>Before awarding:</strong> classes shot as a bracket are final —
+        every bracketed placing was checked against the committee sheet and matched.
+        Classes marked <em>provisional</em> have no bracket, so they are ordered by
+        qualification score only; the committee settles those placings at the venue.
+        {flagged.length > 0 && (
           <ul>
             {flagged.map((c) => (
               <li key={c.name}>
-                <em>{c.name}</em> — {c.confidence === 'assumed' ? 'assumed match' : 'no prizes assigned'}
+                <em>{c.name}</em> —{' '}
+                {c.confidence === 'assumed' ? 'assumed prize match' : 'no prizes assigned'}
                 {c.note !== undefined && `: ${c.note}`}
               </li>
             ))}
           </ul>
-        </section>
-      )}
+        )}
+      </section>
 
       {segments.map((segment) => (
         <section key={segment.key}>
@@ -62,6 +65,9 @@ export default function AwardsPage() {
                   <span className="awards-flag">
                     {cls.confidence === 'assumed' ? 'assumed prize match' : 'no prize match'}
                   </span>
+                )}
+                {cls.provisional && (
+                  <span className="awards-flag">provisional — qualification order</span>
                 )}
               </h3>
               <table className="awards-table">

@@ -1,0 +1,5512 @@
+{
+ "year": 2026,
+ "name": "2026 HLSR Archery Competition",
+ "venue": "Houston Livestock Show & Rodeo",
+ "date": "2025-10-11",
+ "segments": {
+  "target": {
+   "label": "Target",
+   "archers": 316,
+   "divisions": [
+    {
+     "name": "Barebow Intermediate Female",
+     "champion": "Hadley Harrison",
+     "qualification": [
+      {
+       "rank": 1,
+       "name": "Bailey Boyd",
+       "avg": "6.17",
+       "score": 370
+      },
+      {
+       "rank": 2,
+       "name": "Laura Schoeneberg",
+       "avg": "4.67",
+       "score": 280
+      },
+      {
+       "rank": 3,
+       "name": "Greenlee Wentz",
+       "avg": "3.82",
+       "score": 229
+      },
+      {
+       "rank": 4,
+       "name": "Hadley Harrison",
+       "avg": "3.78",
+       "score": 227
+      },
+      {
+       "rank": 5,
+       "name": "Riley Childress",
+       "avg": "3.53",
+       "score": 212
+      },
+      {
+       "rank": 6,
+       "name": "Nisha Rahman",
+       "avg": "3.00",
+       "score": 180
+      },
+      {
+       "rank": 7,
+       "name": "Abigail James",
+       "avg": "2.03",
+       "score": 122
+      }
+     ],
+     "bracket": {
+      "rounds": [
+       {
+        "name": "Semi Finals",
+        "matches": [
+         {
+          "a": {
+           "name": "Bailey Boyd",
+           "seed": 1,
+           "score": 77,
+           "winner": false
+          },
+          "b": {
+           "name": "Hadley Harrison",
+           "seed": 4,
+           "score": 83,
+           "winner": true
+          }
+         },
+         {
+          "a": {
+           "name": "Greenlee Wentz",
+           "seed": 3,
+           "score": 72,
+           "winner": true
+          },
+          "b": {
+           "name": "Laura Schoeneberg",
+           "seed": 2,
+           "score": 50,
+           "winner": false
+          }
+         }
+        ]
+       },
+       {
+        "name": "Finals",
+        "matches": [
+         {
+          "a": {
+           "name": "Hadley Harrison",
+           "seed": 4,
+           "score": 72,
+           "winner": true
+          },
+          "b": {
+           "name": "Greenlee Wentz",
+           "seed": 3,
+           "score": 39,
+           "winner": false
+          }
+         },
+         {
+          "a": {
+           "name": "Bailey Boyd",
+           "seed": 1,
+           "score": 74,
+           "winner": true
+          },
+          "b": {
+           "name": "Laura Schoeneberg",
+           "seed": 2,
+           "score": 65,
+           "winner": false
+          }
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "name": "Barebow Intermediate Male",
+     "champion": "Nathan Schoeneberg",
+     "qualification": [
+      {
+       "rank": 1,
+       "name": "Nathan Schoeneberg",
+       "avg": "8.28",
+       "score": 497
+      },
+      {
+       "rank": 2,
+       "name": "Jacob Craig",
+       "avg": "6.67",
+       "score": 400
+      },
+      {
+       "rank": 3,
+       "name": "Dean Rosas",
+       "avg": "6.62",
+       "score": 397
+      },
+      {
+       "rank": 4,
+       "name": "Carter Dietz",
+       "avg": "6.03",
+       "score": 362
+      },
+      {
+       "rank": 5,
+       "name": "Haris Husejdic",
+       "avg": "5.98",
+       "score": 359
+      },
+      {
+       "rank": 6,
+       "name": "Jackson Little",
+       "avg": "5.72",
+       "score": 343
+      },
+      {
+       "rank": 7,
+       "name": "Luke Titzman",
+       "avg": "4.02",
+       "score": 241
+      },
+      {
+       "rank": 8,
+       "name": "Arlo Doggett",
+       "avg": "3.62",
+       "score": 217
+      },
+      {
+       "rank": 9,
+       "name": "Mitchell Moreno",
+       "avg": "3.10",
+       "score": 186
+      },
+      {
+       "rank": 10,
+       "name": "Srisujan Neppali",
+       "avg": "1.87",
+       "score": 112
+      },
+      {
+       "rank": 11,
+       "name": "Judson Watson",
+       "avg": "1.60",
+       "score": 96
+      },
+      {
+       "rank": 12,
+       "name": "James Villarreal",
+       "avg": "0.90",
+       "score": 54
+      },
+      {
+       "rank": 13,
+       "name": "Cason Patterson",
+       "avg": "0.17",
+       "score": 5
+      }
+     ],
+     "bracket": {
+      "rounds": [
+       {
+        "name": "Semi Finals",
+        "matches": [
+         {
+          "a": {
+           "name": "Nathan Schoeneberg",
+           "seed": 1,
+           "score": 115,
+           "winner": true
+          },
+          "b": {
+           "name": "Carter Dietz",
+           "seed": 4,
+           "score": 96,
+           "winner": false
+          }
+         },
+         {
+          "a": {
+           "name": "Dean Rosas",
+           "seed": 3,
+           "score": 98,
+           "winner": true
+          },
+          "b": {
+           "name": "Jacob Craig",
+           "seed": 2,
+           "score": 92,
+           "winner": false
+          }
+         }
+        ]
+       },
+       {
+        "name": "Finals",
+        "matches": [
+         {
+          "a": {
+           "name": "Nathan Schoeneberg",
+           "seed": 1,
+           "score": 125,
+           "winner": true
+          },
+          "b": {
+           "name": "Dean Rosas",
+           "seed": 3,
+           "score": 99,
+           "winner": false
+          }
+         },
+         {
+          "a": {
+           "name": "Carter Dietz",
+           "seed": 4,
+           "score": 111,
+           "winner": true
+          },
+          "b": {
+           "name": "Jacob Craig",
+           "seed": 2,
+           "score": 91,
+           "winner": false
+          }
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "name": "Barebow Junior Male",
+     "champion": "Josiah Schoeneberg",
+     "qualification": [
+      {
+       "rank": 1,
+       "name": "Josiah Schoeneberg",
+       "avg": "5.73",
+       "score": 344
+      },
+      {
+       "rank": 2,
+       "name": "Eeshwar Kollu",
+       "avg": "4.83",
+       "score": 290
+      },
+      {
+       "rank": 3,
+       "name": "Bo Rerich",
+       "avg": "2.52",
+       "score": 151
+      },
+      {
+       "rank": 4,
+       "name": "Gideon Wentz",
+       "avg": "2.43",
+       "score": 146
+      }
+     ],
+     "bracket": {
+      "rounds": [
+       {
+        "name": "Semi Finals",
+        "matches": [
+         {
+          "a": {
+           "name": "Josiah Schoeneberg",
+           "seed": 1,
+           "score": 66,
+           "winner": true
+          },
+          "b": {
+           "name": "Gideon Wentz",
+           "seed": 4,
+           "score": 21,
+           "winner": false
+          }
+         },
+         {
+          "a": {
+           "name": "Bo Rerich",
+           "seed": 3,
+           "score": 39,
+           "winner": false
+          },
+          "b": {
+           "name": "Eeshwar Kollu",
+           "seed": 2,
+           "score": 51,
+           "winner": true
+          }
+         }
+        ]
+       },
+       {
+        "name": "Finals",
+        "matches": [
+         {
+          "a": {
+           "name": "Josiah Schoeneberg",
+           "seed": 1,
+           "score": 81,
+           "winner": true
+          },
+          "b": {
+           "name": "Eeshwar Kollu",
+           "seed": 2,
+           "score": 55,
+           "winner": false
+          }
+         },
+         {
+          "a": {
+           "name": "Gideon Wentz",
+           "seed": 4,
+           "score": 37,
+           "winner": true
+          },
+          "b": {
+           "name": "Bo Rerich",
+           "seed": 3,
+           "score": 19,
+           "winner": false
+          }
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "name": "Barebow Junior Female",
+     "champion": "Aurora Crawford",
+     "qualification": [
+      {
+       "rank": 1,
+       "name": "Aurora Crawford",
+       "avg": "2.02",
+       "score": 121
+      },
+      {
+       "rank": 2,
+       "name": "Allison Villarreal",
+       "avg": "0.37",
+       "score": 22
+      }
+     ],
+     "bracket": {
+      "rounds": [
+       {
+        "name": "Finals",
+        "matches": [
+         {
+          "a": {
+           "name": "Aurora Crawford",
+           "seed": 1,
+           "score": 9,
+           "winner": true
+          },
+          "b": {
+           "name": "Allison Villarreal",
+           "seed": 2,
+           "score": 9,
+           "winner": false
+          }
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "name": "Barebow Senior Female",
+     "champion": "Isabel Sladaritz",
+     "qualification": [
+      {
+       "rank": 1,
+       "name": "Isabel Sladaritz",
+       "avg": "7.80",
+       "score": 468
+      },
+      {
+       "rank": 2,
+       "name": "Vivienne Irby",
+       "avg": "7.70",
+       "score": 462
+      },
+      {
+       "rank": 3,
+       "name": "Mithali Kadur",
+       "avg": "7.57",
+       "score": 454
+      },
+      {
+       "rank": 4,
+       "name": "Chloe Copeland",
+       "avg": "6.88",
+       "score": 413
+      },
+      {
+       "rank": 5,
+       "name": "Ellie Van Meter",
+       "avg": "6.55",
+       "score": 393
+      },
+      {
+       "rank": 6,
+       "name": "Kathryn Johnson",
+       "avg": "6.32",
+       "score": 379
+      },
+      {
+       "rank": 7,
+       "name": "Sara Fromme",
+       "avg": "5.98",
+       "score": 359
+      },
+      {
+       "rank": 8,
+       "name": "Brynnly Hohlt",
+       "avg": "5.63",
+       "score": 338
+      },
+      {
+       "rank": 9,
+       "name": "Miriam Randall",
+       "avg": "5.52",
+       "score": 331
+      },
+      {
+       "rank": 10,
+       "name": "Kaley Barden",
+       "avg": "4.33",
+       "score": 260
+      },
+      {
+       "rank": 11,
+       "name": "Abigail Little",
+       "avg": "4.32",
+       "score": 259
+      },
+      {
+       "rank": 12,
+       "name": "Paige Brister",
+       "avg": "4.05",
+       "score": 243
+      },
+      {
+       "rank": 13,
+       "name": "Jacquilyn Fenwick",
+       "avg": "3.68",
+       "score": 221
+      },
+      {
+       "rank": 14,
+       "name": "Agnes Trimble",
+       "avg": "2.80",
+       "score": 168
+      }
+     ],
+     "bracket": {
+      "rounds": [
+       {
+        "name": "Semi Finals",
+        "matches": [
+         {
+          "a": {
+           "name": "Isabel Sladaritz",
+           "seed": 1,
+           "score": 115,
+           "winner": true
+          },
+          "b": {
+           "name": "Chloe Copeland",
+           "seed": 4,
+           "score": 92,
+           "winner": false
+          }
+         },
+         {
+          "a": {
+           "name": "Mithali Kadur",
+           "seed": 3,
+           "score": 103,
+           "winner": false
+          },
+          "b": {
+           "name": "Vivienne Irby",
+           "seed": 2,
+           "score": 104,
+           "winner": true
+          }
+         }
+        ]
+       },
+       {
+        "name": "Finals",
+        "matches": [
+         {
+          "a": {
+           "name": "Isabel Sladaritz",
+           "seed": 1,
+           "score": 118,
+           "winner": true
+          },
+          "b": {
+           "name": "Vivienne Irby",
+           "seed": 2,
+           "score": 97,
+           "winner": false
+          }
+         },
+         {
+          "a": {
+           "name": "Chloe Copeland",
+           "seed": 4,
+           "score": 83,
+           "winner": false
+          },
+          "b": {
+           "name": "Mithali Kadur",
+           "seed": 3,
+           "score": 86,
+           "winner": true
+          }
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "name": "Barebow Senior Male",
+     "champion": "Nicolas Powell",
+     "qualification": [
+      {
+       "rank": 1,
+       "name": "Brayden Evans",
+       "avg": "7.85",
+       "score": 471
+      },
+      {
+       "rank": 2,
+       "name": "Nicolas Powell",
+       "avg": "7.83",
+       "score": 470
+      },
+      {
+       "rank": 3,
+       "name": "Tj Kole",
+       "avg": "7.57",
+       "score": 454
+      },
+      {
+       "rank": 4,
+       "name": "Austin Smith",
+       "avg": "7.13",
+       "score": 428
+      },
+      {
+       "rank": 5,
+       "name": "Connor Aiken",
+       "avg": "6.50",
+       "score": 390
+      },
+      {
+       "rank": 6,
+       "name": "Austin Sanders",
+       "avg": "5.95",
+       "score": 357
+      },
+      {
+       "rank": 7,
+       "name": "Zack Sulais",
+       "avg": "5.93",
+       "score": 356
+      },
+      {
+       "rank": 8,
+       "name": "Levi Feuerbacher",
+       "avg": "5.25",
+       "score": 315
+      },
+      {
+       "rank": 9,
+       "name": "Weston Meissl",
+       "avg": "4.63",
+       "score": 278
+      },
+      {
+       "rank": 10,
+       "name": "Chase Gilliland",
+       "avg": "4.52",
+       "score": 271
+      },
+      {
+       "rank": 11,
+       "name": "Simon Beard",
+       "avg": "3.47",
+       "score": 208
+      },
+      {
+       "rank": 12,
+       "name": "Jason Watson",
+       "avg": "1.03",
+       "score": 62
+      }
+     ],
+     "bracket": {
+      "rounds": [
+       {
+        "name": "Semi Finals",
+        "matches": [
+         {
+          "a": {
+           "name": "Brayden Evans",
+           "seed": 1,
+           "score": 106,
+           "winner": true
+          },
+          "b": {
+           "name": "Austin Smith",
+           "seed": 4,
+           "score": 100,
+           "winner": false
+          }
+         },
+         {
+          "a": {
+           "name": "Tj Kole",
+           "seed": 3,
+           "score": 93,
+           "winner": false
+          },
+          "b": {
+           "name": "Nicolas Powell",
+           "seed": 2,
+           "score": 107,
+           "winner": true
+          }
+         }
+        ]
+       },
+       {
+        "name": "Finals",
+        "matches": [
+         {
+          "a": {
+           "name": "Brayden Evans",
+           "seed": 1,
+           "score": 92,
+           "winner": false
+          },
+          "b": {
+           "name": "Nicolas Powell",
+           "seed": 2,
+           "score": 120,
+           "winner": true
+          }
+         },
+         {
+          "a": {
+           "name": "Austin Smith",
+           "seed": 4,
+           "score": 112,
+           "winner": false
+          },
+          "b": {
+           "name": "Tj Kole",
+           "seed": 3,
+           "score": 114,
+           "winner": true
+          }
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "name": "Fixed Pins Intermediate Male",
+     "champion": "Nico Blom",
+     "qualification": [
+      {
+       "rank": 1,
+       "name": "Nico Blom",
+       "avg": "9.45",
+       "score": 567
+      },
+      {
+       "rank": 2,
+       "name": "Teal Mazzola",
+       "avg": "9.43",
+       "score": 566
+      },
+      {
+       "rank": 3,
+       "name": "Warick Burt",
+       "avg": "9.25",
+       "score": 555
+      },
+      {
+       "rank": 4,
+       "name": "Stockton DeRouen",
+       "avg": "8.87",
+       "score": 532
+      },
+      {
+       "rank": 5,
+       "name": "Zachary Lane",
+       "avg": "8.67",
+       "score": 520
+      },
+      {
+       "rank": 6,
+       "name": "Judah Harrison",
+       "avg": "8.48",
+       "score": 509
+      },
+      {
+       "rank": 7,
+       "name": "Josef Beadles",
+       "avg": "8.13",
+       "score": 488
+      },
+      {
+       "rank": 8,
+       "name": "Landon Coker",
+       "avg": "8.02",
+       "score": 481
+      },
+      {
+       "rank": 9,
+       "name": "Jase Alford",
+       "avg": "7.63",
+       "score": 458
+      },
+      {
+       "rank": 10,
+       "name": "Cheston Barge",
+       "avg": "7.20",
+       "score": 432
+      },
+      {
+       "rank": 11,
+       "name": "Lincoln Idleman",
+       "avg": "7.08",
+       "score": 425
+      },
+      {
+       "rank": 12,
+       "name": "Will Bowers",
+       "avg": "6.98",
+       "score": 419
+      },
+      {
+       "rank": 13,
+       "name": "Lane Lasswell",
+       "avg": "6.87",
+       "score": 412
+      },
+      {
+       "rank": 14,
+       "name": "Stephen Sawyer Carson",
+       "avg": "6.55",
+       "score": 393
+      },
+      {
+       "rank": 15,
+       "name": "David Ballard",
+       "avg": "5.35",
+       "score": 321
+      },
+      {
+       "rank": 16,
+       "name": "Kooper Bartee",
+       "avg": "5.18",
+       "score": 311
+      },
+      {
+       "rank": 17,
+       "name": "Grayson Armfield",
+       "avg": "4.70",
+       "score": 282
+      },
+      {
+       "rank": 18,
+       "name": "Cason Patterson",
+       "avg": "2.25",
+       "score": 135
+      }
+     ],
+     "bracket": {
+      "rounds": [
+       {
+        "name": "Semi Finals",
+        "matches": [
+         {
+          "a": {
+           "name": "Nico Blom",
+           "seed": 1,
+           "score": 141,
+           "winner": true
+          },
+          "b": {
+           "name": "Stockton DeRouen",
+           "seed": 4,
+           "score": 135,
+           "winner": false
+          }
+         },
+         {
+          "a": {
+           "name": "Warick Burt",
+           "seed": 3,
+           "score": 142,
+           "winner": true
+          },
+          "b": {
+           "name": "Teal Mazzola",
+           "seed": 2,
+           "score": 138,
+           "winner": false
+          }
+         }
+        ]
+       },
+       {
+        "name": "Finals",
+        "matches": [
+         {
+          "a": {
+           "name": "Nico Blom",
+           "seed": 1,
+           "score": 140,
+           "winner": true
+          },
+          "b": {
+           "name": "Warick Burt",
+           "seed": 3,
+           "score": 134,
+           "winner": false
+          }
+         },
+         {
+          "a": {
+           "name": "Stockton DeRouen",
+           "seed": 4,
+           "score": 137,
+           "winner": false
+          },
+          "b": {
+           "name": "Teal Mazzola",
+           "seed": 2,
+           "score": 141,
+           "winner": true
+          }
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "name": "Fixed Pins Intermediate Female",
+     "champion": "Emery Arendt",
+     "qualification": [
+      {
+       "rank": 1,
+       "name": "Asher Harrison",
+       "avg": "8.72",
+       "score": 523
+      },
+      {
+       "rank": 2,
+       "name": "Eliza Sternadel",
+       "avg": "8.70",
+       "score": 522
+      },
+      {
+       "rank": 3,
+       "name": "Emery Arendt",
+       "avg": "8.62",
+       "score": 517
+      },
+      {
+       "rank": 4,
+       "name": "Aria Fleming",
+       "avg": "8.52",
+       "score": 511
+      },
+      {
+       "rank": 5,
+       "name": "Jancsi West",
+       "avg": "7.62",
+       "score": 457
+      },
+      {
+       "rank": 6,
+       "name": "Hadley Brandt",
+       "avg": "7.50",
+       "score": 450
+      },
+      {
+       "rank": 7,
+       "name": "Leena Green",
+       "avg": "6.98",
+       "score": 419
+      },
+      {
+       "rank": 8,
+       "name": "Ashley Alford",
+       "avg": "6.48",
+       "score": 389
+      },
+      {
+       "rank": 9,
+       "name": "Cora Kelley",
+       "avg": "6.37",
+       "score": 382
+      },
+      {
+       "rank": 10,
+       "name": "Alyanna Duran",
+       "avg": "5.60",
+       "score": 336
+      },
+      {
+       "rank": 11,
+       "name": "Bethany Atcher",
+       "avg": "4.90",
+       "score": 294
+      },
+      {
+       "rank": 12,
+       "name": "Ayrianna Gilbert",
+       "avg": "4.73",
+       "score": 284
+      },
+      {
+       "rank": 13,
+       "name": "Kaylee Hofstetter",
+       "avg": "3.67",
+       "score": 220
+      }
+     ],
+     "bracket": {
+      "rounds": [
+       {
+        "name": "Semi Finals",
+        "matches": [
+         {
+          "a": {
+           "name": "Asher Harrison",
+           "seed": 1,
+           "score": 130,
+           "winner": true
+          },
+          "b": {
+           "name": "Aria Fleming",
+           "seed": 4,
+           "score": 128,
+           "winner": false
+          }
+         },
+         {
+          "a": {
+           "name": "Emery Arendt",
+           "seed": 3,
+           "score": 138,
+           "winner": true
+          },
+          "b": {
+           "name": "Eliza Sternadel",
+           "seed": 2,
+           "score": 124,
+           "winner": false
+          }
+         }
+        ]
+       },
+       {
+        "name": "Finals",
+        "matches": [
+         {
+          "a": {
+           "name": "Asher Harrison",
+           "seed": 1,
+           "score": 121,
+           "winner": false
+          },
+          "b": {
+           "name": "Emery Arendt",
+           "seed": 3,
+           "score": 141,
+           "winner": true
+          }
+         },
+         {
+          "a": {
+           "name": "Aria Fleming",
+           "seed": 4,
+           "score": 124,
+           "winner": false
+          },
+          "b": {
+           "name": "Eliza Sternadel",
+           "seed": 2,
+           "score": 125,
+           "winner": true
+          }
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "name": "Fixed Pins Junior Female",
+     "champion": "Lucy Lane",
+     "qualification": [
+      {
+       "rank": 1,
+       "name": "Kendall Garner",
+       "avg": "7.62",
+       "score": 457
+      },
+      {
+       "rank": 2,
+       "name": "Lucy Lane",
+       "avg": "6.85",
+       "score": 411
+      },
+      {
+       "rank": 3,
+       "name": "Bryleigh Morse",
+       "avg": "4.58",
+       "score": 275
+      },
+      {
+       "rank": 4,
+       "name": "Parker Henry",
+       "avg": "3.52",
+       "score": 211
+      },
+      {
+       "rank": 5,
+       "name": "Camdyn Atcher",
+       "avg": "2.58",
+       "score": 155
+      },
+      {
+       "rank": 6,
+       "name": "Adelynn Goolsby",
+       "avg": "1.78",
+       "score": 107
+      },
+      {
+       "rank": 7,
+       "name": "Bree Hohlt",
+       "avg": "2.80",
+       "score": 14
+      }
+     ],
+     "bracket": {
+      "rounds": [
+       {
+        "name": "Semi Finals",
+        "matches": [
+         {
+          "a": {
+           "name": "Kendall Garner",
+           "seed": 1,
+           "score": 115,
+           "winner": true
+          },
+          "b": {
+           "name": "Parker Henry",
+           "seed": 4,
+           "score": 77,
+           "winner": false
+          }
+         },
+         {
+          "a": {
+           "name": "Bryleigh Morse",
+           "seed": 3,
+           "score": 70,
+           "winner": false
+          },
+          "b": {
+           "name": "Lucy Lane",
+           "seed": 2,
+           "score": 104,
+           "winner": true
+          }
+         }
+        ]
+       },
+       {
+        "name": "Finals",
+        "matches": [
+         {
+          "a": {
+           "name": "Kendall Garner",
+           "seed": 1,
+           "score": 114,
+           "winner": false
+          },
+          "b": {
+           "name": "Lucy Lane",
+           "seed": 2,
+           "score": 121,
+           "winner": true
+          }
+         },
+         {
+          "a": {
+           "name": "Parker Henry",
+           "seed": 4,
+           "score": 72,
+           "winner": false
+          },
+          "b": {
+           "name": "Bryleigh Morse",
+           "seed": 3,
+           "score": 97,
+           "winner": true
+          }
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "name": "Fixed Pins Junior Male",
+     "champion": "Omar El-Abid",
+     "qualification": [
+      {
+       "rank": 1,
+       "name": "Omar El-Abid",
+       "avg": "8.52",
+       "score": 511
+      },
+      {
+       "rank": 2,
+       "name": "Grant Zelaya",
+       "avg": "7.75",
+       "score": 465
+      },
+      {
+       "rank": 3,
+       "name": "William Early",
+       "avg": "7.63",
+       "score": 458
+      },
+      {
+       "rank": 4,
+       "name": "Henry Watts",
+       "avg": "7.30",
+       "score": 438
+      },
+      {
+       "rank": 5,
+       "name": "Connor Chang",
+       "avg": "7.28",
+       "score": 437
+      },
+      {
+       "rank": 6,
+       "name": "Worth Bowers",
+       "avg": "6.82",
+       "score": 409
+      },
+      {
+       "rank": 7,
+       "name": "Hunter Harrelson",
+       "avg": "6.63",
+       "score": 398
+      },
+      {
+       "rank": 8,
+       "name": "Casen Idleman",
+       "avg": "6.45",
+       "score": 387
+      },
+      {
+       "rank": 9,
+       "name": "Luke Froehling",
+       "avg": "4.73",
+       "score": 284
+      },
+      {
+       "rank": 10,
+       "name": "Blake Sawyer",
+       "avg": "3.65",
+       "score": 219
+      },
+      {
+       "rank": 11,
+       "name": "Levi Smith",
+       "avg": "3.18",
+       "score": 191
+      },
+      {
+       "rank": 12,
+       "name": "Luke Livingston",
+       "avg": "1.08",
+       "score": 65
+      },
+      {
+       "rank": 13,
+       "name": "Christopher Ballard",
+       "avg": "0.97",
+       "score": 58
+      }
+     ],
+     "bracket": {
+      "rounds": [
+       {
+        "name": "Semi Finals",
+        "matches": [
+         {
+          "a": {
+           "name": "Omar El-Abid",
+           "seed": 1,
+           "score": 126,
+           "winner": true
+          },
+          "b": {
+           "name": "Henry Watts",
+           "seed": 4,
+           "score": 95,
+           "winner": false
+          }
+         },
+         {
+          "a": {
+           "name": "William Early",
+           "seed": 3,
+           "score": 136,
+           "winner": true
+          },
+          "b": {
+           "name": "Grant Zelaya",
+           "seed": 2,
+           "score": 77,
+           "winner": false
+          }
+         }
+        ]
+       },
+       {
+        "name": "Finals",
+        "matches": [
+         {
+          "a": {
+           "name": "Omar El-Abid",
+           "seed": 1,
+           "score": 129,
+           "winner": true
+          },
+          "b": {
+           "name": "William Early",
+           "seed": 3,
+           "score": 125,
+           "winner": false
+          }
+         },
+         {
+          "a": {
+           "name": "Henry Watts",
+           "seed": 4,
+           "score": 88,
+           "winner": false
+          },
+          "b": {
+           "name": "Grant Zelaya",
+           "seed": 2,
+           "score": 91,
+           "winner": true
+          }
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "name": "Fixed Pins Senior Female",
+     "champion": "Chloe Brandt",
+     "qualification": [
+      {
+       "rank": 1,
+       "name": "Lilly Dillon",
+       "avg": "9.70",
+       "score": 582
+      },
+      {
+       "rank": 2,
+       "name": "Chloe Brandt",
+       "avg": "9.53",
+       "score": 572
+      },
+      {
+       "rank": 3,
+       "name": "Elsie Sheehan",
+       "avg": "9.38",
+       "score": 563
+      },
+      {
+       "rank": 4,
+       "name": "Makayla Alford",
+       "avg": "9.05",
+       "score": 543
+      },
+      {
+       "rank": 5,
+       "name": "Madison Saraiba",
+       "avg": "8.65",
+       "score": 519
+      },
+      {
+       "rank": 6,
+       "name": "Bailey Roland",
+       "avg": "8.47",
+       "score": 508
+      },
+      {
+       "rank": 7,
+       "name": "Elsie Dietz",
+       "avg": "8.13",
+       "score": 488
+      },
+      {
+       "rank": 8,
+       "name": "Jacqueline Vasquez",
+       "avg": "7.90",
+       "score": 474
+      },
+      {
+       "rank": 9,
+       "name": "Kylee Glosson",
+       "avg": "6.80",
+       "score": 408
+      },
+      {
+       "rank": 10,
+       "name": "Mykayla Ereno",
+       "avg": "6.15",
+       "score": 369
+      },
+      {
+       "rank": 11,
+       "name": "Mackenzie Atcher",
+       "avg": "4.30",
+       "score": 258
+      }
+     ],
+     "bracket": {
+      "rounds": [
+       {
+        "name": "Semi Finals",
+        "matches": [
+         {
+          "a": {
+           "name": "Lilly Dillon",
+           "seed": 1,
+           "score": 146,
+           "winner": true
+          },
+          "b": {
+           "name": "Makayla Alford",
+           "seed": 4,
+           "score": 135,
+           "winner": false
+          }
+         },
+         {
+          "a": {
+           "name": "Elsie Sheehan",
+           "seed": 3,
+           "score": 141,
+           "winner": false
+          },
+          "b": {
+           "name": "Chloe Brandt",
+           "seed": 2,
+           "score": 144,
+           "winner": true
+          }
+         }
+        ]
+       },
+       {
+        "name": "Finals",
+        "matches": [
+         {
+          "a": {
+           "name": "Lilly Dillon",
+           "seed": 1,
+           "score": 144,
+           "winner": false
+          },
+          "b": {
+           "name": "Chloe Brandt",
+           "seed": 2,
+           "score": 146,
+           "winner": true
+          }
+         },
+         {
+          "a": {
+           "name": "Makayla Alford",
+           "seed": 4,
+           "score": 132,
+           "winner": false
+          },
+          "b": {
+           "name": "Elsie Sheehan",
+           "seed": 3,
+           "score": 139,
+           "winner": true
+          }
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "name": "Fixed Pins Senior Male",
+     "champion": "Hasan El-Abid",
+     "qualification": [
+      {
+       "rank": 1,
+       "name": "Hasan El-Abid",
+       "avg": "9.62",
+       "score": 577
+      },
+      {
+       "rank": 2,
+       "name": "Trustin Nelson",
+       "avg": "9.60",
+       "score": 576
+      },
+      {
+       "rank": 3,
+       "name": "Jackson Vaughn",
+       "avg": "9.30",
+       "score": 558
+      },
+      {
+       "rank": 4,
+       "name": "Joel Bonner",
+       "avg": "9.18",
+       "score": 551
+      },
+      {
+       "rank": 5,
+       "name": "Kaleb Sherrod",
+       "avg": "8.90",
+       "score": 534
+      },
+      {
+       "rank": 6,
+       "name": "Eli Neu",
+       "avg": "8.47",
+       "score": 508
+      },
+      {
+       "rank": 7,
+       "name": "Jayson Gonzales",
+       "avg": "8.17",
+       "score": 490
+      },
+      {
+       "rank": 8,
+       "name": "Gabriel Hamilton",
+       "avg": "7.63",
+       "score": 458
+      },
+      {
+       "rank": 9,
+       "name": "Cal Willenborg",
+       "avg": "7.53",
+       "score": 452
+      },
+      {
+       "rank": 10,
+       "name": "Jacob Atcher Jr.",
+       "avg": "5.70",
+       "score": 342
+      },
+      {
+       "rank": 11,
+       "name": "James Allison",
+       "avg": "4.92",
+       "score": 295
+      },
+      {
+       "rank": 12,
+       "name": "Byron Eady",
+       "avg": "3.98",
+       "score": 239
+      }
+     ],
+     "bracket": {
+      "rounds": [
+       {
+        "name": "Semi Finals",
+        "matches": [
+         {
+          "a": {
+           "name": "Hasan El-Abid",
+           "seed": 1,
+           "score": 142,
+           "winner": true
+          },
+          "b": {
+           "name": "Joel Bonner",
+           "seed": 4,
+           "score": 140,
+           "winner": false
+          }
+         },
+         {
+          "a": {
+           "name": "Jackson Vaughn",
+           "seed": 3,
+           "score": 144,
+           "winner": true
+          },
+          "b": {
+           "name": "Trustin Nelson",
+           "seed": 2,
+           "score": 139,
+           "winner": false
+          }
+         }
+        ]
+       },
+       {
+        "name": "Finals",
+        "matches": [
+         {
+          "a": {
+           "name": "Hasan El-Abid",
+           "seed": 1,
+           "score": 142,
+           "winner": true
+          },
+          "b": {
+           "name": "Jackson Vaughn",
+           "seed": 3,
+           "score": 141,
+           "winner": false
+          }
+         },
+         {
+          "a": {
+           "name": "Joel Bonner",
+           "seed": 4,
+           "score": 143,
+           "winner": false
+          },
+          "b": {
+           "name": "Trustin Nelson",
+           "seed": 2,
+           "score": 144,
+           "winner": true
+          }
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "name": "Freestyle Compound Intermediate Female",
+     "champion": "Amarie DeHoyos",
+     "qualification": [
+      {
+       "rank": 1,
+       "name": "Taylin Myers",
+       "avg": "9.72",
+       "score": 583
+      },
+      {
+       "rank": 2,
+       "name": "Khadijah El-Abid",
+       "avg": "9.70",
+       "score": 582
+      },
+      {
+       "rank": 3,
+       "name": "Amarie DeHoyos",
+       "avg": "9.67",
+       "score": 580
+      },
+      {
+       "rank": 4,
+       "name": "Gianna Burke",
+       "avg": "9.42",
+       "score": 565
+      },
+      {
+       "rank": 5,
+       "name": "Ryleigh Telischak",
+       "avg": "9.10",
+       "score": 546
+      },
+      {
+       "rank": 6,
+       "name": "Darci Burden",
+       "avg": "9.03",
+       "score": 542
+      },
+      {
+       "rank": 7,
+       "name": "Makaela Alvarez",
+       "avg": "9.02",
+       "score": 541
+      },
+      {
+       "rank": 8,
+       "name": "Emma Turner",
+       "avg": "8.60",
+       "score": 516
+      },
+      {
+       "rank": 9,
+       "name": "Paisley Groves",
+       "avg": "8.52",
+       "score": 511
+      },
+      {
+       "rank": 10,
+       "name": "AMANDA MONTEMAYOR",
+       "avg": "8.20",
+       "score": 492
+      },
+      {
+       "rank": 11,
+       "name": "Ella Britten",
+       "avg": "7.78",
+       "score": 467
+      },
+      {
+       "rank": 12,
+       "name": "Shiloh Klepac",
+       "avg": "7.67",
+       "score": 460
+      },
+      {
+       "rank": 13,
+       "name": "Adriana Enriquez",
+       "avg": "7.65",
+       "score": 459
+      },
+      {
+       "rank": 14,
+       "name": "Nora Segura",
+       "avg": "6.35",
+       "score": 381
+      },
+      {
+       "rank": 15,
+       "name": "Amelia Rodgers",
+       "avg": "3.07",
+       "score": 184
+      },
+      {
+       "rank": 16,
+       "name": "Elizabeth Fresquez",
+       "avg": "2.95",
+       "score": 177
+      }
+     ],
+     "bracket": {
+      "rounds": [
+       {
+        "name": "Semi Finals",
+        "matches": [
+         {
+          "a": {
+           "name": "Taylin Myers",
+           "seed": 1,
+           "score": 142,
+           "winner": false
+          },
+          "b": {
+           "name": "Gianna Burke",
+           "seed": 4,
+           "score": 143,
+           "winner": true
+          }
+         },
+         {
+          "a": {
+           "name": "Amarie DeHoyos",
+           "seed": 3,
+           "score": 145,
+           "winner": true
+          },
+          "b": {
+           "name": "Khadijah El-Abid",
+           "seed": 2,
+           "score": 144,
+           "winner": false
+          }
+         }
+        ]
+       },
+       {
+        "name": "Finals",
+        "matches": [
+         {
+          "a": {
+           "name": "Gianna Burke",
+           "seed": 4,
+           "score": 144,
+           "winner": false
+          },
+          "b": {
+           "name": "Amarie DeHoyos",
+           "seed": 3,
+           "score": 147,
+           "winner": true
+          }
+         },
+         {
+          "a": {
+           "name": "Taylin Myers",
+           "seed": 1,
+           "score": 144,
+           "winner": false
+          },
+          "b": {
+           "name": "Khadijah El-Abid",
+           "seed": 2,
+           "score": 147,
+           "winner": true
+          }
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "name": "Freestyle Compound Intermediate Male",
+     "champion": "Remington Whitehead",
+     "qualification": [
+      {
+       "rank": 1,
+       "name": "Noah Ross",
+       "avg": "9.72",
+       "score": 583
+      },
+      {
+       "rank": 2,
+       "name": "Remington Whitehead",
+       "avg": "9.68",
+       "score": 581
+      },
+      {
+       "rank": 3,
+       "name": "Tristan Alvarez",
+       "avg": "9.47",
+       "score": 568
+      },
+      {
+       "rank": 4,
+       "name": "Logan Hartman",
+       "avg": "9.25",
+       "score": 555
+      },
+      {
+       "rank": 5,
+       "name": "Everett Pawlik",
+       "avg": "9.17",
+       "score": 550
+      },
+      {
+       "rank": 6,
+       "name": "Saile Bernal",
+       "avg": "8.78",
+       "score": 527
+      },
+      {
+       "rank": 7,
+       "name": "Kaydon Shell",
+       "avg": "8.68",
+       "score": 521
+      },
+      {
+       "rank": 8,
+       "name": "Slone Smalley",
+       "avg": "8.12",
+       "score": 487
+      },
+      {
+       "rank": 9,
+       "name": "Aidan Wray",
+       "avg": "7.72",
+       "score": 463
+      },
+      {
+       "rank": 10,
+       "name": "Amoz Lands",
+       "avg": "6.63",
+       "score": 398
+      }
+     ],
+     "bracket": {
+      "rounds": [
+       {
+        "name": "Semi Finals",
+        "matches": [
+         {
+          "a": {
+           "name": "Noah Ross",
+           "seed": 1,
+           "score": 143,
+           "winner": true
+          },
+          "b": {
+           "name": "Logan Hartman",
+           "seed": 4,
+           "score": 138,
+           "winner": false
+          }
+         },
+         {
+          "a": {
+           "name": "Tristan Alvarez",
+           "seed": 3,
+           "score": 143,
+           "winner": false
+          },
+          "b": {
+           "name": "Remington Whitehead",
+           "seed": 2,
+           "score": 147,
+           "winner": true
+          }
+         }
+        ]
+       },
+       {
+        "name": "Finals",
+        "matches": [
+         {
+          "a": {
+           "name": "Noah Ross",
+           "seed": 1,
+           "score": 143,
+           "winner": false
+          },
+          "b": {
+           "name": "Remington Whitehead",
+           "seed": 2,
+           "score": 145,
+           "winner": true
+          }
+         },
+         {
+          "a": {
+           "name": "Logan Hartman",
+           "seed": 4,
+           "score": 135,
+           "winner": false
+          },
+          "b": {
+           "name": "Tristan Alvarez",
+           "seed": 3,
+           "score": 148,
+           "winner": true
+          }
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "name": "Freestyle Compound Junior Female",
+     "champion": "Riley Berger",
+     "qualification": [
+      {
+       "rank": 1,
+       "name": "Riley Berger",
+       "avg": "9.32",
+       "score": 559
+      },
+      {
+       "rank": 2,
+       "name": "Gianna Ross",
+       "avg": "8.85",
+       "score": 531
+      },
+      {
+       "rank": 3,
+       "name": "Lona Toomer",
+       "avg": "8.83",
+       "score": 530
+      },
+      {
+       "rank": 4,
+       "name": "Evelyn Hyden",
+       "avg": "8.30",
+       "score": 498
+      },
+      {
+       "rank": 5,
+       "name": "Ashley Easterling",
+       "avg": "7.47",
+       "score": 448
+      },
+      {
+       "rank": 6,
+       "name": "Brilei Turner",
+       "avg": "5.18",
+       "score": 311
+      },
+      {
+       "rank": 7,
+       "name": "Aireon Rodgers",
+       "avg": "0.42",
+       "score": 25
+      }
+     ],
+     "bracket": {
+      "rounds": [
+       {
+        "name": "Semi Finals",
+        "matches": [
+         {
+          "a": {
+           "name": "Riley Berger",
+           "seed": 1,
+           "score": 135,
+           "winner": true
+          },
+          "b": {
+           "name": "Evelyn Hyden",
+           "seed": 4,
+           "score": 129,
+           "winner": false
+          }
+         },
+         {
+          "a": {
+           "name": "Lona Toomer",
+           "seed": 3,
+           "score": 131,
+           "winner": false
+          },
+          "b": {
+           "name": "Gianna Ross",
+           "seed": 2,
+           "score": 137,
+           "winner": true
+          }
+         }
+        ]
+       },
+       {
+        "name": "Finals",
+        "matches": [
+         {
+          "a": {
+           "name": "Riley Berger",
+           "seed": 1,
+           "score": 143,
+           "winner": true
+          },
+          "b": {
+           "name": "Gianna Ross",
+           "seed": 2,
+           "score": 139,
+           "winner": false
+          }
+         },
+         {
+          "a": {
+           "name": "Evelyn Hyden",
+           "seed": 4,
+           "score": 132,
+           "winner": false
+          },
+          "b": {
+           "name": "Lona Toomer",
+           "seed": 3,
+           "score": 132,
+           "winner": true
+          }
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "name": "Freestyle Compound Junior Male",
+     "champion": "Dillon Michels",
+     "qualification": [
+      {
+       "rank": 1,
+       "name": "Dillon Michels",
+       "avg": "9.37",
+       "score": 562
+      },
+      {
+       "rank": 2,
+       "name": "Matthew Burke",
+       "avg": "7.45",
+       "score": 447
+      },
+      {
+       "rank": 3,
+       "name": "Branson Massey",
+       "avg": "7.13",
+       "score": 428
+      },
+      {
+       "rank": 4,
+       "name": "Sutton Arnold",
+       "avg": "5.12",
+       "score": 307
+      }
+     ],
+     "bracket": {
+      "rounds": [
+       {
+        "name": "Semi Finals",
+        "matches": [
+         {
+          "a": {
+           "name": "Dillon Michels",
+           "seed": 1,
+           "score": 136,
+           "winner": true
+          },
+          "b": {
+           "name": "Sutton Arnold",
+           "seed": 4,
+           "score": 68,
+           "winner": false
+          }
+         },
+         {
+          "a": {
+           "name": "Branson Massey",
+           "seed": 3,
+           "score": 121,
+           "winner": false
+          },
+          "b": {
+           "name": "Matthew Burke",
+           "seed": 2,
+           "score": 121,
+           "winner": true
+          }
+         }
+        ]
+       },
+       {
+        "name": "Finals",
+        "matches": [
+         {
+          "a": {
+           "name": "Dillon Michels",
+           "seed": 1,
+           "score": 133,
+           "winner": true
+          },
+          "b": {
+           "name": "Matthew Burke",
+           "seed": 2,
+           "score": 124,
+           "winner": false
+          }
+         },
+         {
+          "a": {
+           "name": "Sutton Arnold",
+           "seed": 4,
+           "score": 33,
+           "winner": false
+          },
+          "b": {
+           "name": "Branson Massey",
+           "seed": 3,
+           "score": 126,
+           "winner": true
+          }
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "name": "Freestyle Compound Senior Male",
+     "champion": "Caiden Atzger",
+     "qualification": [
+      {
+       "rank": 1,
+       "name": "Connor Goehring",
+       "avg": "9.95",
+       "score": 597
+      },
+      {
+       "rank": 2,
+       "name": "Caiden Atzger",
+       "avg": "9.93",
+       "score": 596
+      },
+      {
+       "rank": 3,
+       "name": "Crash DeHoyos",
+       "avg": "9.93",
+       "score": 596
+      },
+      {
+       "rank": 4,
+       "name": "Case Scott",
+       "avg": "9.93",
+       "score": 596
+      },
+      {
+       "rank": 5,
+       "name": "Nash Thompson",
+       "avg": "9.92",
+       "score": 595
+      },
+      {
+       "rank": 6,
+       "name": "Dax Algueseva",
+       "avg": "9.90",
+       "score": 594
+      },
+      {
+       "rank": 7,
+       "name": "Easton Groves",
+       "avg": "9.88",
+       "score": 593
+      },
+      {
+       "rank": 8,
+       "name": "Cole Ware",
+       "avg": "9.87",
+       "score": 592
+      },
+      {
+       "rank": 9,
+       "name": "Landon Roland",
+       "avg": "9.85",
+       "score": 591
+      },
+      {
+       "rank": 10,
+       "name": "Adam Shackelford",
+       "avg": "9.85",
+       "score": 591
+      },
+      {
+       "rank": 11,
+       "name": "Cody Johnson",
+       "avg": "9.80",
+       "score": 588
+      },
+      {
+       "rank": 12,
+       "name": "Aiden Maloy",
+       "avg": "9.80",
+       "score": 588
+      },
+      {
+       "rank": 13,
+       "name": "Mason Travelstead",
+       "avg": "9.80",
+       "score": 588
+      },
+      {
+       "rank": 14,
+       "name": "Weldon Bowers",
+       "avg": "9.75",
+       "score": 585
+      },
+      {
+       "rank": 15,
+       "name": "Joseph Burke",
+       "avg": "9.67",
+       "score": 580
+      },
+      {
+       "rank": 16,
+       "name": "Colten Michels",
+       "avg": "9.67",
+       "score": 580
+      },
+      {
+       "rank": 17,
+       "name": "Augustus Lands",
+       "avg": "9.60",
+       "score": 576
+      },
+      {
+       "rank": 18,
+       "name": "Jacob Goff",
+       "avg": "9.60",
+       "score": 576
+      },
+      {
+       "rank": 19,
+       "name": "Tucker Fair",
+       "avg": "9.58",
+       "score": 575
+      },
+      {
+       "rank": 20,
+       "name": "Andrew Xie",
+       "avg": "9.52",
+       "score": 571
+      },
+      {
+       "rank": 21,
+       "name": "Josiah Herrington",
+       "avg": "9.48",
+       "score": 569
+      },
+      {
+       "rank": 22,
+       "name": "Korbin Pate",
+       "avg": "9.48",
+       "score": 569
+      },
+      {
+       "rank": 23,
+       "name": "Sawyer Risley",
+       "avg": "9.45",
+       "score": 567
+      },
+      {
+       "rank": 24,
+       "name": "Matthan Ellis",
+       "avg": "9.30",
+       "score": 558
+      },
+      {
+       "rank": 25,
+       "name": "Owen Sansing",
+       "avg": "9.28",
+       "score": 557
+      },
+      {
+       "rank": 26,
+       "name": "Kyler Terrell",
+       "avg": "8.77",
+       "score": 526
+      },
+      {
+       "rank": 27,
+       "name": "Elijah Green",
+       "avg": "8.63",
+       "score": 518
+      },
+      {
+       "rank": 28,
+       "name": "Drayton Segler",
+       "avg": "8.23",
+       "score": 494
+      },
+      {
+       "rank": 29,
+       "name": "Brayden Orozco",
+       "avg": "8.12",
+       "score": 487
+      },
+      {
+       "rank": 30,
+       "name": "Garrett Casarez",
+       "avg": "8.10",
+       "score": 486
+      },
+      {
+       "rank": 31,
+       "name": "Lane Olmstead",
+       "avg": "7.23",
+       "score": 434
+      },
+      {
+       "rank": 32,
+       "name": "Jack Kalfrin",
+       "avg": "7.05",
+       "score": 423
+      },
+      {
+       "rank": 33,
+       "name": "Jerron Davis",
+       "avg": "6.57",
+       "score": 394
+      },
+      {
+       "rank": 34,
+       "name": "Tyler Rainey",
+       "avg": "5.17",
+       "score": 310
+      }
+     ],
+     "bracket": {
+      "rounds": [
+       {
+        "name": "Quarter Finals",
+        "matches": [
+         {
+          "a": {
+           "name": "Connor Goehring",
+           "seed": 1,
+           "score": 150,
+           "winner": true
+          },
+          "b": {
+           "name": "Cole Ware",
+           "seed": 8,
+           "score": 147,
+           "winner": false
+          }
+         },
+         {
+          "a": {
+           "name": "Nash Thompson",
+           "seed": 5,
+           "score": 149,
+           "winner": true
+          },
+          "b": {
+           "name": "Case Scott",
+           "seed": 4,
+           "score": 148,
+           "winner": false
+          }
+         },
+         {
+          "a": {
+           "name": "Crash DeHoyos",
+           "seed": 3,
+           "score": 149,
+           "winner": false
+          },
+          "b": {
+           "name": "Dax Algueseva",
+           "seed": 6,
+           "score": 149,
+           "winner": true
+          }
+         },
+         {
+          "a": {
+           "name": "Easton Groves",
+           "seed": 7,
+           "score": 143,
+           "winner": false
+          },
+          "b": {
+           "name": "Caiden Atzger",
+           "seed": 2,
+           "score": 148,
+           "winner": true
+          }
+         }
+        ]
+       },
+       {
+        "name": "Semi Finals",
+        "matches": [
+         {
+          "a": {
+           "name": "Connor Goehring",
+           "seed": 1,
+           "score": 148,
+           "winner": false
+          },
+          "b": {
+           "name": "Nash Thompson",
+           "seed": 5,
+           "score": 150,
+           "winner": true
+          }
+         },
+         {
+          "a": {
+           "name": "Dax Algueseva",
+           "seed": 6,
+           "score": 146,
+           "winner": false
+          },
+          "b": {
+           "name": "Caiden Atzger",
+           "seed": 2,
+           "score": 150,
+           "winner": true
+          }
+         }
+        ]
+       },
+       {
+        "name": "Finals",
+        "matches": [
+         {
+          "a": {
+           "name": "Nash Thompson",
+           "seed": 5,
+           "score": 148,
+           "winner": false
+          },
+          "b": {
+           "name": "Caiden Atzger",
+           "seed": 2,
+           "score": 148,
+           "winner": true
+          }
+         },
+         {
+          "a": {
+           "name": "Connor Goehring",
+           "seed": 1,
+           "score": 150,
+           "winner": true
+          },
+          "b": {
+           "name": "Dax Algueseva",
+           "seed": 6,
+           "score": 149,
+           "winner": false
+          }
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "name": "Freestyle Compound Senior Female",
+     "champion": "Julia Cook",
+     "qualification": [
+      {
+       "rank": 1,
+       "name": "Julia Cook",
+       "avg": "9.93",
+       "score": 596
+      },
+      {
+       "rank": 2,
+       "name": "Shelby Britten",
+       "avg": "9.83",
+       "score": 590
+      },
+      {
+       "rank": 3,
+       "name": "Raylie Seyler",
+       "avg": "9.77",
+       "score": 586
+      },
+      {
+       "rank": 4,
+       "name": "Alvery Lands",
+       "avg": "9.73",
+       "score": 584
+      },
+      {
+       "rank": 5,
+       "name": "Tara Easterling",
+       "avg": "9.57",
+       "score": 574
+      },
+      {
+       "rank": 6,
+       "name": "Elliana Farquhar",
+       "avg": "9.55",
+       "score": 573
+      },
+      {
+       "rank": 7,
+       "name": "Addison Schleifer",
+       "avg": "9.52",
+       "score": 571
+      },
+      {
+       "rank": 8,
+       "name": "Alexandra Youmans",
+       "avg": "9.52",
+       "score": 571
+      },
+      {
+       "rank": 9,
+       "name": "Elise Schleifer",
+       "avg": "9.22",
+       "score": 553
+      },
+      {
+       "rank": 10,
+       "name": "Kylie Ybarbo",
+       "avg": "9.22",
+       "score": 553
+      },
+      {
+       "rank": 11,
+       "name": "Keelie Ellensohn",
+       "avg": "9.05",
+       "score": 543
+      },
+      {
+       "rank": 12,
+       "name": "Jocelynn Reid",
+       "avg": "8.88",
+       "score": 533
+      },
+      {
+       "rank": 13,
+       "name": "Ailey Woodward",
+       "avg": "8.13",
+       "score": 488
+      },
+      {
+       "rank": 14,
+       "name": "Sarenity Vasquez",
+       "avg": "7.52",
+       "score": 451
+      },
+      {
+       "rank": 15,
+       "name": "Victoria Martinez",
+       "avg": "3.90",
+       "score": 234
+      }
+     ],
+     "bracket": {
+      "rounds": [
+       {
+        "name": "Semi Finals",
+        "matches": [
+         {
+          "a": {
+           "name": "Julia Cook",
+           "seed": 1,
+           "score": 148,
+           "winner": true
+          },
+          "b": {
+           "name": "Alvery Lands",
+           "seed": 4,
+           "score": 144,
+           "winner": false
+          }
+         },
+         {
+          "a": {
+           "name": "Raylie Seyler",
+           "seed": 3,
+           "score": 143,
+           "winner": false
+          },
+          "b": {
+           "name": "Shelby Britten",
+           "seed": 2,
+           "score": 148,
+           "winner": true
+          }
+         }
+        ]
+       },
+       {
+        "name": "Finals",
+        "matches": [
+         {
+          "a": {
+           "name": "Julia Cook",
+           "seed": 1,
+           "score": 148,
+           "winner": true
+          },
+          "b": {
+           "name": "Shelby Britten",
+           "seed": 2,
+           "score": 147,
+           "winner": false
+          }
+         },
+         {
+          "a": {
+           "name": "Alvery Lands",
+           "seed": 4,
+           "score": 147,
+           "winner": true
+          },
+          "b": {
+           "name": "Raylie Seyler",
+           "seed": 3,
+           "score": 146,
+           "winner": false
+          }
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "name": "NASP Intermediate Male",
+     "champion": "Caleb Burnett",
+     "qualification": [
+      {
+       "rank": 1,
+       "name": "Greyson Jones",
+       "avg": "5.65",
+       "score": 339
+      },
+      {
+       "rank": 2,
+       "name": "Kleat Barrett",
+       "avg": "5.60",
+       "score": 336
+      },
+      {
+       "rank": 3,
+       "name": "David Longoria",
+       "avg": "4.28",
+       "score": 257
+      },
+      {
+       "rank": 4,
+       "name": "Caleb Burnett",
+       "avg": "4.23",
+       "score": 254
+      },
+      {
+       "rank": 5,
+       "name": "Ty Leever",
+       "avg": "4.07",
+       "score": 244
+      },
+      {
+       "rank": 6,
+       "name": "Lee Hanzik",
+       "avg": "3.43",
+       "score": 206
+      },
+      {
+       "rank": 7,
+       "name": "Logan LaRue",
+       "avg": "3.38",
+       "score": 203
+      },
+      {
+       "rank": 8,
+       "name": "Theodore (TY) Chan-Park",
+       "avg": "2.08",
+       "score": 125
+      },
+      {
+       "rank": 9,
+       "name": "Daniel Nevil Jr",
+       "avg": "1.37",
+       "score": 82
+      },
+      {
+       "rank": 10,
+       "name": "Colt Theiss",
+       "avg": "0.80",
+       "score": 32
+      },
+      {
+       "rank": 11,
+       "name": "Judson Watson",
+       "avg": "0.42",
+       "score": 25
+      }
+     ],
+     "bracket": {
+      "rounds": [
+       {
+        "name": "Semi Finals",
+        "matches": [
+         {
+          "a": {
+           "name": "Greyson Jones",
+           "seed": 1,
+           "score": 82,
+           "winner": false
+          },
+          "b": {
+           "name": "Caleb Burnett",
+           "seed": 4,
+           "score": 94,
+           "winner": true
+          }
+         },
+         {
+          "a": {
+           "name": "David Longoria",
+           "seed": 3,
+           "score": 61,
+           "winner": false
+          },
+          "b": {
+           "name": "Kleat Barrett",
+           "seed": 2,
+           "score": 85,
+           "winner": true
+          }
+         }
+        ]
+       },
+       {
+        "name": "Finals",
+        "matches": [
+         {
+          "a": {
+           "name": "Caleb Burnett",
+           "seed": 4,
+           "score": 86,
+           "winner": true
+          },
+          "b": {
+           "name": "Kleat Barrett",
+           "seed": 2,
+           "score": 77,
+           "winner": false
+          }
+         },
+         {
+          "a": {
+           "name": "Greyson Jones",
+           "seed": 1,
+           "score": 83,
+           "winner": false
+          },
+          "b": {
+           "name": "David Longoria",
+           "seed": 3,
+           "score": 85,
+           "winner": true
+          }
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "name": "NASP Intermediate Female",
+     "champion": "Trinity Sawyer",
+     "qualification": [
+      {
+       "rank": 1,
+       "name": "Trinity Sawyer",
+       "avg": "4.95",
+       "score": 297
+      },
+      {
+       "rank": 2,
+       "name": "Taryn Thibodeaux",
+       "avg": "3.87",
+       "score": 232
+      }
+     ],
+     "bracket": {
+      "rounds": [
+       {
+        "name": "Finals",
+        "matches": [
+         {
+          "a": {
+           "name": "Trinity Sawyer",
+           "seed": 1,
+           "score": 74,
+           "winner": true
+          },
+          "b": {
+           "name": "Taryn Thibodeaux",
+           "seed": 2,
+           "score": 53,
+           "winner": false
+          }
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "name": "NASP Junior Male",
+     "champion": "Luke Burnett",
+     "qualification": [
+      {
+       "rank": 1,
+       "name": "Luke Burnett",
+       "avg": "4.20",
+       "score": 252
+      },
+      {
+       "rank": 2,
+       "name": "Jimmy Jones",
+       "avg": "3.43",
+       "score": 206
+      },
+      {
+       "rank": 3,
+       "name": "Cade Leever",
+       "avg": "0.50",
+       "score": 30
+      }
+     ],
+     "bracket": {
+      "rounds": [
+       {
+        "name": "Semi Finals",
+        "matches": [
+         {
+          "a": {
+           "name": "Luke Burnett",
+           "seed": 1,
+           "score": 0,
+           "winner": true
+          },
+          "b": {
+           "name": "BYE",
+           "seed": 0,
+           "score": 0,
+           "winner": false
+          }
+         },
+         {
+          "a": {
+           "name": "Cade Leever",
+           "seed": 3,
+           "score": 3,
+           "winner": false
+          },
+          "b": {
+           "name": "Jimmy Jones",
+           "seed": 2,
+           "score": 15,
+           "winner": true
+          }
+         }
+        ]
+       },
+       {
+        "name": "Finals",
+        "matches": [
+         {
+          "a": {
+           "name": "Luke Burnett",
+           "seed": 1,
+           "score": 80,
+           "winner": true
+          },
+          "b": {
+           "name": "Jimmy Jones",
+           "seed": 2,
+           "score": 24,
+           "winner": false
+          }
+         },
+         {
+          "a": {
+           "name": "Cade Leever",
+           "seed": 3,
+           "score": 0,
+           "winner": true
+          },
+          "b": {
+           "name": "BYE",
+           "seed": 0,
+           "score": 0,
+           "winner": false
+          }
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "name": "NASP Junior Female",
+     "champion": "Everly Ebarb",
+     "qualification": [
+      {
+       "rank": 1,
+       "name": "Everly Ebarb",
+       "avg": "3.53",
+       "score": 212
+      },
+      {
+       "rank": 2,
+       "name": "Violet Burnett",
+       "avg": "1.90",
+       "score": 114
+      },
+      {
+       "rank": 3,
+       "name": "Nicole Lopez",
+       "avg": "1.47",
+       "score": 88
+      }
+     ],
+     "bracket": {
+      "rounds": [
+       {
+        "name": "Semi Finals",
+        "matches": [
+         {
+          "a": {
+           "name": "Everly Ebarb",
+           "seed": 1,
+           "score": 0,
+           "winner": true
+          },
+          "b": {
+           "name": "BYE",
+           "seed": 0,
+           "score": 0,
+           "winner": false
+          }
+         },
+         {
+          "a": {
+           "name": "Nicole Lopez",
+           "seed": 3,
+           "score": 20,
+           "winner": true
+          },
+          "b": {
+           "name": "Violet Burnett",
+           "seed": 2,
+           "score": 6,
+           "winner": false
+          }
+         }
+        ]
+       },
+       {
+        "name": "Finals",
+        "matches": [
+         {
+          "a": {
+           "name": "Everly Ebarb",
+           "seed": 1,
+           "score": 59,
+           "winner": true
+          },
+          "b": {
+           "name": "Nicole Lopez",
+           "seed": 3,
+           "score": 18,
+           "winner": false
+          }
+         },
+         {
+          "a": {
+           "name": "Violet Burnett",
+           "seed": 2,
+           "score": 0,
+           "winner": true
+          },
+          "b": {
+           "name": "BYE",
+           "seed": 0,
+           "score": 0,
+           "winner": false
+          }
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "name": "NASP Senior Female",
+     "champion": "Talley Baker",
+     "qualification": [
+      {
+       "rank": 1,
+       "name": "Veronica Berrones",
+       "avg": "6.73",
+       "score": 404
+      },
+      {
+       "rank": 2,
+       "name": "Elaina Olson",
+       "avg": "6.68",
+       "score": 401
+      },
+      {
+       "rank": 3,
+       "name": "Talley Baker",
+       "avg": "6.42",
+       "score": 385
+      },
+      {
+       "rank": 4,
+       "name": "Summer Swedoski",
+       "avg": "6.00",
+       "score": 360
+      },
+      {
+       "rank": 5,
+       "name": "Anastacia Hernandez",
+       "avg": "5.53",
+       "score": 332
+      },
+      {
+       "rank": 6,
+       "name": "Destiny Perez",
+       "avg": "5.47",
+       "score": 328
+      },
+      {
+       "rank": 7,
+       "name": "Arantxa Barrientos",
+       "avg": "4.93",
+       "score": 296
+      },
+      {
+       "rank": 8,
+       "name": "Izabelle Wiles",
+       "avg": "4.70",
+       "score": 282
+      },
+      {
+       "rank": 9,
+       "name": "Ava Young",
+       "avg": "4.55",
+       "score": 273
+      },
+      {
+       "rank": 10,
+       "name": "Elizabeth Lozano",
+       "avg": "4.08",
+       "score": 245
+      },
+      {
+       "rank": 11,
+       "name": "Ingrid Canamar",
+       "avg": "3.83",
+       "score": 230
+      },
+      {
+       "rank": 12,
+       "name": "Tenley Thibodeaux",
+       "avg": "3.10",
+       "score": 186
+      },
+      {
+       "rank": 13,
+       "name": "Genave Mercado",
+       "avg": "3.03",
+       "score": 182
+      },
+      {
+       "rank": 14,
+       "name": "Paizley Wise",
+       "avg": "2.95",
+       "score": 177
+      },
+      {
+       "rank": 15,
+       "name": "Alexis Engleman",
+       "avg": "2.87",
+       "score": 172
+      },
+      {
+       "rank": 16,
+       "name": "Haelee Jeon",
+       "avg": "1.88",
+       "score": 113
+      }
+     ],
+     "bracket": {
+      "rounds": [
+       {
+        "name": "Semi Finals",
+        "matches": [
+         {
+          "a": {
+           "name": "Veronica Berrones",
+           "seed": 1,
+           "score": 103,
+           "winner": true
+          },
+          "b": {
+           "name": "Summer Swedoski",
+           "seed": 4,
+           "score": 97,
+           "winner": false
+          }
+         },
+         {
+          "a": {
+           "name": "Talley Baker",
+           "seed": 3,
+           "score": 97,
+           "winner": true
+          },
+          "b": {
+           "name": "Elaina Olson",
+           "seed": 2,
+           "score": 93,
+           "winner": false
+          }
+         }
+        ]
+       },
+       {
+        "name": "Finals",
+        "matches": [
+         {
+          "a": {
+           "name": "Veronica Berrones",
+           "seed": 1,
+           "score": 92,
+           "winner": false
+          },
+          "b": {
+           "name": "Talley Baker",
+           "seed": 3,
+           "score": 104,
+           "winner": true
+          }
+         },
+         {
+          "a": {
+           "name": "Summer Swedoski",
+           "seed": 4,
+           "score": 84,
+           "winner": false
+          },
+          "b": {
+           "name": "Elaina Olson",
+           "seed": 2,
+           "score": 110,
+           "winner": true
+          }
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "name": "NASP Senior Male",
+     "champion": "Alejandro Serrano",
+     "qualification": [
+      {
+       "rank": 1,
+       "name": "Tyler Lucas",
+       "avg": "7.65",
+       "score": 459
+      },
+      {
+       "rank": 2,
+       "name": "Garth Leiber",
+       "avg": "7.58",
+       "score": 455
+      },
+      {
+       "rank": 3,
+       "name": "Collin Russell",
+       "avg": "7.53",
+       "score": 452
+      },
+      {
+       "rank": 4,
+       "name": "Alejandro Serrano",
+       "avg": "7.47",
+       "score": 448
+      },
+      {
+       "rank": 5,
+       "name": "Ethan Tyro",
+       "avg": "7.33",
+       "score": 440
+      },
+      {
+       "rank": 6,
+       "name": "Drew Parker",
+       "avg": "6.98",
+       "score": 419
+      },
+      {
+       "rank": 7,
+       "name": "Peyton Owens",
+       "avg": "6.92",
+       "score": 415
+      },
+      {
+       "rank": 8,
+       "name": "David Nalls",
+       "avg": "6.88",
+       "score": 413
+      },
+      {
+       "rank": 9,
+       "name": "Anthony Nguyen",
+       "avg": "6.27",
+       "score": 376
+      },
+      {
+       "rank": 10,
+       "name": "Jacob Resendez",
+       "avg": "6.18",
+       "score": 371
+      },
+      {
+       "rank": 11,
+       "name": "Koltyn DuBose",
+       "avg": "5.67",
+       "score": 340
+      },
+      {
+       "rank": 12,
+       "name": "Tylen Santiago",
+       "avg": "4.97",
+       "score": 298
+      },
+      {
+       "rank": 13,
+       "name": "Nicolas Powell",
+       "avg": "4.82",
+       "score": 289
+      },
+      {
+       "rank": 14,
+       "name": "Emanuel Perez",
+       "avg": "3.95",
+       "score": 237
+      },
+      {
+       "rank": 15,
+       "name": "Roy Duffey",
+       "avg": "3.93",
+       "score": 236
+      },
+      {
+       "rank": 16,
+       "name": "Andrew Molinar",
+       "avg": "3.92",
+       "score": 235
+      },
+      {
+       "rank": 17,
+       "name": "Josiah Romero Love",
+       "avg": "3.65",
+       "score": 219
+      },
+      {
+       "rank": 18,
+       "name": "Lucas Nalls",
+       "avg": "3.55",
+       "score": 213
+      },
+      {
+       "rank": 19,
+       "name": "Trace Cummings",
+       "avg": "3.52",
+       "score": 211
+      },
+      {
+       "rank": 20,
+       "name": "Wyatt Bentley",
+       "avg": "2.78",
+       "score": 167
+      },
+      {
+       "rank": 21,
+       "name": "Manuel Brownlee",
+       "avg": "2.62",
+       "score": 157
+      }
+     ],
+     "bracket": {
+      "rounds": [
+       {
+        "name": "Semi Finals",
+        "matches": [
+         {
+          "a": {
+           "name": "Tyler Lucas",
+           "seed": 1,
+           "score": 110,
+           "winner": false
+          },
+          "b": {
+           "name": "Alejandro Serrano",
+           "seed": 4,
+           "score": 124,
+           "winner": true
+          }
+         },
+         {
+          "a": {
+           "name": "Collin Russell",
+           "seed": 3,
+           "score": 115,
+           "winner": true
+          },
+          "b": {
+           "name": "Garth Leiber",
+           "seed": 2,
+           "score": 92,
+           "winner": false
+          }
+         }
+        ]
+       },
+       {
+        "name": "Finals",
+        "matches": [
+         {
+          "a": {
+           "name": "Alejandro Serrano",
+           "seed": 4,
+           "score": 128,
+           "winner": true
+          },
+          "b": {
+           "name": "Collin Russell",
+           "seed": 3,
+           "score": 113,
+           "winner": false
+          }
+         },
+         {
+          "a": {
+           "name": "Tyler Lucas",
+           "seed": 1,
+           "score": 88,
+           "winner": false
+          },
+          "b": {
+           "name": "Garth Leiber",
+           "seed": 2,
+           "score": 124,
+           "winner": true
+          }
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "name": "Recurve Junior Male",
+     "champion": "Liam GOMEZ",
+     "qualification": [
+      {
+       "rank": 1,
+       "name": "Liam GOMEZ",
+       "avg": "7.68",
+       "score": 461
+      },
+      {
+       "rank": 2,
+       "name": "Jacob Moreno",
+       "avg": "7.60",
+       "score": 456
+      },
+      {
+       "rank": 3,
+       "name": "Aydin Naqvi",
+       "avg": "4.57",
+       "score": 274
+      },
+      {
+       "rank": 4,
+       "name": "Saahas Chakra Chidurala",
+       "avg": "4.55",
+       "score": 273
+      }
+     ],
+     "bracket": {
+      "rounds": [
+       {
+        "name": "Semi Finals",
+        "matches": [
+         {
+          "a": {
+           "name": "Liam GOMEZ",
+           "seed": 1,
+           "score": 116,
+           "winner": true
+          },
+          "b": {
+           "name": "Saahas Chakra Chidurala",
+           "seed": 4,
+           "score": 88,
+           "winner": false
+          }
+         },
+         {
+          "a": {
+           "name": "Aydin Naqvi",
+           "seed": 3,
+           "score": 59,
+           "winner": false
+          },
+          "b": {
+           "name": "Jacob Moreno",
+           "seed": 2,
+           "score": 98,
+           "winner": true
+          }
+         }
+        ]
+       },
+       {
+        "name": "Finals",
+        "matches": [
+         {
+          "a": {
+           "name": "Liam GOMEZ",
+           "seed": 1,
+           "score": 109,
+           "winner": true
+          },
+          "b": {
+           "name": "Jacob Moreno",
+           "seed": 2,
+           "score": 92,
+           "winner": false
+          }
+         },
+         {
+          "a": {
+           "name": "Saahas Chakra Chidurala",
+           "seed": 4,
+           "score": 68,
+           "winner": true
+          },
+          "b": {
+           "name": "Aydin Naqvi",
+           "seed": 3,
+           "score": 64,
+           "winner": false
+          }
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "name": "Recurve Junior Female",
+     "champion": "Emily Luo",
+     "qualification": [
+      {
+       "rank": 1,
+       "name": "Emily Luo",
+       "avg": "4.18",
+       "score": 251
+      },
+      {
+       "rank": 2,
+       "name": "Mishka Gupta",
+       "avg": "4.10",
+       "score": 246
+      },
+      {
+       "rank": 3,
+       "name": "Josephine Schaefer",
+       "avg": "3.18",
+       "score": 191
+      }
+     ],
+     "bracket": {
+      "rounds": [
+       {
+        "name": "Semi Finals",
+        "matches": [
+         {
+          "a": {
+           "name": "Emily Luo",
+           "seed": 1,
+           "score": 0,
+           "winner": true
+          },
+          "b": {
+           "name": "BYE",
+           "seed": 0,
+           "score": 0,
+           "winner": false
+          }
+         },
+         {
+          "a": {
+           "name": "Josephine Schaefer",
+           "seed": 3,
+           "score": 58,
+           "winner": false
+          },
+          "b": {
+           "name": "Mishka Gupta",
+           "seed": 2,
+           "score": 85,
+           "winner": true
+          }
+         }
+        ]
+       },
+       {
+        "name": "Finals",
+        "matches": [
+         {
+          "a": {
+           "name": "Emily Luo",
+           "seed": 1,
+           "score": 80,
+           "winner": true
+          },
+          "b": {
+           "name": "Mishka Gupta",
+           "seed": 2,
+           "score": 71,
+           "winner": false
+          }
+         },
+         {
+          "a": {
+           "name": "Josephine Schaefer",
+           "seed": 3,
+           "score": 0,
+           "winner": true
+          },
+          "b": {
+           "name": "BYE",
+           "seed": 0,
+           "score": 0,
+           "winner": false
+          }
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "name": "Recurve Intermediate Female",
+     "champion": "Jia Sanjana",
+     "qualification": [
+      {
+       "rank": 1,
+       "name": "Vivian Wong",
+       "avg": "8.53",
+       "score": 512
+      },
+      {
+       "rank": 2,
+       "name": "Jia Sanjana",
+       "avg": "8.47",
+       "score": 508
+      },
+      {
+       "rank": 3,
+       "name": "Grace Walter",
+       "avg": "8.38",
+       "score": 503
+      },
+      {
+       "rank": 4,
+       "name": "Mika Takagi",
+       "avg": "8.32",
+       "score": 499
+      },
+      {
+       "rank": 5,
+       "name": "Samayra Gupta",
+       "avg": "5.17",
+       "score": 310
+      },
+      {
+       "rank": 6,
+       "name": "Skylee Ochoa",
+       "avg": "3.00",
+       "score": 180
+      }
+     ],
+     "bracket": {
+      "rounds": [
+       {
+        "name": "Semi Finals",
+        "matches": [
+         {
+          "a": {
+           "name": "Vivian Wong",
+           "seed": 1,
+           "score": 124,
+           "winner": true
+          },
+          "b": {
+           "name": "Mika Takagi",
+           "seed": 4,
+           "score": 115,
+           "winner": false
+          }
+         },
+         {
+          "a": {
+           "name": "Grace Walter",
+           "seed": 3,
+           "score": 132,
+           "winner": false
+          },
+          "b": {
+           "name": "Jia Sanjana",
+           "seed": 2,
+           "score": 135,
+           "winner": true
+          }
+         }
+        ]
+       },
+       {
+        "name": "Finals",
+        "matches": [
+         {
+          "a": {
+           "name": "Vivian Wong",
+           "seed": 1,
+           "score": 96,
+           "winner": false
+          },
+          "b": {
+           "name": "Jia Sanjana",
+           "seed": 2,
+           "score": 131,
+           "winner": true
+          }
+         },
+         {
+          "a": {
+           "name": "Mika Takagi",
+           "seed": 4,
+           "score": 126,
+           "winner": true
+          },
+          "b": {
+           "name": "Grace Walter",
+           "seed": 3,
+           "score": 126,
+           "winner": false
+          }
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "name": "Recurve Intermediate Male",
+     "champion": "Laurent Chang",
+     "qualification": [
+      {
+       "rank": 1,
+       "name": "Alain Pinto",
+       "avg": "8.38",
+       "score": 503
+      },
+      {
+       "rank": 2,
+       "name": "Zayden Boone",
+       "avg": "8.25",
+       "score": 495
+      },
+      {
+       "rank": 3,
+       "name": "Laurent Chang",
+       "avg": "7.27",
+       "score": 436
+      },
+      {
+       "rank": 4,
+       "name": "Ashvath Sana",
+       "avg": "5.38",
+       "score": 323
+      },
+      {
+       "rank": 5,
+       "name": "Harishankar Pitchiah",
+       "avg": "4.58",
+       "score": 275
+      }
+     ],
+     "bracket": {
+      "rounds": [
+       {
+        "name": "Semi Finals",
+        "matches": [
+         {
+          "a": {
+           "name": "Alain Pinto",
+           "seed": 1,
+           "score": 132,
+           "winner": true
+          },
+          "b": {
+           "name": "Ashvath Sana",
+           "seed": 4,
+           "score": 107,
+           "winner": false
+          }
+         },
+         {
+          "a": {
+           "name": "Laurent Chang",
+           "seed": 3,
+           "score": 123,
+           "winner": true
+          },
+          "b": {
+           "name": "Zayden Boone",
+           "seed": 2,
+           "score": 119,
+           "winner": false
+          }
+         }
+        ]
+       },
+       {
+        "name": "Finals",
+        "matches": [
+         {
+          "a": {
+           "name": "Alain Pinto",
+           "seed": 1,
+           "score": 124,
+           "winner": false
+          },
+          "b": {
+           "name": "Laurent Chang",
+           "seed": 3,
+           "score": 129,
+           "winner": true
+          }
+         },
+         {
+          "a": {
+           "name": "Ashvath Sana",
+           "seed": 4,
+           "score": 108,
+           "winner": false
+          },
+          "b": {
+           "name": "Zayden Boone",
+           "seed": 2,
+           "score": 122,
+           "winner": true
+          }
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "name": "Recurve Senior Female",
+     "champion": "Madeleine Dodsom",
+     "qualification": [
+      {
+       "rank": 1,
+       "name": "Madelyn Yi",
+       "avg": "9.32",
+       "score": 559
+      },
+      {
+       "rank": 2,
+       "name": "Madeleine Dodsom",
+       "avg": "9.27",
+       "score": 556
+      },
+      {
+       "rank": 3,
+       "name": "Ava Gonzalez",
+       "avg": "8.92",
+       "score": 535
+      },
+      {
+       "rank": 4,
+       "name": "Milla Shanklin",
+       "avg": "8.73",
+       "score": 524
+      },
+      {
+       "rank": 5,
+       "name": "Lily Schoeneberg",
+       "avg": "8.72",
+       "score": 523
+      },
+      {
+       "rank": 6,
+       "name": "Nivriti Arya",
+       "avg": "8.70",
+       "score": 522
+      },
+      {
+       "rank": 7,
+       "name": "Calista Schwab",
+       "avg": "8.67",
+       "score": 520
+      },
+      {
+       "rank": 8,
+       "name": "Sarah Hwang",
+       "avg": "8.63",
+       "score": 518
+      },
+      {
+       "rank": 9,
+       "name": "Angela Ma",
+       "avg": "8.58",
+       "score": 515
+      },
+      {
+       "rank": 10,
+       "name": "Alexis Ackerman",
+       "avg": "8.45",
+       "score": 507
+      },
+      {
+       "rank": 11,
+       "name": "Elyse Chan",
+       "avg": "8.03",
+       "score": 482
+      },
+      {
+       "rank": 12,
+       "name": "Sofie Dumitrascu",
+       "avg": "7.95",
+       "score": 477
+      },
+      {
+       "rank": 13,
+       "name": "Anne Larrabee",
+       "avg": "7.78",
+       "score": 467
+      },
+      {
+       "rank": 14,
+       "name": "Aubree Baker",
+       "avg": "7.65",
+       "score": 459
+      },
+      {
+       "rank": 15,
+       "name": "Ellie Booth",
+       "avg": "7.60",
+       "score": 456
+      },
+      {
+       "rank": 16,
+       "name": "Amry Feuerbacher",
+       "avg": "7.28",
+       "score": 437
+      },
+      {
+       "rank": 17,
+       "name": "Marisol Jackson",
+       "avg": "6.35",
+       "score": 381
+      },
+      {
+       "rank": 18,
+       "name": "Kenya Boone",
+       "avg": "5.67",
+       "score": 340
+      }
+     ],
+     "bracket": {
+      "rounds": [
+       {
+        "name": "Semi Finals",
+        "matches": [
+         {
+          "a": {
+           "name": "Madelyn Yi",
+           "seed": 1,
+           "score": 134,
+           "winner": true
+          },
+          "b": {
+           "name": "Milla Shanklin",
+           "seed": 4,
+           "score": 127,
+           "winner": false
+          }
+         },
+         {
+          "a": {
+           "name": "Ava Gonzalez",
+           "seed": 3,
+           "score": 136,
+           "winner": false
+          },
+          "b": {
+           "name": "Madeleine Dodsom",
+           "seed": 2,
+           "score": 141,
+           "winner": true
+          }
+         }
+        ]
+       },
+       {
+        "name": "Finals",
+        "matches": [
+         {
+          "a": {
+           "name": "Madelyn Yi",
+           "seed": 1,
+           "score": 139,
+           "winner": false
+          },
+          "b": {
+           "name": "Madeleine Dodsom",
+           "seed": 2,
+           "score": 141,
+           "winner": true
+          }
+         },
+         {
+          "a": {
+           "name": "Milla Shanklin",
+           "seed": 4,
+           "score": 130,
+           "winner": false
+          },
+          "b": {
+           "name": "Ava Gonzalez",
+           "seed": 3,
+           "score": 135,
+           "winner": true
+          }
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "name": "Recurve Senior Male",
+     "champion": "Ethan Chan",
+     "qualification": [
+      {
+       "rank": 1,
+       "name": "Ethan Chan",
+       "avg": "9.73",
+       "score": 584
+      },
+      {
+       "rank": 2,
+       "name": "daniel Kim",
+       "avg": "9.58",
+       "score": 575
+      },
+      {
+       "rank": 3,
+       "name": "Caelan Shanklin",
+       "avg": "9.48",
+       "score": 569
+      },
+      {
+       "rank": 4,
+       "name": "Micah Xie",
+       "avg": "9.35",
+       "score": 561
+      },
+      {
+       "rank": 5,
+       "name": "Dhruv Dethan",
+       "avg": "8.60",
+       "score": 516
+      },
+      {
+       "rank": 6,
+       "name": "Hudson McPherson",
+       "avg": "8.58",
+       "score": 515
+      },
+      {
+       "rank": 7,
+       "name": "Sai Gangu",
+       "avg": "7.93",
+       "score": 476
+      },
+      {
+       "rank": 8,
+       "name": "Gabriel Rodriguez",
+       "avg": "7.58",
+       "score": 455
+      },
+      {
+       "rank": 9,
+       "name": "Rowan McElroy",
+       "avg": "7.37",
+       "score": 442
+      },
+      {
+       "rank": 10,
+       "name": "Jackson Norlin",
+       "avg": "6.85",
+       "score": 411
+      },
+      {
+       "rank": 11,
+       "name": "John Austin Keel",
+       "avg": "6.58",
+       "score": 395
+      },
+      {
+       "rank": 12,
+       "name": "Shourya Yalamanchili",
+       "avg": "4.48",
+       "score": 269
+      }
+     ],
+     "bracket": {
+      "rounds": [
+       {
+        "name": "Semi Finals",
+        "matches": [
+         {
+          "a": {
+           "name": "Ethan Chan",
+           "seed": 1,
+           "score": 145,
+           "winner": true
+          },
+          "b": {
+           "name": "Micah Xie",
+           "seed": 4,
+           "score": 135,
+           "winner": false
+          }
+         },
+         {
+          "a": {
+           "name": "Caelan Shanklin",
+           "seed": 3,
+           "score": 138,
+           "winner": false
+          },
+          "b": {
+           "name": "daniel Kim",
+           "seed": 2,
+           "score": 142,
+           "winner": true
+          }
+         }
+        ]
+       },
+       {
+        "name": "Finals",
+        "matches": [
+         {
+          "a": {
+           "name": "Ethan Chan",
+           "seed": 1,
+           "score": 147,
+           "winner": true
+          },
+          "b": {
+           "name": "daniel Kim",
+           "seed": 2,
+           "score": 144,
+           "winner": false
+          }
+         },
+         {
+          "a": {
+           "name": "Micah Xie",
+           "seed": 4,
+           "score": 136,
+           "winner": false
+          },
+          "b": {
+           "name": "Caelan Shanklin",
+           "seed": 3,
+           "score": 139,
+           "winner": true
+          }
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ]
+  },
+  "3d": {
+   "label": "3D",
+   "archers": 205,
+   "divisions": [
+    {
+     "name": "Pins Intermediate Female",
+     "champion": "Emery Arendt",
+     "qualification": [
+      {
+       "rank": 1,
+       "name": "Emery Arendt",
+       "avg": "9.40",
+       "score": 188
+      },
+      {
+       "rank": 2,
+       "name": "Sadie Rohde",
+       "avg": "7.55",
+       "score": 151
+      },
+      {
+       "rank": 3,
+       "name": "Leena Green",
+       "avg": "7.45",
+       "score": 149
+      },
+      {
+       "rank": 4,
+       "name": "Adriana Enriquez",
+       "avg": "7.05",
+       "score": 141
+      },
+      {
+       "rank": 5,
+       "name": "Erin Stokes",
+       "avg": "6.95",
+       "score": 139
+      },
+      {
+       "rank": 6,
+       "name": "Jancsi West",
+       "avg": "6.60",
+       "score": 132
+      },
+      {
+       "rank": 7,
+       "name": "Cora Kelley",
+       "avg": "6.55",
+       "score": 131
+      },
+      {
+       "rank": 8,
+       "name": "Ashley Alford",
+       "avg": "6.50",
+       "score": 130
+      },
+      {
+       "rank": 9,
+       "name": "Darlene Vierus",
+       "avg": "6.40",
+       "score": 128
+      },
+      {
+       "rank": 10,
+       "name": "Ayrianna Gilbert",
+       "avg": "5.80",
+       "score": 116
+      },
+      {
+       "rank": 11,
+       "name": "Kaylee Hofstetter",
+       "avg": "4.40",
+       "score": 88
+      },
+      {
+       "rank": 12,
+       "name": "Amelia Rodgers",
+       "avg": "3.00",
+       "score": 60
+      }
+     ],
+     "bracket": null
+    },
+    {
+     "name": "Pins Intermediate Male",
+     "champion": "Warick Burt",
+     "qualification": [
+      {
+       "rank": 1,
+       "name": "Warick Burt",
+       "avg": "10.60",
+       "score": 212
+      },
+      {
+       "rank": 2,
+       "name": "Nico Blom",
+       "avg": "10.40",
+       "score": 208
+      },
+      {
+       "rank": 3,
+       "name": "Zachary Lane",
+       "avg": "9.90",
+       "score": 198
+      },
+      {
+       "rank": 4,
+       "name": "Stockton DeRouen",
+       "avg": "9.75",
+       "score": 195
+      },
+      {
+       "rank": 5,
+       "name": "Landon Coker",
+       "avg": "9.55",
+       "score": 191
+      },
+      {
+       "rank": 6,
+       "name": "Josef Beadles",
+       "avg": "9.30",
+       "score": 186
+      },
+      {
+       "rank": 7,
+       "name": "Jase Alford",
+       "avg": "8.25",
+       "score": 165
+      },
+      {
+       "rank": 8,
+       "name": "Hikaru Kam",
+       "avg": "7.05",
+       "score": 141
+      },
+      {
+       "rank": 9,
+       "name": "Lane Lasswell",
+       "avg": "6.80",
+       "score": 136
+      },
+      {
+       "rank": 10,
+       "name": "Aidan Stokes",
+       "avg": "6.15",
+       "score": 123
+      },
+      {
+       "rank": 11,
+       "name": "Rex Rohde",
+       "avg": "6.10",
+       "score": 122
+      },
+      {
+       "rank": 12,
+       "name": "Cheston Barge",
+       "avg": "5.40",
+       "score": 108
+      },
+      {
+       "rank": 13,
+       "name": "Kooper Bartee",
+       "avg": "4.75",
+       "score": 95
+      },
+      {
+       "rank": 14,
+       "name": "Cason Patterson",
+       "avg": "1.40",
+       "score": 28
+      },
+      {
+       "rank": 15,
+       "name": "Ry Roden",
+       "avg": "0.00",
+       "score": 0
+      }
+     ],
+     "bracket": null
+    },
+    {
+     "name": "Pins Senior Female",
+     "champion": "Lilly Dillon",
+     "qualification": [
+      {
+       "rank": 1,
+       "name": "Lilly Dillon",
+       "avg": "10.20",
+       "score": 204
+      },
+      {
+       "rank": 2,
+       "name": "Natalie Vaughn",
+       "avg": "10.15",
+       "score": 203
+      },
+      {
+       "rank": 3,
+       "name": "Elise Schleifer",
+       "avg": "9.75",
+       "score": 195
+      },
+      {
+       "rank": 4,
+       "name": "Bailey Roland",
+       "avg": "9.50",
+       "score": 190
+      },
+      {
+       "rank": 5,
+       "name": "Elsie Sheehan",
+       "avg": "9.45",
+       "score": 189
+      },
+      {
+       "rank": 6,
+       "name": "Madison Saraiba",
+       "avg": "8.05",
+       "score": 161
+      },
+      {
+       "rank": 7,
+       "name": "Makayla Alford",
+       "avg": "6.85",
+       "score": 137
+      },
+      {
+       "rank": 8,
+       "name": "Kylee Glosson",
+       "avg": "6.75",
+       "score": 135
+      },
+      {
+       "rank": 9,
+       "name": "Jacqueline Vasquez",
+       "avg": "6.40",
+       "score": 128
+      },
+      {
+       "rank": 10,
+       "name": "Mykayla Ereno",
+       "avg": "4.40",
+       "score": 88
+      },
+      {
+       "rank": 11,
+       "name": "Alexa Mendez",
+       "avg": "1.35",
+       "score": 27
+      }
+     ],
+     "bracket": null
+    },
+    {
+     "name": "Pins Senior Male",
+     "champion": "Nash Thompson",
+     "qualification": [
+      {
+       "rank": 1,
+       "name": "Nash Thompson",
+       "avg": "9.75",
+       "score": 195
+      },
+      {
+       "rank": 2,
+       "name": "Connor Goehring",
+       "avg": "9.75",
+       "score": 195
+      },
+      {
+       "rank": 3,
+       "name": "Jackson Vaughn",
+       "avg": "9.15",
+       "score": 183
+      },
+      {
+       "rank": 4,
+       "name": "Trustin Nelson",
+       "avg": "8.85",
+       "score": 177
+      },
+      {
+       "rank": 5,
+       "name": "Joseph Miller",
+       "avg": "8.65",
+       "score": 173
+      },
+      {
+       "rank": 6,
+       "name": "Kaleb Sherrod",
+       "avg": "8.60",
+       "score": 172
+      },
+      {
+       "rank": 7,
+       "name": "Josiah Herrington",
+       "avg": "8.30",
+       "score": 166
+      },
+      {
+       "rank": 8,
+       "name": "Cal Willenborg",
+       "avg": "8.25",
+       "score": 165
+      },
+      {
+       "rank": 9,
+       "name": "Jayson Gonzales",
+       "avg": "6.95",
+       "score": 139
+      },
+      {
+       "rank": 10,
+       "name": "Remington Rohde",
+       "avg": "6.75",
+       "score": 135
+      },
+      {
+       "rank": 11,
+       "name": "Logan Deckard",
+       "avg": "6.35",
+       "score": 127
+      },
+      {
+       "rank": 12,
+       "name": "Mark Lemley",
+       "avg": "5.45",
+       "score": 109
+      },
+      {
+       "rank": 13,
+       "name": "Cooper Landre",
+       "avg": "4.85",
+       "score": 97
+      }
+     ],
+     "bracket": null
+    },
+    {
+     "name": "Pins Junior Female",
+     "champion": "Kendall Garner",
+     "qualification": [
+      {
+       "rank": 1,
+       "name": "Kendall Garner",
+       "avg": "9.40",
+       "score": 188
+      },
+      {
+       "rank": 2,
+       "name": "Bree Hohlt",
+       "avg": "9.15",
+       "score": 183
+      },
+      {
+       "rank": 3,
+       "name": "Meritt Dyer",
+       "avg": "8.45",
+       "score": 169
+      },
+      {
+       "rank": 4,
+       "name": "Lucy Lane",
+       "avg": "7.70",
+       "score": 154
+      },
+      {
+       "rank": 5,
+       "name": "Bryleigh Morse",
+       "avg": "6.50",
+       "score": 130
+      },
+      {
+       "rank": 6,
+       "name": "Nicole Lopez",
+       "avg": "6.45",
+       "score": 129
+      },
+      {
+       "rank": 7,
+       "name": "Adelynn Goolsby",
+       "avg": "5.75",
+       "score": 115
+      },
+      {
+       "rank": 8,
+       "name": "Aireon Rodgers",
+       "avg": "1.75",
+       "score": 35
+      },
+      {
+       "rank": 9,
+       "name": "Irie Luna",
+       "avg": "0.00",
+       "score": 0
+      }
+     ],
+     "bracket": null
+    },
+    {
+     "name": "Pins Junior Male",
+     "champion": "William Early",
+     "qualification": [
+      {
+       "rank": 1,
+       "name": "William Early",
+       "avg": "10.40",
+       "score": 208
+      },
+      {
+       "rank": 2,
+       "name": "Jacob Williams",
+       "avg": "8.80",
+       "score": 176
+      },
+      {
+       "rank": 3,
+       "name": "Blake Sawyer",
+       "avg": "8.45",
+       "score": 169
+      },
+      {
+       "rank": 4,
+       "name": "Grant Zelaya",
+       "avg": "7.45",
+       "score": 149
+      },
+      {
+       "rank": 5,
+       "name": "Eden Walter",
+       "avg": "6.95",
+       "score": 139
+      },
+      {
+       "rank": 6,
+       "name": "Levi Smith",
+       "avg": "6.60",
+       "score": 132
+      }
+     ],
+     "bracket": null
+    },
+    {
+     "name": "Open Senior Male",
+     "champion": "Adam Shackelford",
+     "qualification": [
+      {
+       "rank": 1,
+       "name": "Adam Shackelford",
+       "avg": "10.80",
+       "score": 216
+      },
+      {
+       "rank": 2,
+       "name": "Cole Ware",
+       "avg": "10.70",
+       "score": 214
+      },
+      {
+       "rank": 3,
+       "name": "Case Scott",
+       "avg": "10.60",
+       "score": 212
+      },
+      {
+       "rank": 4,
+       "name": "Caiden Atzger",
+       "avg": "10.50",
+       "score": 210
+      },
+      {
+       "rank": 5,
+       "name": "Sawyer Risley",
+       "avg": "10.50",
+       "score": 210
+      },
+      {
+       "rank": 6,
+       "name": "Dax Algueseva",
+       "avg": "10.50",
+       "score": 210
+      },
+      {
+       "rank": 6,
+       "name": "Landon Roland",
+       "avg": "10.50",
+       "score": 210
+      },
+      {
+       "rank": 6,
+       "name": "Crash DeHoyos",
+       "avg": "10.50",
+       "score": 210
+      },
+      {
+       "rank": 9,
+       "name": "Easton Groves",
+       "avg": "10.40",
+       "score": 208
+      },
+      {
+       "rank": 10,
+       "name": "Brayden Orozco",
+       "avg": "10.30",
+       "score": 206
+      },
+      {
+       "rank": 10,
+       "name": "Owen Sansing",
+       "avg": "10.30",
+       "score": 206
+      },
+      {
+       "rank": 12,
+       "name": "Weldon Bowers",
+       "avg": "10.30",
+       "score": 206
+      },
+      {
+       "rank": 13,
+       "name": "Connor Goehring",
+       "avg": "10.15",
+       "score": 203
+      },
+      {
+       "rank": 14,
+       "name": "Tucker Fair",
+       "avg": "10.10",
+       "score": 202
+      },
+      {
+       "rank": 15,
+       "name": "Nash Thompson",
+       "avg": "10.10",
+       "score": 202
+      },
+      {
+       "rank": 16,
+       "name": "James Farr",
+       "avg": "10.00",
+       "score": 200
+      },
+      {
+       "rank": 17,
+       "name": "Cody Johnson",
+       "avg": "9.90",
+       "score": 198
+      },
+      {
+       "rank": 18,
+       "name": "Matthan Ellis",
+       "avg": "9.75",
+       "score": 195
+      },
+      {
+       "rank": 19,
+       "name": "Jacob Goff",
+       "avg": "9.70",
+       "score": 194
+      },
+      {
+       "rank": 20,
+       "name": "Aiden Maloy",
+       "avg": "9.55",
+       "score": 191
+      },
+      {
+       "rank": 21,
+       "name": "Korbin Pate",
+       "avg": "9.50",
+       "score": 190
+      },
+      {
+       "rank": 22,
+       "name": "Augustus Lands",
+       "avg": "9.40",
+       "score": 188
+      },
+      {
+       "rank": 23,
+       "name": "Mason Travelstead",
+       "avg": "8.95",
+       "score": 179
+      },
+      {
+       "rank": 24,
+       "name": "Joseph Miller",
+       "avg": "8.70",
+       "score": 174
+      },
+      {
+       "rank": 25,
+       "name": "Colten Michels",
+       "avg": "8.65",
+       "score": 173
+      },
+      {
+       "rank": 26,
+       "name": "Elijah Green",
+       "avg": "8.00",
+       "score": 160
+      },
+      {
+       "rank": 27,
+       "name": "Kyler Terrell",
+       "avg": "7.90",
+       "score": 158
+      },
+      {
+       "rank": 28,
+       "name": "Garrett CASAREZ",
+       "avg": "7.70",
+       "score": 154
+      },
+      {
+       "rank": 29,
+       "name": "Jerron Davis",
+       "avg": "7.35",
+       "score": 147
+      },
+      {
+       "rank": 30,
+       "name": "Clayton Swindol",
+       "avg": "7.15",
+       "score": 143
+      },
+      {
+       "rank": 31,
+       "name": "Drayton Segler",
+       "avg": "6.90",
+       "score": 138
+      },
+      {
+       "rank": 32,
+       "name": "Lane Olmstead",
+       "avg": "6.10",
+       "score": 122
+      },
+      {
+       "rank": 33,
+       "name": "Miller Dishman",
+       "avg": "6.05",
+       "score": 121
+      },
+      {
+       "rank": 34,
+       "name": "Travis Rainey",
+       "avg": "5.30",
+       "score": 106
+      },
+      {
+       "rank": 35,
+       "name": "Wyatt Burt",
+       "avg": "0.00",
+       "score": 0
+      },
+      {
+       "rank": 35,
+       "name": "Reese Roberson",
+       "avg": "0.00",
+       "score": 0
+      }
+     ],
+     "bracket": null
+    },
+    {
+     "name": "Open Senior Female",
+     "champion": "Julia Cook",
+     "qualification": [
+      {
+       "rank": 1,
+       "name": "Julia Cook",
+       "avg": "10.40",
+       "score": 208
+      },
+      {
+       "rank": 2,
+       "name": "Tara Easterling",
+       "avg": "10.30",
+       "score": 206
+      },
+      {
+       "rank": 3,
+       "name": "Addison Schleifee",
+       "avg": "10.05",
+       "score": 201
+      },
+      {
+       "rank": 4,
+       "name": "Elise Schleifer",
+       "avg": "9.55",
+       "score": 191
+      },
+      {
+       "rank": 5,
+       "name": "Keelie Ellensohn",
+       "avg": "9.30",
+       "score": 186
+      },
+      {
+       "rank": 6,
+       "name": "Alvery Lands",
+       "avg": "9.25",
+       "score": 185
+      },
+      {
+       "rank": 7,
+       "name": "Raylie Seyler",
+       "avg": "9.20",
+       "score": 184
+      },
+      {
+       "rank": 8,
+       "name": "Shelby Britten",
+       "avg": "9.05",
+       "score": 181
+      },
+      {
+       "rank": 9,
+       "name": "Sarenity Vasquez",
+       "avg": "8.75",
+       "score": 175
+      },
+      {
+       "rank": 10,
+       "name": "Haley Sears",
+       "avg": "0.00",
+       "score": 0
+      },
+      {
+       "rank": 10,
+       "name": "Kylie Ybarbo",
+       "avg": "0.00",
+       "score": 0
+      }
+     ],
+     "bracket": null
+    },
+    {
+     "name": "Open Intermediate Female",
+     "champion": "Taylin Myers",
+     "qualification": [
+      {
+       "rank": 1,
+       "name": "Taylin Myers",
+       "avg": "10.80",
+       "score": 216
+      },
+      {
+       "rank": 2,
+       "name": "Amarie DeHoyos",
+       "avg": "10.40",
+       "score": 208
+      },
+      {
+       "rank": 3,
+       "name": "Khadijah El-Abid",
+       "avg": "10.10",
+       "score": 202
+      },
+      {
+       "rank": 4,
+       "name": "Emma Milam",
+       "avg": "9.70",
+       "score": 194
+      },
+      {
+       "rank": 5,
+       "name": "Darci Burden",
+       "avg": "9.30",
+       "score": 186
+      },
+      {
+       "rank": 6,
+       "name": "AMANDA MONTEMAYOR",
+       "avg": "9.20",
+       "score": 184
+      },
+      {
+       "rank": 7,
+       "name": "Makaela Alvarez",
+       "avg": "9.05",
+       "score": 181
+      },
+      {
+       "rank": 8,
+       "name": "Ella Britten",
+       "avg": "8.70",
+       "score": 174
+      },
+      {
+       "rank": 9,
+       "name": "Emma Turner",
+       "avg": "8.10",
+       "score": 162
+      }
+     ],
+     "bracket": null
+    },
+    {
+     "name": "Open Intermediate Male",
+     "champion": "Remington Whitehead",
+     "qualification": [
+      {
+       "rank": 1,
+       "name": "Remington Whitehead",
+       "avg": "10.50",
+       "score": 210
+      },
+      {
+       "rank": 2,
+       "name": "Teal Mazzola",
+       "avg": "9.90",
+       "score": 198
+      },
+      {
+       "rank": 3,
+       "name": "Kaydon Shell",
+       "avg": "9.70",
+       "score": 194
+      },
+      {
+       "rank": 4,
+       "name": "Tristan Alvarez",
+       "avg": "9.60",
+       "score": 192
+      },
+      {
+       "rank": 5,
+       "name": "Noah Ross",
+       "avg": "9.55",
+       "score": 191
+      },
+      {
+       "rank": 6,
+       "name": "Stockton DeRouen",
+       "avg": "9.35",
+       "score": 187
+      },
+      {
+       "rank": 7,
+       "name": "Saile Bernal",
+       "avg": "9.35",
+       "score": 187
+      },
+      {
+       "rank": 8,
+       "name": "Stratton Randolph",
+       "avg": "9.10",
+       "score": 182
+      },
+      {
+       "rank": 9,
+       "name": "Aidan Wray",
+       "avg": "9.10",
+       "score": 182
+      },
+      {
+       "rank": 10,
+       "name": "Amoz Lands",
+       "avg": "8.00",
+       "score": 160
+      },
+      {
+       "rank": 11,
+       "name": "Gavin Slover",
+       "avg": "4.30",
+       "score": 86
+      }
+     ],
+     "bracket": null
+    },
+    {
+     "name": "Open Junior Male",
+     "champion": "Dillon Michels",
+     "qualification": [
+      {
+       "rank": 1,
+       "name": "Dillon Michels",
+       "avg": "10.70",
+       "score": 214
+      },
+      {
+       "rank": 2,
+       "name": "Sutton Arnold",
+       "avg": "9.35",
+       "score": 187
+      },
+      {
+       "rank": 3,
+       "name": "Augustus Foster",
+       "avg": "9.25",
+       "score": 185
+      },
+      {
+       "rank": 4,
+       "name": "Omar El-Abid",
+       "avg": "9.20",
+       "score": 184
+      },
+      {
+       "rank": 5,
+       "name": "Branson Massey",
+       "avg": "8.50",
+       "score": 170
+      }
+     ],
+     "bracket": null
+    },
+    {
+     "name": "Open Junior Female",
+     "champion": "Gianna Ross",
+     "qualification": [
+      {
+       "rank": 1,
+       "name": "Gianna Ross",
+       "avg": "10.30",
+       "score": 206
+      },
+      {
+       "rank": 2,
+       "name": "Lona Toomer",
+       "avg": "10.10",
+       "score": 202
+      },
+      {
+       "rank": 3,
+       "name": "Riley Berger",
+       "avg": "10.10",
+       "score": 202
+      },
+      {
+       "rank": 4,
+       "name": "Evelyn Hyden",
+       "avg": "10.00",
+       "score": 200
+      },
+      {
+       "rank": 5,
+       "name": "Brilei Turner",
+       "avg": "7.85",
+       "score": 157
+      }
+     ],
+     "bracket": null
+    },
+    {
+     "name": "Recurve Senior Open",
+     "champion": "Madeleine Dodson",
+     "qualification": [
+      {
+       "rank": 1,
+       "name": "Madeleine Dodson",
+       "avg": "10.60",
+       "score": 212
+      },
+      {
+       "rank": 2,
+       "name": "Angela Ma",
+       "avg": "10.00",
+       "score": 200
+      },
+      {
+       "rank": 3,
+       "name": "Madelyn Yi",
+       "avg": "10.00",
+       "score": 200
+      },
+      {
+       "rank": 4,
+       "name": "daniel kim",
+       "avg": "9.75",
+       "score": 195
+      },
+      {
+       "rank": 5,
+       "name": "Ethan Chan",
+       "avg": "9.65",
+       "score": 193
+      },
+      {
+       "rank": 6,
+       "name": "Micah Xie",
+       "avg": "9.25",
+       "score": 185
+      },
+      {
+       "rank": 7,
+       "name": "Nivriti Arya",
+       "avg": "8.80",
+       "score": 176
+      },
+      {
+       "rank": 8,
+       "name": "Elyse Chan",
+       "avg": "8.75",
+       "score": 175
+      },
+      {
+       "rank": 9,
+       "name": "Aubree Baker",
+       "avg": "8.70",
+       "score": 174
+      },
+      {
+       "rank": 10,
+       "name": "Lily Schoeneberg",
+       "avg": "8.05",
+       "score": 161
+      },
+      {
+       "rank": 11,
+       "name": "Amry Feuerbacher",
+       "avg": "7.70",
+       "score": 154
+      },
+      {
+       "rank": 12,
+       "name": "Sarah Hwang",
+       "avg": "6.90",
+       "score": 138
+      },
+      {
+       "rank": 13,
+       "name": "Kenya Boone",
+       "avg": "5.70",
+       "score": 114
+      }
+     ],
+     "bracket": null
+    },
+    {
+     "name": "Recurve Intermediate Open",
+     "champion": "Zayden Boone",
+     "qualification": [
+      {
+       "rank": 1,
+       "name": "Zayden Boone",
+       "avg": "9.80",
+       "score": 196
+      },
+      {
+       "rank": 2,
+       "name": "Alain Pinto",
+       "avg": "9.50",
+       "score": 190
+      },
+      {
+       "rank": 3,
+       "name": "Jia Sanjana",
+       "avg": "9.05",
+       "score": 181
+      },
+      {
+       "rank": 4,
+       "name": "Ella Phillips",
+       "avg": "8.35",
+       "score": 167
+      },
+      {
+       "rank": 5,
+       "name": "Grace Walter",
+       "avg": "8.05",
+       "score": 161
+      },
+      {
+       "rank": 6,
+       "name": "Doug Schaefer",
+       "avg": "6.30",
+       "score": 126
+      },
+      {
+       "rank": 7,
+       "name": "Caleb Burnett",
+       "avg": "6.25",
+       "score": 125
+      },
+      {
+       "rank": 8,
+       "name": "Skylee Ochoa",
+       "avg": "2.00",
+       "score": 40
+      }
+     ],
+     "bracket": null
+    },
+    {
+     "name": "Recurve Junior Open",
+     "champion": "Liam Gomez",
+     "qualification": [
+      {
+       "rank": 1,
+       "name": "Liam Gomez",
+       "avg": "9.70",
+       "score": 194
+      },
+      {
+       "rank": 2,
+       "name": "Eeshwar Kollu",
+       "avg": "7.60",
+       "score": 152
+      },
+      {
+       "rank": 3,
+       "name": "Luke Burnett",
+       "avg": "6.55",
+       "score": 131
+      },
+      {
+       "rank": 4,
+       "name": "Josiah Schoeneberg",
+       "avg": "5.95",
+       "score": 119
+      },
+      {
+       "rank": 5,
+       "name": "Everly Ebarb",
+       "avg": "5.55",
+       "score": 111
+      },
+      {
+       "rank": 6,
+       "name": "Jimmy Jones",
+       "avg": "4.25",
+       "score": 85
+      },
+      {
+       "rank": 7,
+       "name": "Bo Rerich",
+       "avg": "4.20",
+       "score": 84
+      },
+      {
+       "rank": 8,
+       "name": "Violet Burnett",
+       "avg": "4.00",
+       "score": 80
+      },
+      {
+       "rank": 9,
+       "name": "Allison Villarreal",
+       "avg": "2.15",
+       "score": 43
+      },
+      {
+       "rank": 10,
+       "name": "ADRIAN Trimble",
+       "avg": "1.75",
+       "score": 35
+      }
+     ],
+     "bracket": null
+    },
+    {
+     "name": "Barebow Intermediate Open",
+     "champion": "Nathan Schoeneberg",
+     "qualification": [
+      {
+       "rank": 1,
+       "name": "Nathan Schoeneberg",
+       "avg": "9.85",
+       "score": 197
+      },
+      {
+       "rank": 2,
+       "name": "Dean Rosas",
+       "avg": "6.65",
+       "score": 133
+      },
+      {
+       "rank": 3,
+       "name": "Jackson Little",
+       "avg": "6.55",
+       "score": 131
+      },
+      {
+       "rank": 4,
+       "name": "Logan LaRue",
+       "avg": "6.40",
+       "score": 128
+      },
+      {
+       "rank": 5,
+       "name": "Trinity Sawyer",
+       "avg": "6.05",
+       "score": 121
+      },
+      {
+       "rank": 6,
+       "name": "Laura Schoeneberg",
+       "avg": "6.05",
+       "score": 121
+      },
+      {
+       "rank": 7,
+       "name": "Kleat Barrett",
+       "avg": "5.25",
+       "score": 105
+      },
+      {
+       "rank": 8,
+       "name": "Lynzi Brandstetter",
+       "avg": "5.00",
+       "score": 100
+      },
+      {
+       "rank": 9,
+       "name": "Luke Titzman",
+       "avg": "4.65",
+       "score": 93
+      },
+      {
+       "rank": 10,
+       "name": "Clayton Arthur",
+       "avg": "4.15",
+       "score": 83
+      },
+      {
+       "rank": 11,
+       "name": "Mitchell Moreno",
+       "avg": "3.95",
+       "score": 79
+      },
+      {
+       "rank": 12,
+       "name": "Theodore (TY) Chan-Park",
+       "avg": "3.05",
+       "score": 61
+      },
+      {
+       "rank": 12,
+       "name": "Colt Theiss",
+       "avg": "3.05",
+       "score": 61
+      },
+      {
+       "rank": 14,
+       "name": "James Villarreal",
+       "avg": "2.80",
+       "score": 56
+      },
+      {
+       "rank": 15,
+       "name": "Greyson Jones",
+       "avg": "2.45",
+       "score": 49
+      },
+      {
+       "rank": 16,
+       "name": "Ava Fritze",
+       "avg": "0.00",
+       "score": 0
+      }
+     ],
+     "bracket": null
+    },
+    {
+     "name": "Barebow Senior Open",
+     "champion": "Nicolas Powell",
+     "qualification": [
+      {
+       "rank": 1,
+       "name": "Nicolas Powell",
+       "avg": "8.60",
+       "score": 172
+      },
+      {
+       "rank": 2,
+       "name": "Brayden Evans",
+       "avg": "7.95",
+       "score": 159
+      },
+      {
+       "rank": 3,
+       "name": "Austin Smith",
+       "avg": "7.90",
+       "score": 158
+      },
+      {
+       "rank": 4,
+       "name": "Levi Feuerbacher",
+       "avg": "6.55",
+       "score": 131
+      },
+      {
+       "rank": 5,
+       "name": "Brynnly Hohlt",
+       "avg": "6.35",
+       "score": 127
+      },
+      {
+       "rank": 6,
+       "name": "Chase Gilliland",
+       "avg": "6.05",
+       "score": 121
+      },
+      {
+       "rank": 7,
+       "name": "Peyton Owens",
+       "avg": "5.65",
+       "score": 113
+      },
+      {
+       "rank": 8,
+       "name": "Abigail Little",
+       "avg": "4.85",
+       "score": 97
+      },
+      {
+       "rank": 9,
+       "name": "Kathryn Johnson",
+       "avg": "4.35",
+       "score": 87
+      },
+      {
+       "rank": 10,
+       "name": "Sara Fromme",
+       "avg": "4.20",
+       "score": 84
+      },
+      {
+       "rank": 11,
+       "name": "Amry Feuerbacher",
+       "avg": "3.80",
+       "score": 76
+      },
+      {
+       "rank": 12,
+       "name": "Weston Meissl",
+       "avg": "3.65",
+       "score": 73
+      },
+      {
+       "rank": 13,
+       "name": "Agnes Trimble",
+       "avg": "3.55",
+       "score": 71
+      },
+      {
+       "rank": 14,
+       "name": "Trace Cummings",
+       "avg": "3.35",
+       "score": 67
+      },
+      {
+       "rank": 15,
+       "name": "Paige Brister",
+       "avg": "3.05",
+       "score": 61
+      }
+     ],
+     "bracket": null
+    }
+   ]
+  }
+ }
+}

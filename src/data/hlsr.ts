@@ -7,7 +7,7 @@
  * Static data, synced from Eyes on Score by scripts/sync-hlsr.ts.
  */
 import type { EventDivision } from './events'
-import hlsr2025 from './hlsr/2025.json'
+import hlsr2026 from './hlsr/2026.json'
 
 export interface HlsrSegment {
   label: string
@@ -26,7 +26,7 @@ export interface HlsrEvent {
 }
 
 const EVENTS: Record<number, HlsrEvent> = {
-  2025: hlsr2025 as HlsrEvent,
+  2026: hlsr2026 as HlsrEvent,
 }
 
 export function getHlsr(year: number): HlsrEvent | null {

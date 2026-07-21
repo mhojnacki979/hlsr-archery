@@ -2,12 +2,13 @@
  * HLSR prize schedule, and the bridge between Eyes on Score class names and the
  * committee's prize taxonomy.
  *
- * Prizes are keyed "Division|Age|Gender|Bow" and awarded by finishing position.
- * They are not uniform — Senior classes add a lifetime license, Target Recurve
- * pays far more than 3D Junior — so every class carries its own rows. Generated
- * from the committee workbook by scripts/parse-prizes.py.
+ * Prizes are keyed "Division|Age|GenderScope|Bow" and awarded by finishing
+ * position. They are not uniform — Senior classes add a lifetime license, Target
+ * Senior Open Compound pays eight places while most Target classes pay four —
+ * so every class carries its own rows. Generated from the committee workbook by
+ * scripts/parse-prizes.py, which reads each block header as the class.
  */
-import prizes2026 from './hlsr/prizes-2026.json'
+import prizes2025 from './hlsr/prizes-2025.json'
 
 export interface Award {
   cash?: number
@@ -19,9 +20,8 @@ export interface Award {
 
 type PrizeTable = Record<string, Record<string, Award>>
 
-const TABLE: PrizeTable = prizes2026 as PrizeTable
+const TABLE: PrizeTable = prizes2025 as PrizeTable
 
-/** How confident the EOS class -> prize class match is. */
 export type MatchConfidence = 'exact' | 'assumed' | 'unmatched'
 
 export interface PrizeMatch {
@@ -31,10 +31,7 @@ export interface PrizeMatch {
   note?: string
 }
 
-/**
- * EOS 3D uses Eagle/Youth/Young Adult; the prize sheet uses Junior/Intermediate/
- * Senior. Target uses the prize sheet's own names already.
- */
+/** EOS 3D ages are Eagle/Youth/Young Adult; the prize sheet uses its own names. */
 const AGE_ALIASES: Record<string, string> = {
   eagle: 'Junior',
   junior: 'Junior',
@@ -44,73 +41,110 @@ const AGE_ALIASES: Record<string, string> = {
   senior: 'Senior',
 }
 
-/** EOS bow wording -> the prize sheet's bow classes, per division. */
-const BOW_ALIASES: Record<string, Record<string, string>> = {
-  '3D': { pins: 'Pins', open: 'Open', recurve: 'Recurve', barebow: 'Barebow' },
+/**
+ * EOS bow wording -> candidate prize bow classes, best first.
+ *
+ * Matched as a prefix, longest first, because several bow names are two words
+ * ("Freestyle Compound", "Fixed Pins") and would otherwise be truncated. 3D
+ * open classes are labelled plain "Recurve" for Junior but "Olympic Recurve"
+ * further up, so multiple candidates are tried against the table.
+ */
+const BOW_PREFIXES: Record<string, Record<string, string[]>> = {
+  '3D': {
+    pins: ['Pins Compound'],
+    open: ['Open Compound'],
+    recurve: ['Recurve', 'Olympic Recurve'],
+    barebow: ['Barebow Recurve', 'Barebow'],
+  },
   Target: {
-    barebow: 'Barebow',
-    recurve: 'Recurve',
-    nasp: 'NASP',
-    // EOS lumps compound into one class; the sheet splits Freestyle Compound
-    // from Fixed Pins. Freestyle is the assumed default (see resolvePrizeKey).
-    compound: 'Freestyle Compound',
+    'freestyle compound': ['Open Compound'],
+    'fixed pins': ['Pins Compound'],
+    nasp: ['NASP'],
+    recurve: ['Recurve'],
+    barebow: ['Barebow'],
+    // Older events ran one merged "Compound" class; the sheet splits it.
+    compound: ['Open Compound', 'Pins Compound'],
   },
 }
 
-function findAge(className: string): string | null {
-  const lower = className.toLowerCase()
-  // Longest alias first so "young adult" wins over a bare "adult"/"junior".
-  for (const alias of Object.keys(AGE_ALIASES).sort((a, b) => b.length - a.length)) {
-    if (lower.includes(alias)) return AGE_ALIASES[alias] ?? null
-  }
-  return null
-}
-
-function findBow(className: string, division: string): string | null {
-  const lower = className.toLowerCase()
-  const aliases = BOW_ALIASES[division] ?? {}
-  for (const alias of Object.keys(aliases).sort((a, b) => b.length - a.length)) {
-    if (lower.includes(alias)) return aliases[alias] ?? null
-  }
-  return null
-}
-
-function findGender(className: string): string | null {
-  const lower = className.toLowerCase()
-  if (lower.includes('female')) return 'Female'
-  if (lower.includes('male')) return 'Male'
-  return null // e.g. EOS "Open" (mixed-gender) classes
+interface ParsedClass {
+  bowCandidates: string[]
+  age: string
+  gender: string
 }
 
 /**
- * Map an EOS class name (e.g. "Pins Eagle (Ages 9-11) Female" or "Compound
- * Senior Male") onto a prize class key. Returns `unmatched` rather than
- * guessing when the two taxonomies genuinely disagree.
+ * Split an EOS class name into bow / age / gender.
+ *
+ * "Freestyle Compound Senior Male"    -> Open Compound, Senior, Male
+ * "Fixed Pins Junior Female"          -> Pins Compound, Junior, Female
+ * "Recurve Senior Open"               -> Recurve,       Senior, Open (mixed)
+ * "Pins Eagle (Ages 9-11) Female"     -> Pins Compound, Eagle,  Female
+ *
+ * The bow is matched as a longest-first prefix rather than by taking the first
+ * token, because "Open" is both a bow class and a mixed-gender scope and
+ * several bow names are two words.
+ */
+function parseClassName(className: string, division: '3D' | 'Target'): ParsedClass | null {
+  const cleaned = className
+    .replace(/\([^)]*\)/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim()
+    .toLowerCase()
+
+  const prefixes = BOW_PREFIXES[division] ?? {}
+  const prefix = Object.keys(prefixes)
+    .sort((a, b) => b.length - a.length)
+    .find((p) => cleaned.startsWith(`${p} `))
+  if (prefix === undefined) return null
+
+  const rest = cleaned.slice(prefix.length).trim().split(' ')
+  if (rest.length < 2) return null
+  const gender = rest[rest.length - 1] ?? ''
+  const age = rest.slice(0, -1).join(' ')
+  if (gender === '' || age === '') return null
+
+  return { bowCandidates: prefixes[prefix] ?? [], age, gender }
+}
+
+function genderScope(gender: string): string | null {
+  if (gender === 'female') return 'Female'
+  if (gender === 'male') return 'Male'
+  if (gender === 'open' || gender === 'mixed') return 'Open'
+  return null
+}
+
+/**
+ * Map an EOS class name onto a prize class key, trying each candidate bow class
+ * against the table. Returns `unmatched` rather than guessing when the two
+ * taxonomies genuinely disagree.
  */
 export function resolvePrizeKey(className: string, division: '3D' | 'Target'): PrizeMatch {
-  const age = findAge(className)
-  const bow = findBow(className, division)
-  const gender = findGender(className)
+  const parsed = parseClassName(className, division)
+  if (parsed === null) return { key: null, confidence: 'unmatched', note: 'unrecognised class name' }
 
-  if (age === null || bow === null) {
-    return { key: null, confidence: 'unmatched', note: 'no matching age or bow class' }
+  const age = AGE_ALIASES[parsed.age]
+  const scope = genderScope(parsed.gender)
+  const candidates = parsed.bowCandidates
+
+  if (age === undefined || scope === null || candidates.length === 0) {
+    return { key: null, confidence: 'unmatched', note: 'no matching age, gender, or bow class' }
   }
-  if (gender === null) {
+
+  const matches = candidates
+    .map((bow) => `${division}|${age}|${scope}|${bow}`)
+    .filter((key) => TABLE[key] !== undefined)
+
+  const key = matches[0]
+  if (key === undefined) {
+    return { key: null, confidence: 'unmatched', note: 'no prize rows for this class' }
+  }
+  if (matches.length > 1) {
     return {
-      key: null,
-      confidence: 'unmatched',
-      note: 'EOS runs this class mixed-gender; prizes are awarded separately to Male and Female',
+      key,
+      confidence: 'assumed',
+      note: `bow could be ${candidates.join(' or ')}; using ${key.split('|')[3]}`,
     }
-  }
-
-  const key = `${division}|${age}|${gender}|${bow}`
-  if (TABLE[key] === undefined) {
-    return { key, confidence: 'unmatched', note: 'no prize rows for this class' }
-  }
-  // Compound is the one genuinely ambiguous bow: EOS does not say whether the
-  // archer shot Freestyle Compound or Fixed Pins.
-  if (division === 'Target' && className.toLowerCase().includes('compound')) {
-    return { key, confidence: 'assumed', note: 'EOS "Compound" assumed to be Freestyle Compound' }
   }
   return { key, confidence: 'exact' }
 }

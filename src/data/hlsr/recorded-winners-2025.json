@@ -1,0 +1,302 @@
+{
+ "3D|Intermediate|Female|Open Compound": {
+  "1": "Taylin Myers",
+  "2": "Amarie DeHoyos",
+  "3": "Khadijah El-Abid",
+  "4": "Emma Milam",
+  "5": "Darci Burden"
+ },
+ "3D|Intermediate|Female|Pins Compound": {
+  "1": "Emery Arendt",
+  "2": "Sadie Rohde",
+  "3": "Leena Green",
+  "4": "Erin Stokes",
+  "5": "Jancsi West"
+ },
+ "3D|Intermediate|Male|Open Compound": {
+  "1": "Remington Whitehead",
+  "2": "Teal Mazzola",
+  "3": "Kaydon Shell",
+  "4": "Tristan Alvarez",
+  "5": "Noah Ross"
+ },
+ "3D|Intermediate|Male|Pins Compound": {
+  "1": "Warick Burt",
+  "2": "Nico Blom",
+  "3": "Stockton DeRouen",
+  "4": "Zachary Lane",
+  "5": "Landon Coker"
+ },
+ "3D|Intermediate|Open|Barebow Recurve": {
+  "1": "Nathan Schoeneberg",
+  "2": "Jackson Little",
+  "3": "Dean Rosas",
+  "4": "Logan LaRue",
+  "5": "Trinity Sawyer"
+ },
+ "3D|Intermediate|Open|Olympic Recurve": {
+  "1": "Zayden Boone",
+  "2": "Alain Pinto",
+  "3": "Jia Sanjana",
+  "4": "Ella Phillips",
+  "5": "Grace Walter"
+ },
+ "3D|Junior|Female|Open Compound": {
+  "1": "Gianna Ross",
+  "2": "Lona Toomer",
+  "3": "Riley Berger",
+  "4": "Evelyn Hyden",
+  "5": "Brilei Turner"
+ },
+ "3D|Junior|Female|Pins Compound": {
+  "1": "Kendall Garner",
+  "2": "Bree Hohlt",
+  "3": "Meritt Dyer",
+  "4": "Lucy Lane",
+  "5": "Bryleigh Morse"
+ },
+ "3D|Junior|Male|Open Compound": {
+  "1": "Dillon Michels",
+  "2": "Sutton Arnold",
+  "3": "Augustus Foster",
+  "4": "Omar El-Abid",
+  "5": "Branson Massey"
+ },
+ "3D|Junior|Male|Pins Compound": {
+  "1": "William Early",
+  "2": "Jacob Williams",
+  "3": "Blake Sawyer",
+  "4": "Grant Zelaya",
+  "5": "Eden Walter"
+ },
+ "3D|Junior|Open|Recurve": {
+  "1": "Liam Gomez",
+  "2": "Eeshwar Kollu",
+  "3": "Luke Burnett",
+  "4": "Josiah Schoeneberg",
+  "5": "Everly Ebarb"
+ },
+ "3D|Senior|Female|Open Compound": {
+  "1": "Julia Cook",
+  "2": "Tara Easterling",
+  "3": "Addison Schleifer",
+  "4": "Elise Schleifer",
+  "5": "Keelie Ellensohn"
+ },
+ "3D|Senior|Female|Pins Compound": {
+  "1": "Lilly Dillon",
+  "2": "Natalie Vaughn",
+  "3": "Elise Schleifer",
+  "4": "Bailey Roland",
+  "5": "Elsie Sheehan"
+ },
+ "3D|Senior|Male|Open Compound": {
+  "1": "Cole Ware",
+  "2": "Adam Shackelford",
+  "3": "Case Scott",
+  "4": "Sawyer Risley",
+  "5": "Caiden Atzger"
+ },
+ "3D|Senior|Male|Pins Compound": {
+  "1": "Nash Thompson",
+  "2": "Connor Goehring",
+  "3": "Jackson Vaughn",
+  "4": "Trustin Nelson",
+  "5": "Joseph Miller"
+ },
+ "3D|Senior|Open|Barebow Recurve": {
+  "1": "Nicolas Powell",
+  "2": "Austin Smith",
+  "3": "Brayden Evans",
+  "4": "Brynnly Hohlt",
+  "5": "Levi Feuerbacher"
+ },
+ "3D|Senior|Open|Olympic Recurve": {
+  "1": "Madeleine Dodson",
+  "2": "Angela Ma",
+  "3": "Madelyn Yi",
+  "4": "Daniel Kim",
+  "5": "Ethan Chan"
+ },
+ "Target|Intermediate|Female|Barebow": {
+  "1": "Hadley Harrison",
+  "2": "Greenlee Wentz",
+  "3": "Bailey Boyd",
+  "4": "Laura Schoeneberg"
+ },
+ "Target|Intermediate|Female|NASP": {
+  "1": "Trinity Sawyer",
+  "2": "Taryn Thibodeaux"
+ },
+ "Target|Intermediate|Female|Open Compound": {
+  "1": "Amarie DeHoyos",
+  "2": "Gianna Burke",
+  "3": "Khadijah El-Abid",
+  "4": "Taylin Myers"
+ },
+ "Target|Intermediate|Female|Pins Compound": {
+  "1": "Emery Arendt",
+  "2": "Asher Harrison",
+  "3": "Eliza Sternadel",
+  "4": "Aria Fleming"
+ },
+ "Target|Intermediate|Female|Recurve": {
+  "1": "Jia Sanjana",
+  "2": "Vivian Wong",
+  "3": "Mika Takagi",
+  "4": "Grace Walter"
+ },
+ "Target|Intermediate|Male|Barebow": {
+  "1": "Nathan Schoeneberg",
+  "2": "Dean Rosas",
+  "3": "Carter Dietz",
+  "4": "Jacob Craig"
+ },
+ "Target|Intermediate|Male|NASP": {
+  "1": "Caleb Burnett",
+  "2": "Kleat Barrett",
+  "3": "David Longoria",
+  "4": "Greyson Jones"
+ },
+ "Target|Intermediate|Male|Open Compound": {
+  "1": "Remington Whitehead",
+  "2": "Noah Ross",
+  "3": "Tristan Alvarez",
+  "4": "Logan Hartman"
+ },
+ "Target|Intermediate|Male|Pins Compound": {
+  "1": "Nico Blom",
+  "2": "Warick Burt",
+  "3": "Teal Mazzola",
+  "4": "Stockton DeRouen"
+ },
+ "Target|Intermediate|Male|Recurve": {
+  "1": "Laurent Chang",
+  "2": "Alain Pinto",
+  "3": "Zayden Boone",
+  "4": "Ashvath Sana"
+ },
+ "Target|Junior|Female|Barebow": {
+  "1": "Aurora Crawford",
+  "2": "Allison Villarreal"
+ },
+ "Target|Junior|Female|NASP": {
+  "1": "Everly Ebarb",
+  "2": "Nicole Lopez",
+  "3": "Violet Burnett"
+ },
+ "Target|Junior|Female|Open Compound": {
+  "1": "Riley Berger",
+  "2": "Gianna Ross",
+  "3": "Lona Toomer",
+  "4": "Evelyn Hyden"
+ },
+ "Target|Junior|Female|Pins Compound": {
+  "1": "Lucy Lane",
+  "2": "Kendall Garner",
+  "3": "Bryleigh Morse",
+  "4": "Parker Henry"
+ },
+ "Target|Junior|Female|Recurve": {
+  "1": "Emily Luo",
+  "2": "Mishka Gupta",
+  "3": "Josephine Schaefer"
+ },
+ "Target|Junior|Male|Barebow": {
+  "1": "Josiah Schoeneberg",
+  "2": "Eeshwar Kollu",
+  "3": "Gideon Wentz",
+  "4": "Bo Rerich"
+ },
+ "Target|Junior|Male|NASP": {
+  "1": "Luke Burnett",
+  "2": "Jimmy Jones",
+  "3": "Cade Leever"
+ },
+ "Target|Junior|Male|Open Compound": {
+  "1": "Dillon Michels",
+  "2": "Matthew Burke",
+  "3": "Branson Massey",
+  "4": "Sutton Arnold"
+ },
+ "Target|Junior|Male|Pins Compound": {
+  "1": "Omar El-Abid",
+  "2": "William Early",
+  "3": "Grant Zelaya",
+  "4": "Henry Watts"
+ },
+ "Target|Junior|Male|Recurve": {
+  "1": "Liam Gomez",
+  "2": "Jacob Moreno",
+  "3": "Saahas Chakra Chidurala",
+  "4": "Aydin Naqvi"
+ },
+ "Target|Senior|Female|Barebow": {
+  "1": "Isabel Sladaritz",
+  "2": "Vivienne Irby",
+  "3": "Mithali Kadur",
+  "4": "Chloe Copeland"
+ },
+ "Target|Senior|Female|NASP": {
+  "1": "Talley Baker",
+  "2": "Veronica Berrones",
+  "3": "Elaina Olson",
+  "4": "Summer Swedoski"
+ },
+ "Target|Senior|Female|Open Compound": {
+  "1": "Julia Cook",
+  "2": "Shelby Britten",
+  "3": "Alvery Lands",
+  "4": "Raylie Seyler",
+  "5": "Tara Easterling",
+  "6": "Elliana Farquhar",
+  "7": "Addison Schleifer",
+  "8": "Alexandra Youmans"
+ },
+ "Target|Senior|Female|Pins Compound": {
+  "1": "Chloe Brandt",
+  "2": "Lilly Dillon",
+  "3": "Elsie Sheehan",
+  "4": "Makayla Alford"
+ },
+ "Target|Senior|Female|Recurve": {
+  "1": "Madeleine Dodsom",
+  "2": "Madelyn Yi",
+  "3": "Ava Gonzalez",
+  "4": "Milla Shanklin"
+ },
+ "Target|Senior|Male|Barebow": {
+  "1": "Nicolas Powell",
+  "2": "Brayden Evans",
+  "3": "Tj Kole",
+  "4": "Austin Smith"
+ },
+ "Target|Senior|Male|NASP": {
+  "1": "Alejandro Serrano",
+  "2": "Collin Russell",
+  "3": "Garth Leiber",
+  "4": "Tyler Lucas"
+ },
+ "Target|Senior|Male|Open Compound": {
+  "1": "Caiden Atzger",
+  "2": "Nash Thompson",
+  "3": "Connor Goehring",
+  "4": "Dax Algueseva",
+  "5": "Crash DeHoyos",
+  "6": "Case Scott",
+  "7": "Cole Ware",
+  "8": "Easton Groves"
+ },
+ "Target|Senior|Male|Pins Compound": {
+  "1": "Hasan El-Abid",
+  "2": "Jackson Vaughn",
+  "3": "Trustin Nelson",
+  "4": "Joel Bonner"
+ },
+ "Target|Senior|Male|Recurve": {
+  "1": "Ethan Chan",
+  "2": "Daniel Kim",
+  "3": "Caelan Shanklin",
+  "4": "Micah Xie"
+ }
+}

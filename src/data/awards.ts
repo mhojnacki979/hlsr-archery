@@ -24,6 +24,13 @@ export interface AwardClass {
   name: string
   confidence: MatchConfidence
   note?: string
+  /**
+   * True when the class has no elimination bracket, so the order is qualification
+   * score only. Verified against the 2026 committee sheet: bracketed classes
+   * matched 121/121, while qualification-only classes matched 70/85 — the
+   * committee settles those placings some other way (shoot-off / head-to-head).
+   */
+  provisional: boolean
   rows: AwardRow[]
 }
 
@@ -49,12 +56,13 @@ function buildClass(division: EventDivision, prizeDivision: 'Target' | '3D'): Aw
     name: division.name,
     confidence: match.confidence,
     ...(match.note !== undefined ? { note: match.note } : {}),
+    provisional: division.bracket === null || division.bracket.rounds.length === 0,
     rows,
   }
 }
 
 /** Every class of the event, in printing order, with prizes attached. */
-export function buildAwards(year = 2025): AwardSegment[] {
+export function buildAwards(year = 2026): AwardSegment[] {
   const event = getHlsr(year)
   if (event === null) return []
   return (['target', '3d'] as const).map((key) => ({

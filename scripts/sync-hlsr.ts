@@ -23,15 +23,17 @@ const TOKEN =
 const API = 'https://api.eyesonscore.com/api'
 const HEADERS = { Authorization: `Bearer ${TOKEN}`, 'Content-Type': 'application/json' }
 
-const YEAR = 2025
+// The competition the committee's prize workbook records. EOS names these by
+// the rodeo season, so the 2026 event was shot in October 2025.
+const YEAR = 2026
 const EVENT = {
   year: YEAR,
-  name: '2025 HLSR Archery Competition',
+  name: '2026 HLSR Archery Competition',
   venue: 'Houston Livestock Show & Rodeo',
 }
 const SEGMENTS = [
-  { key: 'target', label: 'Target', id: 'Wk1VVU9WL2EzL04yYUFRVDdKdXYyZz09' },
-  { key: '3d', label: '3D', id: 'MGdMNU5id1ZSODRLM0Q2QnROcnYzUT09' },
+  { key: 'target', label: 'Target', id: 'dnlSWGkxeXhiTXNZSHk4RFpZVVBVZz09' },
+  { key: '3d', label: '3D', id: 'US9oSlFJNmU5QkU0M0VxMy8wQVdqdz09' },
 ] as const
 
 async function post(url: string): Promise<any> {
