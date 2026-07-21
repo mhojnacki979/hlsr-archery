@@ -44,6 +44,13 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en" className={fontClasses}>
       <body>
+        {/* Ranching & Wildlife step-and-repeat. Inline background-image so the
+            deployment base path is applied; CSS url() would not get it. */}
+        <div
+          className="brand-backdrop"
+          aria-hidden="true"
+          style={{ backgroundImage: `url(${asset('/brand/ranching-wildlife-tile.png')})` }}
+        />
         <header className="site-header">
           <div className="site-header-inner">
             <Link
