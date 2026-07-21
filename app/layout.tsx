@@ -62,6 +62,14 @@ export default function RootLayout({ children }: { children: ReactNode }) {
                 <span className="hlsr-wordmark-sub">Archery Competition</span>
               </span>
             </Link>
+            <nav className="site-nav" aria-label="Primary">
+              <Link href="/" className="site-nav-link">
+                Results
+              </Link>
+              <Link href="/awards" className="site-nav-link">
+                Awards
+              </Link>
+            </nav>
           </div>
         </header>
         <main className="site-main">{children}</main>

@@ -1842,3 +1842,230 @@ a.button:hover {
     width: 100%;
   }
 }
+
+/* ---------- Awards sheet (screen + print-to-PDF) ---------- */
+
+.awards {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.awards-toolbar {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.5rem;
+}
+
+.print-button {
+  font-family: var(--font-condensed);
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #fff;
+  background: var(--accent);
+  border: none;
+  border-radius: 999px;
+  padding: 0.6rem 1.4rem;
+  cursor: pointer;
+}
+
+.awards-hint {
+  font-family: var(--font-condensed);
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.awards-head {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 3px solid var(--accent);
+  margin-bottom: 1.5rem;
+}
+
+.awards-badge {
+  height: 4.5rem;
+  width: auto;
+  flex: none;
+}
+
+.awards-title {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 1.6rem;
+  margin: 0;
+  color: #fff;
+}
+
+.awards-sub {
+  font-family: var(--font-condensed);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin: 0.2rem 0 0;
+}
+
+.awards-notice {
+  background: var(--accent-soft);
+  border: 1px solid var(--accent-border);
+  border-radius: var(--radius-sm);
+  padding: 0.9rem 1.1rem;
+  margin-bottom: 1.75rem;
+  font-size: 0.9rem;
+}
+
+.awards-notice ul {
+  margin: 0.5rem 0 0;
+  padding-left: 1.2rem;
+}
+
+.awards-segment {
+  font-family: var(--font-condensed);
+  font-size: 1.3rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 2rem 0 1rem;
+}
+
+.awards-class {
+  margin-bottom: 1.5rem;
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+
+.awards-class-name {
+  display: flex;
+  align-items: baseline;
+  gap: 0.7rem;
+  font-family: var(--font-condensed);
+  font-size: 1.05rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 0 0 0.4rem;
+}
+
+.awards-flag {
+  font-size: 0.65rem;
+  letter-spacing: 0.1em;
+  color: var(--accent);
+  border: 1px solid var(--accent-border);
+  border-radius: 999px;
+  padding: 0.05rem 0.5rem;
+}
+
+.awards-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.awards-table th,
+.awards-table td {
+  border: 1px solid var(--border);
+  padding: 0.4rem 0.6rem;
+  text-align: left;
+}
+
+.awards-table thead th {
+  font-family: var(--font-condensed);
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.awards-col-place {
+  width: 3.5rem;
+  text-align: center;
+  font-family: var(--font-condensed);
+  font-weight: 700;
+}
+
+.awards-name {
+  font-weight: 600;
+  color: #fff;
+}
+
+.awards-prize {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+
+/* Print: white paper, black ink, keep each class on one page. */
+@media print {
+  @page {
+    margin: 0.5in;
+  }
+
+  .site-header,
+  .site-footer,
+  .awards-toolbar {
+    display: none !important;
+  }
+
+  html,
+  body {
+    background: #fff !important;
+    color: #000 !important;
+  }
+
+  .site-main {
+    padding: 0 !important;
+    max-width: none !important;
+  }
+
+  .awards {
+    max-width: none;
+  }
+
+  .awards-title,
+  .awards-name,
+  .awards-class-name,
+  .awards-segment {
+    color: #000 !important;
+  }
+
+  .awards-sub,
+  .awards-prize,
+  .awards-table thead th {
+    color: #333 !important;
+  }
+
+  .awards-head {
+    border-bottom: 2px solid #000;
+  }
+
+  .awards-table th,
+  .awards-table td {
+    border-color: #999 !important;
+  }
+
+  .awards-notice {
+    background: #fff !important;
+    border: 1px solid #000 !important;
+    color: #000 !important;
+  }
+
+  .awards-flag {
+    color: #000 !important;
+    border-color: #000 !important;
+  }
+
+  .awards-segment {
+    break-before: page;
+    page-break-before: always;
+  }
+
+  .awards-segment:first-of-type {
+    break-before: auto;
+    page-break-before: auto;
+  }
+}

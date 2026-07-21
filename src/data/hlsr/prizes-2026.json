@@ -1,0 +1,1052 @@
+{
+ "3D|Intermediate|Female|Barebow": {
+  "5": {
+   "trophy": "Banner"
+  }
+ },
+ "3D|Intermediate|Female|Open": {
+  "1": {
+   "buckle": "Buckle",
+   "cash": 750,
+   "cooler": "CCA Cooler",
+   "trophy": "Trophy"
+  },
+  "2": {
+   "buckle": "Buckle",
+   "cash": 600,
+   "trophy": "Banner"
+  },
+  "3": {
+   "cash": 500,
+   "trophy": "Banner"
+  },
+  "4": {
+   "trophy": "Banner"
+  },
+  "5": {
+   "trophy": "Banner"
+  }
+ },
+ "3D|Intermediate|Female|Pins": {
+  "1": {
+   "buckle": "Buckle",
+   "cash": 750,
+   "cooler": "CCA Cooler",
+   "trophy": "Trophy"
+  },
+  "2": {
+   "buckle": "Buckle",
+   "cash": 600,
+   "trophy": "Banner"
+  },
+  "3": {
+   "cash": 500,
+   "trophy": "Banner"
+  },
+  "4": {
+   "trophy": "Banner"
+  },
+  "5": {
+   "trophy": "Banner"
+  }
+ },
+ "3D|Intermediate|Female|Recurve": {
+  "3": {
+   "trophy": "Banner"
+  },
+  "4": {
+   "trophy": "Banner"
+  },
+  "5": {
+   "trophy": "Banner"
+  }
+ },
+ "3D|Intermediate|Male|Barebow": {
+  "1": {
+   "buckle": "Buckle",
+   "cash": 750,
+   "cooler": "CCA Cooler",
+   "trophy": "Trophy"
+  },
+  "2": {
+   "buckle": "Buckle",
+   "cash": 600,
+   "trophy": "Banner"
+  },
+  "3": {
+   "trophy": "Banner"
+  },
+  "4": {
+   "trophy": "Banner"
+  }
+ },
+ "3D|Intermediate|Male|Open": {
+  "1": {
+   "buckle": "Buckle",
+   "cash": 750,
+   "cooler": "CCA Cooler",
+   "trophy": "Trophy"
+  },
+  "2": {
+   "buckle": "Buckle",
+   "cash": 600,
+   "trophy": "Banner"
+  },
+  "3": {
+   "cash": 500,
+   "trophy": "Banner"
+  },
+  "4": {
+   "trophy": "Banner"
+  },
+  "5": {
+   "trophy": "Banner"
+  }
+ },
+ "3D|Intermediate|Male|Pins": {
+  "1": {
+   "buckle": "Buckle",
+   "cash": 750,
+   "cooler": "CCA Cooler",
+   "trophy": "Trophy"
+  },
+  "2": {
+   "buckle": "Buckle",
+   "cash": 600,
+   "trophy": "Banner"
+  },
+  "3": {
+   "cash": 500,
+   "trophy": "Banner"
+  },
+  "4": {
+   "trophy": "Banner"
+  },
+  "5": {
+   "trophy": "Banner"
+  }
+ },
+ "3D|Intermediate|Male|Recurve": {
+  "1": {
+   "buckle": "Buckle",
+   "cash": 750,
+   "cooler": "CCA Cooler",
+   "trophy": "Trophy"
+  },
+  "2": {
+   "buckle": "Buckle",
+   "cash": 600,
+   "trophy": "Banner"
+  }
+ },
+ "3D|Junior|Female|Open": {
+  "1": {
+   "buckle": "Buckle",
+   "cash": 750,
+   "cooler": "CCA Cooler",
+   "trophy": "Trophy"
+  },
+  "2": {
+   "buckle": "Buckle",
+   "cash": 600,
+   "trophy": "Banner"
+  },
+  "3": {
+   "cash": 500,
+   "trophy": "Banner"
+  },
+  "4": {
+   "trophy": "Banner"
+  },
+  "5": {
+   "trophy": "Banner"
+  }
+ },
+ "3D|Junior|Female|Pins": {
+  "1": {
+   "buckle": "Buckle",
+   "cash": 750,
+   "cooler": "CCA Cooler",
+   "trophy": "Trophy"
+  },
+  "2": {
+   "buckle": "Buckle",
+   "cash": 600,
+   "trophy": "Banner"
+  },
+  "3": {
+   "cash": 500,
+   "trophy": "Banner"
+  },
+  "4": {
+   "trophy": "Banner"
+  },
+  "5": {
+   "trophy": "Banner"
+  }
+ },
+ "3D|Junior|Female|Recurve": {
+  "5": {
+   "trophy": "Banner"
+  }
+ },
+ "3D|Junior|Male|Barebow": {
+  "2": {
+   "buckle": "Buckle",
+   "cash": 600,
+   "trophy": "Banner"
+  },
+  "4": {
+   "trophy": "Banner"
+  }
+ },
+ "3D|Junior|Male|Open": {
+  "1": {
+   "buckle": "Buckle",
+   "cash": 750,
+   "cooler": "CCA Cooler",
+   "trophy": "Trophy"
+  },
+  "2": {
+   "buckle": "Buckle",
+   "cash": 600,
+   "trophy": "Banner"
+  },
+  "3": {
+   "cash": 500,
+   "trophy": "Banner"
+  },
+  "4": {
+   "trophy": "Banner"
+  },
+  "5": {
+   "trophy": "Banner"
+  }
+ },
+ "3D|Junior|Male|Pins": {
+  "1": {
+   "buckle": "Buckle",
+   "cash": 750,
+   "cooler": "CCA Cooler",
+   "trophy": "Trophy"
+  },
+  "2": {
+   "buckle": "Buckle",
+   "cash": 600,
+   "trophy": "Banner"
+  },
+  "3": {
+   "cash": 500,
+   "trophy": "Banner"
+  },
+  "4": {
+   "trophy": "Banner"
+  },
+  "5": {
+   "trophy": "Banner"
+  }
+ },
+ "3D|Junior|Male|Recurve": {
+  "1": {
+   "buckle": "Buckle",
+   "cash": 750,
+   "cooler": "CCA Cooler",
+   "trophy": "Trophy"
+  },
+  "3": {
+   "trophy": "Banner"
+  }
+ },
+ "3D|Senior|Female|Barebow": {
+  "4": {
+   "trophy": "Banner"
+  }
+ },
+ "3D|Senior|Female|Open": {
+  "1": {
+   "buckle": "Buckle",
+   "cash": 750,
+   "cooler": "CCA Cooler",
+   "license": "Lifetime Hunting & Fishing",
+   "trophy": "Trophy"
+  },
+  "2": {
+   "buckle": "Buckle",
+   "cash": 600,
+   "trophy": "Banner"
+  },
+  "3": {
+   "cash": 500,
+   "trophy": "Banner"
+  },
+  "4": {
+   "trophy": "Banner"
+  },
+  "5": {
+   "trophy": "Banner"
+  }
+ },
+ "3D|Senior|Female|Pins": {
+  "1": {
+   "buckle": "Buckle",
+   "cash": 750,
+   "cooler": "CCA Cooler",
+   "license": "Lifetime Hunting & Fishing",
+   "trophy": "Trophy"
+  },
+  "2": {
+   "buckle": "Buckle",
+   "cash": 600,
+   "trophy": "Banner"
+  },
+  "3": {
+   "cash": 500,
+   "trophy": "Banner"
+  },
+  "4": {
+   "trophy": "Banner"
+  },
+  "5": {
+   "trophy": "Banner"
+  }
+ },
+ "3D|Senior|Female|Recurve": {
+  "1": {
+   "buckle": "Buckle",
+   "cash": 750,
+   "cooler": "CCA Cooler",
+   "license": "Lifetime Hunting & Fishing",
+   "trophy": "Trophy"
+  },
+  "2": {
+   "buckle": "Buckle",
+   "cash": 600,
+   "trophy": "Banner"
+  },
+  "3": {
+   "trophy": "Banner"
+  }
+ },
+ "3D|Senior|Male|Barebow": {
+  "1": {
+   "buckle": "Buckle",
+   "cash": 750,
+   "cooler": "CCA Cooler",
+   "license": "Lifetime Hunting & Fishing",
+   "trophy": "Trophy"
+  },
+  "2": {
+   "buckle": "Buckle",
+   "cash": 600,
+   "trophy": "Banner"
+  },
+  "3": {
+   "trophy": "Banner"
+  },
+  "5": {
+   "trophy": "Banner"
+  }
+ },
+ "3D|Senior|Male|Open": {
+  "1": {
+   "buckle": "Buckle",
+   "cash": 750,
+   "cooler": "CCA Cooler",
+   "license": "Lifetime Hunting & Fishing",
+   "trophy": "Trophy"
+  },
+  "2": {
+   "buckle": "Buckle",
+   "cash": 600,
+   "trophy": "Banner"
+  },
+  "3": {
+   "cash": 500,
+   "trophy": "Banner"
+  },
+  "4": {
+   "cash": 400,
+   "trophy": "Banner"
+  },
+  "5": {
+   "cash": 300,
+   "trophy": "Banner"
+  }
+ },
+ "3D|Senior|Male|Pins": {
+  "1": {
+   "buckle": "Buckle",
+   "cash": 750,
+   "cooler": "CCA Cooler",
+   "license": "Lifetime Hunting & Fishing",
+   "trophy": "Trophy"
+  },
+  "2": {
+   "buckle": "Buckle",
+   "cash": 600,
+   "trophy": "Banner"
+  },
+  "3": {
+   "cash": 500,
+   "trophy": "Banner"
+  },
+  "4": {
+   "trophy": "Banner"
+  },
+  "5": {
+   "trophy": "Banner"
+  }
+ },
+ "3D|Senior|Male|Recurve": {
+  "4": {
+   "trophy": "Banner"
+  },
+  "5": {
+   "trophy": "Banner"
+  }
+ },
+ "Target|Intermediate|Female|Barebow": {
+  "1": {
+   "buckle": "Buckle",
+   "cash": 800,
+   "cooler": "Turtlebox",
+   "trophy": "Trophy"
+  },
+  "2": {
+   "buckle": "Buckle",
+   "cash": 600,
+   "trophy": "Banner"
+  },
+  "3": {
+   "cash": 500,
+   "trophy": "Banner"
+  },
+  "4": {
+   "cash": 400,
+   "trophy": "Banner"
+  }
+ },
+ "Target|Intermediate|Female|Fixed Pins": {
+  "1": {
+   "buckle": "Buckle",
+   "cash": 500,
+   "cooler": "Turtlebox",
+   "trophy": "Trophy"
+  },
+  "2": {
+   "buckle": "Buckle",
+   "cash": 400,
+   "trophy": "Banner"
+  },
+  "3": {
+   "cash": 300,
+   "trophy": "Banner"
+  },
+  "4": {
+   "cash": 200,
+   "trophy": "Banner"
+  }
+ },
+ "Target|Intermediate|Female|Freestyle Compound": {
+  "1": {
+   "buckle": "Buckle",
+   "cash": 800,
+   "cooler": "Turtlebox",
+   "trophy": "Trophy"
+  },
+  "2": {
+   "buckle": "Buckle",
+   "cash": 600,
+   "trophy": "Banner"
+  },
+  "3": {
+   "cash": 500,
+   "trophy": "Banner"
+  },
+  "4": {
+   "cash": 400,
+   "trophy": "Banner"
+  }
+ },
+ "Target|Intermediate|Female|NASP": {
+  "1": {
+   "buckle": "Buckle",
+   "cash": 800,
+   "cooler": "Turtlebox",
+   "trophy": "Trophy"
+  },
+  "2": {
+   "buckle": "Buckle",
+   "cash": 600,
+   "trophy": "Banner"
+  }
+ },
+ "Target|Intermediate|Female|Recurve": {
+  "1": {
+   "buckle": "Buckle",
+   "cash": 800,
+   "cooler": "Turtlebox",
+   "trophy": "Trophy"
+  },
+  "2": {
+   "buckle": "Buckle",
+   "cash": 600,
+   "trophy": "Banner"
+  },
+  "3": {
+   "cash": 500,
+   "trophy": "Banner"
+  },
+  "4": {
+   "cash": 400,
+   "trophy": "Banner"
+  }
+ },
+ "Target|Intermediate|Male|Barebow": {
+  "1": {
+   "buckle": "Buckle",
+   "cash": 800,
+   "cooler": "Turtlebox",
+   "trophy": "Trophy"
+  },
+  "2": {
+   "buckle": "Buckle",
+   "cash": 600,
+   "trophy": "Banner"
+  },
+  "3": {
+   "cash": 500,
+   "trophy": "Banner"
+  },
+  "4": {
+   "cash": 400,
+   "trophy": "Banner"
+  }
+ },
+ "Target|Intermediate|Male|Fixed Pins": {
+  "1": {
+   "buckle": "Buckle",
+   "cash": 500,
+   "cooler": "Turtlebox",
+   "trophy": "Trophy"
+  },
+  "2": {
+   "buckle": "Buckle",
+   "cash": 400,
+   "trophy": "Banner"
+  },
+  "3": {
+   "cash": 300,
+   "trophy": "Banner"
+  },
+  "4": {
+   "cash": 200,
+   "trophy": "Banner"
+  }
+ },
+ "Target|Intermediate|Male|Freestyle Compound": {
+  "1": {
+   "buckle": "Buckle",
+   "cash": 800,
+   "cooler": "Turtlebox",
+   "trophy": "Trophy"
+  },
+  "2": {
+   "buckle": "Buckle",
+   "cash": 600,
+   "trophy": "Banner"
+  },
+  "3": {
+   "cash": 500,
+   "trophy": "Banner"
+  },
+  "4": {
+   "cash": 400,
+   "trophy": "Banner"
+  }
+ },
+ "Target|Intermediate|Male|NASP": {
+  "1": {
+   "buckle": "Buckle",
+   "cash": 800,
+   "cooler": "Turtlebox",
+   "trophy": "Trophy"
+  },
+  "2": {
+   "buckle": "Buckle",
+   "cash": 600,
+   "trophy": "Banner"
+  },
+  "3": {
+   "cash": 500,
+   "trophy": "Banner"
+  },
+  "4": {
+   "cash": 400,
+   "trophy": "Banner"
+  }
+ },
+ "Target|Intermediate|Male|Recurve": {
+  "1": {
+   "buckle": "Buckle",
+   "cash": 800,
+   "cooler": "Turtlebox",
+   "trophy": "Trophy"
+  },
+  "2": {
+   "buckle": "Buckle",
+   "cash": 600,
+   "trophy": "Banner"
+  },
+  "3": {
+   "cash": 500,
+   "trophy": "Banner"
+  },
+  "4": {
+   "cash": 400,
+   "trophy": "Banner"
+  }
+ },
+ "Target|Junior|Female|Barebow": {
+  "1": {
+   "buckle": "Buckle",
+   "cash": 600,
+   "cooler": "Turtlebox",
+   "trophy": "Trophy"
+  },
+  "2": {
+   "buckle": "Buckle",
+   "cash": 400,
+   "trophy": "Banner"
+  }
+ },
+ "Target|Junior|Female|Fixed Pins": {
+  "1": {
+   "buckle": "Buckle",
+   "cash": 400,
+   "cooler": "Turtlebox",
+   "trophy": "Trophy"
+  },
+  "2": {
+   "buckle": "Buckle",
+   "cash": 300,
+   "trophy": "Banner"
+  },
+  "3": {
+   "cash": 200,
+   "trophy": "Banner"
+  },
+  "4": {
+   "cash": 100,
+   "trophy": "Banner"
+  }
+ },
+ "Target|Junior|Female|Freestyle Compound": {
+  "1": {
+   "buckle": "Buckle",
+   "cash": 600,
+   "cooler": "Turtlebox",
+   "trophy": "Trophy"
+  },
+  "2": {
+   "buckle": "Buckle",
+   "cash": 400,
+   "trophy": "Banner"
+  },
+  "3": {
+   "cash": 300,
+   "trophy": "Banner"
+  },
+  "4": {
+   "cash": 200,
+   "trophy": "Banner"
+  }
+ },
+ "Target|Junior|Female|NASP": {
+  "1": {
+   "buckle": "Buckle",
+   "cash": 600,
+   "cooler": "Turtlebox",
+   "trophy": "Trophy"
+  },
+  "2": {
+   "buckle": "Buckle",
+   "cash": 400,
+   "trophy": "Banner"
+  },
+  "3": {
+   "cash": 300,
+   "trophy": "Banner"
+  }
+ },
+ "Target|Junior|Female|Recurve": {
+  "1": {
+   "buckle": "Buckle",
+   "cash": 600,
+   "cooler": "Turtlebox",
+   "trophy": "Trophy"
+  },
+  "2": {
+   "buckle": "Buckle",
+   "cash": 400,
+   "trophy": "Banner"
+  },
+  "3": {
+   "cash": 300,
+   "trophy": "Banner"
+  }
+ },
+ "Target|Junior|Male|Barebow": {
+  "1": {
+   "buckle": "Buckle",
+   "cash": 600,
+   "cooler": "Turtlebox",
+   "trophy": "Trophy"
+  },
+  "2": {
+   "buckle": "Buckle",
+   "cash": 400,
+   "trophy": "Banner"
+  },
+  "3": {
+   "cash": 300,
+   "trophy": "Banner"
+  },
+  "4": {
+   "cash": 200,
+   "trophy": "Banner"
+  }
+ },
+ "Target|Junior|Male|Fixed Pins": {
+  "1": {
+   "buckle": "Buckle",
+   "cash": 400,
+   "cooler": "Turtlebox",
+   "trophy": "Trophy"
+  },
+  "2": {
+   "buckle": "Buckle",
+   "cash": 300,
+   "trophy": "Banner"
+  },
+  "3": {
+   "cash": 200,
+   "trophy": "Banner"
+  },
+  "4": {
+   "cash": 100,
+   "trophy": "Banner"
+  }
+ },
+ "Target|Junior|Male|Freestyle Compound": {
+  "1": {
+   "buckle": "Buckle",
+   "cash": 600,
+   "cooler": "Turtlebox",
+   "trophy": "Trophy"
+  },
+  "2": {
+   "buckle": "Buckle",
+   "cash": 400,
+   "trophy": "Banner"
+  },
+  "3": {
+   "cash": 300,
+   "trophy": "Banner"
+  },
+  "4": {
+   "cash": 200,
+   "trophy": "Banner"
+  }
+ },
+ "Target|Junior|Male|NASP": {
+  "1": {
+   "buckle": "Buckle",
+   "cash": 600,
+   "cooler": "Turtlebox",
+   "trophy": "Trophy"
+  },
+  "2": {
+   "buckle": "Buckle",
+   "cash": 400,
+   "trophy": "Banner"
+  },
+  "3": {
+   "cash": 300,
+   "trophy": "Banner"
+  }
+ },
+ "Target|Junior|Male|Recurve": {
+  "1": {
+   "buckle": "Buckle",
+   "cash": 600,
+   "cooler": "Turtlebox",
+   "trophy": "Trophy"
+  },
+  "2": {
+   "buckle": "Buckle",
+   "cash": 400,
+   "trophy": "Banner"
+  },
+  "3": {
+   "cash": 300,
+   "trophy": "Banner"
+  },
+  "4": {
+   "cash": 200,
+   "trophy": "Banner"
+  }
+ },
+ "Target|Senior|Female|Barebow": {
+  "1": {
+   "buckle": "Buckle",
+   "cash": 1200,
+   "cooler": "Turtlebox",
+   "license": "Lifetime Hunting & Fishing",
+   "trophy": "Trophy"
+  },
+  "2": {
+   "buckle": "Buckle",
+   "cash": 1000,
+   "trophy": "Banner"
+  },
+  "3": {
+   "cash": 800,
+   "trophy": "Banner"
+  },
+  "4": {
+   "cash": 500,
+   "trophy": "Banner"
+  }
+ },
+ "Target|Senior|Female|Fixed Pins": {
+  "1": {
+   "buckle": "Buckle",
+   "cash": 700,
+   "cooler": "Turtlebox",
+   "license": "Lifetime Hunting & Fishing",
+   "trophy": "Trophy"
+  },
+  "2": {
+   "buckle": "Buckle",
+   "cash": 500,
+   "trophy": "Banner"
+  },
+  "3": {
+   "cash": 400,
+   "trophy": "Banner"
+  },
+  "4": {
+   "cash": 300,
+   "trophy": "Banner"
+  }
+ },
+ "Target|Senior|Female|Freestyle Compound": {
+  "1": {
+   "buckle": "Buckle",
+   "cash": 1200,
+   "cooler": "Turtlebox",
+   "license": "Lifetime Hunting & Fishing",
+   "trophy": "Trophy"
+  },
+  "2": {
+   "buckle": "Buckle",
+   "cash": 1000,
+   "trophy": "Banner"
+  },
+  "3": {
+   "cash": 800,
+   "trophy": "Banner"
+  },
+  "4": {
+   "cash": 500,
+   "trophy": "Banner"
+  },
+  "5": {
+   "cash": 400,
+   "trophy": "Banner"
+  },
+  "6": {
+   "cash": 300,
+   "trophy": "Banner"
+  },
+  "7": {
+   "cash": 200,
+   "trophy": "Banner"
+  },
+  "8": {
+   "cash": 100,
+   "trophy": "Banner"
+  }
+ },
+ "Target|Senior|Female|NASP": {
+  "1": {
+   "buckle": "Buckle",
+   "cash": 1200,
+   "cooler": "Turtlebox",
+   "license": "Lifetime Hunting & Fishing",
+   "trophy": "Trophy"
+  },
+  "2": {
+   "buckle": "Buckle",
+   "cash": 1000,
+   "trophy": "Banner"
+  },
+  "3": {
+   "cash": 800,
+   "trophy": "Banner"
+  },
+  "4": {
+   "cash": 500,
+   "trophy": "Banner"
+  }
+ },
+ "Target|Senior|Female|Recurve": {
+  "1": {
+   "buckle": "Buckle",
+   "cash": 1200,
+   "cooler": "Turtlebox",
+   "license": "Lifetime Hunting & Fishing",
+   "trophy": "Trophy"
+  },
+  "2": {
+   "buckle": "Buckle",
+   "cash": 1000,
+   "trophy": "Banner"
+  },
+  "3": {
+   "cash": 800,
+   "trophy": "Banner"
+  },
+  "4": {
+   "cash": 500,
+   "trophy": "Banner"
+  }
+ },
+ "Target|Senior|Male|Barebow": {
+  "1": {
+   "buckle": "Buckle",
+   "cash": 1200,
+   "cooler": "Turtlebox",
+   "license": "Lifetime Hunting & Fishing",
+   "trophy": "Trophy"
+  },
+  "2": {
+   "buckle": "Buckle",
+   "cash": 1000,
+   "trophy": "Banner"
+  },
+  "3": {
+   "cash": 800,
+   "trophy": "Banner"
+  },
+  "4": {
+   "cash": 500,
+   "trophy": "Banner"
+  }
+ },
+ "Target|Senior|Male|Fixed Pins": {
+  "1": {
+   "buckle": "Buckle",
+   "cash": 700,
+   "cooler": "Turtlebox",
+   "license": "Lifetime Hunting & Fishing",
+   "trophy": "Trophy"
+  },
+  "2": {
+   "buckle": "Buckle",
+   "cash": 500,
+   "trophy": "Banner"
+  },
+  "3": {
+   "cash": 400,
+   "trophy": "Banner"
+  },
+  "4": {
+   "cash": 300,
+   "trophy": "Banner"
+  }
+ },
+ "Target|Senior|Male|Freestyle Compound": {
+  "1": {
+   "buckle": "Buckle",
+   "cash": 1200,
+   "cooler": "Turtlebox",
+   "license": "Lifetime Hunting & Fishing",
+   "trophy": "Trophy"
+  },
+  "2": {
+   "buckle": "Buckle",
+   "cash": 1000,
+   "trophy": "Banner"
+  },
+  "3": {
+   "cash": 800,
+   "trophy": "Banner"
+  },
+  "4": {
+   "cash": 500,
+   "trophy": "Banner"
+  },
+  "5": {
+   "cash": 400,
+   "trophy": "Banner"
+  },
+  "6": {
+   "cash": 300,
+   "trophy": "Banner"
+  },
+  "7": {
+   "cash": 200,
+   "trophy": "Banner"
+  },
+  "8": {
+   "cash": 100,
+   "trophy": "Banner"
+  }
+ },
+ "Target|Senior|Male|NASP": {
+  "1": {
+   "buckle": "Buckle",
+   "cash": 1200,
+   "cooler": "Turtlebox",
+   "license": "Lifetime Hunting & Fishing",
+   "trophy": "Trophy"
+  },
+  "2": {
+   "buckle": "Buckle",
+   "cash": 1000,
+   "trophy": "Banner"
+  },
+  "3": {
+   "cash": 800,
+   "trophy": "Banner"
+  },
+  "4": {
+   "cash": 500,
+   "trophy": "Banner"
+  }
+ },
+ "Target|Senior|Male|Recurve": {
+  "1": {
+   "buckle": "Buckle",
+   "cash": 1200,
+   "cooler": "Turtlebox",
+   "license": "Lifetime Hunting & Fishing",
+   "trophy": "Trophy"
+  },
+  "2": {
+   "buckle": "Buckle",
+   "cash": 1000,
+   "trophy": "Banner"
+  },
+  "3": {
+   "cash": 800,
+   "trophy": "Banner"
+  },
+  "4": {
+   "cash": 500,
+   "trophy": "Banner"
+  }
+ }
+}
