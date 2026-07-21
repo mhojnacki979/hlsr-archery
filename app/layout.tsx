@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import type { ReactNode } from 'react'
 import { Anton, Barlow, Playfair_Display, Saira_Condensed } from 'next/font/google'
 import Link from 'next/link'
+import { asset } from '@/lib/asset'
 import './globals.css'
 
 // Editorial Didone headline.
@@ -48,10 +49,18 @@ export default function RootLayout({ children }: { children: ReactNode }) {
             <Link
               href="/"
               className="hlsr-wordmark"
-              aria-label="Houston Livestock Show & Rodeo Archery"
+              aria-label="Houston Livestock Show & Rodeo Archery Competition"
             >
-              <span className="hlsr-wordmark-title">Houston Livestock Show &amp; Rodeo</span>
-              <span className="hlsr-wordmark-sub">Archery Competition</span>
+              <img
+                src={asset('/brand/hlsr-archery-badge.png')}
+                alt=""
+                className="hlsr-badge"
+                aria-hidden="true"
+              />
+              <span className="hlsr-wordmark-text">
+                <span className="hlsr-wordmark-title">Houston Livestock Show &amp; Rodeo</span>
+                <span className="hlsr-wordmark-sub">Archery Competition</span>
+              </span>
             </Link>
           </div>
         </header>

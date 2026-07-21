@@ -5,13 +5,15 @@
  */
 
 :root {
-  /* Color tokens — dark pine-green base (4-H / rodeo green) */
-  --bg: #0d2419;
-  --surface: #123325;
-  --surface-raised: #173d2c;
-  --surface-strip: #0f2c20;
-  --border: #224d3a;
-  --border-strong: #2d6147;
+  /* Color tokens — HLSR green, sampled from the Archery Competition badge
+     (ring #195533, inner circle #44684c). Darker shades carry the page. */
+  --bg: #0b2416;
+  --seal-green: #195533;
+  --surface: #123a22;
+  --surface-raised: #195533;
+  --surface-strip: #0e2e1b;
+  --border: #24603c;
+  --border-strong: #33794e;
   --text: #ececee;
   --text-secondary: #b6b6bd;
   --text-muted: #8e8e96;
@@ -20,10 +22,11 @@
   --navy: #1b2a63;
   --navy-deep: #0f1840;
   --navy-line: #2a3a7a;
-  /* Official 4-H green (PMS 347) — the brand accent for this site */
-  --red: #339966;
-  --red-soft: rgba(51, 153, 102, 0.14);
-  --red-border: rgba(51, 153, 102, 0.45);
+  /* HLSR orange, sampled from the badge lettering — the brand accent.
+     (Token is still named --red for historical reasons; ~15 rules use it.) */
+  --red: #f07724;
+  --red-soft: rgba(240, 119, 36, 0.14);
+  --red-border: rgba(240, 119, 36, 0.45);
   --gold: #e0a92e;
   --silver: #c9ccd4;
   --bronze: #cd7f32;
@@ -1098,8 +1101,28 @@ a.button:hover {
 
 .hlsr-wordmark {
   display: inline-flex;
-  flex-direction: column;
+  align-items: center;
+  gap: 0.9rem;
   line-height: 1.05;
+}
+
+/* Official HLSR Archery Competition seal — never filter or recolor it. */
+.hlsr-badge {
+  height: 4.2rem;
+  width: auto;
+  flex: none;
+  display: block;
+}
+
+.hlsr-wordmark-text {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+@media (max-width: 600px) {
+  .hlsr-badge {
+    height: 2.9rem;
+  }
 }
 
 .hlsr-wordmark:hover {

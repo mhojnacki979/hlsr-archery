@@ -13,6 +13,9 @@ const nextConfig = {
   images: { unoptimized: true },
   basePath,
   assetPrefix: basePath || undefined,
+  // Exposed so plain <img> srcs can be basePath-prefixed (next/image does not
+  // do this under output:'export' + unoptimized).
+  env: { NEXT_PUBLIC_BASE_PATH: basePath },
 }
 
 export default nextConfig
