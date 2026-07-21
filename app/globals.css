@@ -1108,7 +1108,7 @@ a.button:hover {
 
 /* Official HLSR Archery Competition seal — never filter or recolor it. */
 .hlsr-badge {
-  height: 6.5rem;
+  height: 9.5rem;
   width: auto;
   flex: none;
   display: block;
@@ -1121,7 +1121,7 @@ a.button:hover {
 
 @media (max-width: 600px) {
   .hlsr-badge {
-    height: 4rem;
+    height: 5.5rem;
   }
 }
 
