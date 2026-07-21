@@ -925,6 +925,97 @@ a.button:hover {
   line-height: 1.1;
 }
 
+/* Final placings, 1st through 8th */
+.placing-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.placing-row {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  background: rgba(0, 0, 0, 0.22);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-left: 3px solid var(--border-strong);
+  border-radius: var(--radius-sm);
+  padding: 0.5rem 0.85rem;
+}
+
+.placing-row.is-gold {
+  border-left-color: var(--gold);
+}
+
+.placing-row.is-silver {
+  border-left-color: var(--silver);
+}
+
+.placing-row.is-bronze {
+  border-left-color: var(--bronze);
+}
+
+.placing-place {
+  flex: none;
+  width: 2.6rem;
+  font-family: var(--font-condensed);
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: var(--text-muted);
+}
+
+.is-gold .placing-place {
+  color: var(--gold);
+}
+
+.is-silver .placing-place {
+  color: var(--silver);
+}
+
+.is-bronze .placing-place {
+  color: var(--bronze);
+}
+
+.placing-name {
+  flex: 1;
+  min-width: 0;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.05rem;
+  color: #fff;
+  line-height: 1.15;
+}
+
+.is-gold .placing-name {
+  font-size: 1.25rem;
+}
+
+.placing-score {
+  flex: none;
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.4rem;
+  font-family: var(--font-condensed);
+  font-variant-numeric: tabular-nums;
+  font-weight: 700;
+  color: var(--text-secondary);
+}
+
+/* Marks places that fell back to qualification (no head-to-head match). */
+.placing-tag {
+  font-size: 0.6rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  border: 1px solid var(--border-strong);
+  border-radius: 999px;
+  padding: 0.05rem 0.35rem;
+}
+
 .is-gold .podium-name {
   font-size: clamp(1.2rem, 2.4vw, 1.55rem);
 }

@@ -2,33 +2,40 @@
 
 import { useState } from 'react'
 import type { EventDivision } from '@/data/events'
-import { getPodium } from '@/data/events'
+import { getPlacings } from '@/data/events'
 import { DivisionBracket } from './division-bracket'
 import { RoundsView } from './rounds-view'
 
 type ViewMode = 'bracket' | 'rounds' | 'qualification'
 
-const PLACES = [
-  { key: 'first', label: '1st', cls: 'is-gold' },
-  { key: 'second', label: '2nd', cls: 'is-silver' },
-  { key: 'third', label: '3rd', cls: 'is-bronze' },
-] as const
+/** Medal styling for the top three; the rest render plain. */
+const MEDAL_CLASS = ['is-gold', 'is-silver', 'is-bronze'] as const
 
-function Podium({ division }: { division: EventDivision }) {
-  const podium = getPodium(division)
-  const places = PLACES.filter((p) => podium[p.key] !== null)
-  if (places.length === 0) return null
+function ordinal(place: number): string {
+  const tens = place % 100
+  if (tens >= 11 && tens <= 13) return `${place}th`
+  const suffix = ['th', 'st', 'nd', 'rd'][place % 10] ?? 'th'
+  return `${place}${suffix}`
+}
+
+function Placings({ division }: { division: EventDivision }) {
+  const placings = getPlacings(division)
+  if (placings.length === 0) return null
   return (
-    <div className="podium" aria-label={`${division.name} podium`}>
+    <div className="podium" aria-label={`${division.name} final placings`}>
       <span className="podium-eyebrow">{division.name} · Final Placings</span>
-      <div className="podium-rows">
-        {places.map((p) => (
-          <div className={`podium-row ${p.cls}`} key={p.key}>
-            <span className="podium-place">{p.label}</span>
-            <span className="podium-name">{podium[p.key]}</span>
-          </div>
+      <ol className="placing-list">
+        {placings.map((p) => (
+          <li className={`placing-row ${MEDAL_CLASS[p.place - 1] ?? ''}`} key={p.name}>
+            <span className="placing-place">{ordinal(p.place)}</span>
+            <span className="placing-name">{p.name}</span>
+            <span className="placing-score">
+              {p.score}
+              {p.source === 'qualification' && <span className="placing-tag">qual</span>}
+            </span>
+          </li>
         ))}
-      </div>
+      </ol>
     </div>
   )
 }
@@ -117,7 +124,7 @@ export function EventBoards({ divisions }: { divisions: EventDivision[] }) {
         )}
       </div>
 
-      <Podium division={active} />
+      <Placings division={active} />
 
       {showBracket && <DivisionBracket division={active} />}
       {view === 'rounds' && hasBracket && <RoundsView division={active} />}
