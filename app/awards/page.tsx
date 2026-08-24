@@ -5,7 +5,7 @@ import { asset } from '@/lib/asset'
 import { PrintButton } from './print-button'
 
 export const metadata: Metadata = {
-  title: 'Awards & Prizes — HLSR Archery Competition',
+  title: 'Awards & Prizes — Houston Livestock Show and Rodeo Archery Competition',
   robots: { index: false, follow: false },
 }
 

@@ -5,15 +5,14 @@
  */
 
 :root {
-  /* Color tokens — HLSR green, sampled from the Archery Competition badge
-     (ring #195533, inner circle #44684c). Darker shades carry the page. */
-  --bg: #0b2416;
-  --seal-green: #195533;
-  --surface: #123a22;
-  --surface-raised: #195533;
-  --surface-strip: #0e2e1b;
-  --border: #24603c;
-  --border-strong: #33794e;
+  /* Color tokens — Rodeo Navy (#002e5d), the HLSR primary. Darker shades
+     carry the page; #002e5d anchors the card surfaces. */
+  --bg: #001a33;
+  --surface: #002e5d;
+  --surface-raised: #063d76;
+  --surface-strip: #001327;
+  --border: #12508c;
+  --border-strong: #1f66a4;
   --text: #ececee;
   --text-secondary: #b6b6bd;
   --text-muted: #8e8e96;
@@ -31,7 +30,7 @@
   --silver: #c9ccd4;
   --bronze: #cd7f32;
 
-  /* Accent maps to 4-H green */
+  /* Accent maps to HLSR orange */
   --accent: var(--red);
   --accent-soft: var(--red-soft);
   --accent-border: var(--red-border);
@@ -43,7 +42,7 @@
   --rank3-text: #d8a24a;
 
   /* Typography tokens (populated by next/font in layout.tsx) */
-  --font-display: var(--font-playfair), 'Playfair Display', georgia, serif;
+  --font-display: var(--font-barlow), 'Barlow', system-ui, sans-serif;
   --font-body: var(--font-barlow), 'Barlow', system-ui, sans-serif;
   --font-condensed: var(--font-saira), 'Saira Condensed', 'Barlow Condensed', sans-serif;
   --font-heavy: var(--font-anton), 'Anton', 'Arial Narrow', sans-serif;
@@ -2070,30 +2069,3 @@ a.button:hover {
   }
 }
 
-/* ---------- Ranching & Wildlife step-and-repeat backdrop ---------- */
-
-/* Tile is the real mark at 30% of full size, kept in its own colours — it
-   reads against the dark green on its own, so it is never filtered. */
-.brand-backdrop {
-  position: fixed;
-  inset: 0;
-  z-index: 0;
-  pointer-events: none;
-  background-repeat: repeat;
-  background-size: 324px auto;
-  opacity: 0.07;
-}
-
-/* Content sits above the backdrop. */
-.site-header,
-.site-main,
-.site-footer {
-  position: relative;
-  z-index: 1;
-}
-
-@media print {
-  .brand-backdrop {
-    display: none !important;
-  }
-}

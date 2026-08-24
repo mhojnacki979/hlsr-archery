@@ -28,7 +28,7 @@ const HEADERS = { Authorization: `Bearer ${TOKEN}`, 'Content-Type': 'application
 const YEAR = 2026
 const EVENT = {
   year: YEAR,
-  name: '2026 HLSR Archery Competition',
+  name: '2026 Houston Livestock Show and Rodeo Archery Competition',
   venue: 'Houston Livestock Show & Rodeo',
 }
 const SEGMENTS = [
