@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 
-// On GitHub Pages project sites the app is served from /<repo>/ — here /hlsr-archery.
-// A custom domain serves from root, so set BASE_PATH='' when a domain is attached.
-const basePath = process.env.BASE_PATH ?? '/hlsr-archery'
+// Served from the root of its own domain (hlsr.eyesonscore.com), so no base
+// path. Set BASE_PATH='/hlsr-archery' to build for the github.io project URL.
+const basePath = process.env.BASE_PATH ?? ''
 
 const nextConfig = {
   // Static HTML export — no Node server needed. Output lands in ./out
@@ -11,8 +11,7 @@ const nextConfig = {
   trailingSlash: true,
   // The export has no image optimizer; serve images as-is.
   images: { unoptimized: true },
-  basePath,
-  assetPrefix: basePath || undefined,
+  ...(basePath !== '' ? { basePath, assetPrefix: basePath } : {}),
   // Exposed so plain <img> srcs can be basePath-prefixed (next/image does not
   // do this under output:'export' + unoptimized).
   env: { NEXT_PUBLIC_BASE_PATH: basePath },
