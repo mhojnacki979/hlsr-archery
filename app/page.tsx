@@ -12,7 +12,7 @@ export default function HomePage() {
         {event.venue} · {event.date}
       </span>
       <h1 className="page-title">{event.name}</h1>
-      <HlsrBoards segments={event.segments} />
+      <HlsrBoards event={event} />
     </>
   )
 }

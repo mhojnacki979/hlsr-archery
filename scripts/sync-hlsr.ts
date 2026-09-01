@@ -23,18 +23,67 @@ const TOKEN =
 const API = 'https://api.eyesonscore.com/api'
 const HEADERS = { Authorization: `Bearer ${TOKEN}`, 'Content-Type': 'application/json' }
 
-// The competition the committee's prize workbook records. EOS names these by
-// the rodeo season, so the 2026 event was shot in October 2025.
-const YEAR = 2026
-const EVENT = {
-  year: YEAR,
-  name: '2026 Houston Livestock Show and Rodeo Archery Competition',
-  venue: 'Houston Livestock Show & Rodeo',
+// EOS names these by the rodeo season, so the 2026 event was shot in October
+// 2025 and the 2027 event is shot October 9-11, 2026.
+//
+// NASP became a STANDALONE competition for 2027 (Friday only, NASP format and
+// rules, its own team trophies) and is no longer a division inside Target. Its
+// EOS tournament does not exist yet — leave `id` null and the segment is written
+// out empty, so the site can show the tab without inventing results.
+interface SegmentConfig {
+  key: string
+  label: string
+  id: string | null
+  /**
+   * Whether this segment's qualification scores may be published.
+   *
+   * HLSR asked that 3D qualification NOT be made public — only the Sunday
+   * brackets. Scores are dropped here, at sync time, so they never reach the
+   * static bundle. Hiding them in the UI alone would still ship them in the page
+   * payload for anyone reading the network tab. The gated awards site keeps its
+   * own full copy for scoring.
+   */
+  publishQualification?: boolean
 }
-const SEGMENTS = [
-  { key: 'target', label: 'Target', id: 'dnlSWGkxeXhiTXNZSHk4RFpZVVBVZz09' },
-  { key: '3d', label: '3D', id: 'US9oSlFJNmU5QkU0M0VxMy8wQVdqdz09' },
-] as const
+
+interface EventConfig {
+  year: number
+  name: string
+  venue: string
+  segments: SegmentConfig[]
+}
+
+const EVENTS: EventConfig[] = [
+  {
+    year: 2027,
+    name: '2027 Houston Livestock Show and Rodeo Archery Competition',
+    venue: 'Reliant Center, Hall A',
+    segments: [
+      { key: 'nasp', label: 'NASP', id: null },
+      { key: 'target', label: 'Target', id: 'MWNOdFN5WnJ4VFZmQThEUk9jNUVadz09' },
+      {
+        key: '3d',
+        label: '3D',
+        id: 'UWcxL0RMaWx4RllZczhQU09yeVlTZz09',
+        publishQualification: false,
+      },
+    ],
+  },
+  {
+    year: 2026,
+    name: '2026 Houston Livestock Show and Rodeo Archery Competition',
+    venue: 'Houston Livestock Show & Rodeo',
+    segments: [
+      { key: 'target', label: 'Target', id: 'dnlSWGkxeXhiTXNZSHk4RFpZVVBVZz09' },
+      {
+        key: '3d',
+        label: '3D',
+        id: 'US9oSlFJNmU5QkU0M0VxMy8wQVdqdz09',
+        publishQualification: false,
+      },
+    ],
+  },
+]
 
 async function post(url: string): Promise<any> {
   const res = await fetch(url, { method: 'POST', headers: HEADERS })
@@ -142,13 +191,36 @@ async function syncSegment(id: string) {
   return { divisions, archers, date }
 }
 
-async function main() {
-  const segments: Record<string, any> = {}
+/**
+ * Sync one event. Segments whose tournament does not exist yet (id null) are
+ * written out empty so the site can render the tab with a "not yet" state
+ * rather than omitting it.
+ */
+async function syncEvent(event: EventConfig): Promise<void> {
+  const segments: Record<string, unknown> = {}
   let date = ''
-  for (const seg of SEGMENTS) {
+  for (const seg of event.segments) {
+    if (seg.id === null) {
+      segments[seg.key] = { label: seg.label, archers: 0, divisions: [] }
+      console.log(`${seg.label}: not yet created in EOS — written empty`)
+      continue
+    }
     const { divisions, archers, date: segDate } = await syncSegment(seg.id)
     if (date === '' && segDate !== '') date = segDate
-    segments[seg.key] = { label: seg.label, archers, divisions }
+    // Withhold qualification scores where the committee asked us not to publish
+    // them. The archer count is kept — it drives the 24+ finalists rule.
+    // Also clear the champion where it was only inferred from the top
+    // qualifier (no bracket) — publishing that would disclose the very
+    // standings we are withholding. A champion won in a bracket is kept.
+    const published =
+      seg.publishQualification === false
+        ? divisions.map((d) => ({
+            ...d,
+            qualification: [],
+            champion: d.bracket === null ? null : d.champion,
+          }))
+        : divisions
+    segments[seg.key] = { label: seg.label, archers, divisions: published }
     console.log(
       `${seg.label}: ${divisions.length} classes, ${archers} archers, ` +
         `${divisions.filter((d) => d.bracket).length} with brackets`,
@@ -156,17 +228,30 @@ async function main() {
   }
 
   const out = {
-    year: EVENT.year,
-    name: EVENT.name,
-    venue: EVENT.venue,
-    date: date || String(EVENT.year),
+    year: event.year,
+    name: event.name,
+    venue: event.venue,
+    date: date || String(event.year),
     segments,
   }
   const dir = path.join(process.cwd(), 'src', 'data', 'hlsr')
   mkdirSync(dir, { recursive: true })
-  const file = path.join(dir, `${EVENT.year}.json`)
+  const file = path.join(dir, `${event.year}.json`)
   writeFileSync(file, JSON.stringify(out, null, 1))
-  console.log(`-> ${path.relative(process.cwd(), file)}`)
+  console.log(`-> ${path.relative(process.cwd(), file)}\n`)
+}
+
+async function main(): Promise<void> {
+  const wanted = process.argv[2]
+  const events = wanted === undefined ? EVENTS : EVENTS.filter((e) => String(e.year) === wanted)
+  if (events.length === 0) {
+    console.error(`no event configured for ${wanted}`)
+    process.exit(1)
+  }
+  for (const event of events) {
+    console.log(`=== ${event.year} ===`)
+    await syncEvent(event)
+  }
 }
 
 main().catch((e) => {

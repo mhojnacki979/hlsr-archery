@@ -18,8 +18,16 @@ function ordinal(place: number): string {
   return `${place}${suffix}`
 }
 
-function Placings({ division }: { division: EventDivision }) {
-  const placings = getPlacings(division)
+function Placings({
+  division,
+  bracketOnly,
+}: {
+  division: EventDivision
+  /** Drop places that fall back to qualification order — see EventBoards. */
+  bracketOnly?: boolean
+}) {
+  const all = getPlacings(division)
+  const placings = bracketOnly === true ? all.filter((p) => p.source === 'bracket') : all
   if (placings.length === 0) return null
   return (
     <div className="podium" aria-label={`${division.name} final placings`}>
@@ -75,7 +83,19 @@ function QualTable({ division }: { division: EventDivision }) {
   )
 }
 
-export function EventBoards({ divisions }: { divisions: EventDivision[] }) {
+export function EventBoards({
+  divisions,
+  hideQualification,
+}: {
+  divisions: EventDivision[]
+  /**
+   * Suppress every view of qualification scores. HLSR asked that 3D
+   * qualification not be published — only the Sunday brackets. The scores are
+   * already withheld from the synced data; this keeps the UI from offering a
+   * qualification tab or leaking the order through fallback placings.
+   */
+  hideQualification?: boolean
+}) {
   const [activeName, setActiveName] = useState(divisions[0]?.name ?? '')
   const active = divisions.find((d) => d.name === activeName) ?? divisions[0]
   const [view, setView] = useState<ViewMode>('bracket')
@@ -85,7 +105,9 @@ export function EventBoards({ divisions }: { divisions: EventDivision[] }) {
   }
 
   const hasBracket = active.bracket !== null && active.bracket.rounds.length > 0
-  const showBracket = view === 'bracket' && hasBracket
+  const hideQuals = hideQualification === true
+  const showBracket = (view === 'bracket' || hideQuals) && hasBracket
+  const modes: ViewMode[] = hideQuals ? ['bracket', 'rounds'] : ['bracket', 'rounds', 'qualification']
 
   return (
     <section aria-label="Event results">
@@ -108,7 +130,7 @@ export function EventBoards({ divisions }: { divisions: EventDivision[] }) {
 
         {hasBracket && (
           <div className="view-toggle" role="tablist" aria-label="View">
-            {(['bracket', 'rounds', 'qualification'] as const).map((mode) => (
+            {modes.map((mode) => (
               <button
                 key={mode}
                 type="button"
@@ -124,11 +146,17 @@ export function EventBoards({ divisions }: { divisions: EventDivision[] }) {
         )}
       </div>
 
-      <Placings division={active} />
+      <Placings division={active} bracketOnly={hideQuals} />
 
       {showBracket && <DivisionBracket division={active} />}
-      {view === 'rounds' && hasBracket && <RoundsView division={active} />}
-      {(view === 'qualification' || !hasBracket) && <QualTable division={active} />}
+      {view === 'rounds' && hasBracket && !showBracket && <RoundsView division={active} />}
+      {!hasBracket && hideQuals && (
+        <p className="segment-pending">
+          Qualification scores for this competition are not published. Results appear here once
+          bracket shooting begins.
+        </p>
+      )}
+      {!hideQuals && (view === 'qualification' || !hasBracket) && <QualTable division={active} />}
     </section>
   )
 }

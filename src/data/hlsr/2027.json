@@ -1,0 +1,23 @@
+{
+ "year": 2027,
+ "name": "2027 Houston Livestock Show and Rodeo Archery Competition",
+ "venue": "Reliant Center, Hall A",
+ "date": "2027",
+ "segments": {
+  "nasp": {
+   "label": "NASP",
+   "archers": 0,
+   "divisions": []
+  },
+  "target": {
+   "label": "Target",
+   "archers": 0,
+   "divisions": []
+  },
+  "3d": {
+   "label": "3D",
+   "archers": 0,
+   "divisions": []
+  }
+ }
+}
