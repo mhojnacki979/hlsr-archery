@@ -50,6 +50,12 @@ interface EventConfig {
   year: number
   name: string
   venue: string
+  /**
+   * Published competition dates. EOS derives a date from shooters' session
+   * strings, which does not exist until entries are loaded — so an upcoming
+   * event needs its dates stated here.
+   */
+  dates?: string
   segments: SegmentConfig[]
 }
 
@@ -58,6 +64,7 @@ const EVENTS: EventConfig[] = [
     year: 2027,
     name: '2027 Houston Livestock Show and Rodeo Archery Competition',
     venue: 'Reliant Center, Hall A',
+    dates: 'October 9-11, 2026',
     segments: [
       { key: 'nasp', label: 'NASP', id: null },
       { key: 'target', label: 'Target', id: 'MWNOdFN5WnJ4VFZmQThEUk9jNUVadz09' },
@@ -231,7 +238,7 @@ async function syncEvent(event: EventConfig): Promise<void> {
     year: event.year,
     name: event.name,
     venue: event.venue,
-    date: date || String(event.year),
+    date: event.dates ?? date ?? String(event.year),
     segments,
   }
   const dir = path.join(process.cwd(), 'src', 'data', 'hlsr')
