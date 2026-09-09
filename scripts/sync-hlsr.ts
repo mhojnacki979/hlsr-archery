@@ -27,9 +27,8 @@ const HEADERS = { Authorization: `Bearer ${TOKEN}`, 'Content-Type': 'application
 // 2025 and the 2027 event is shot October 9-11, 2026.
 //
 // NASP became a STANDALONE competition for 2027 (Friday only, NASP format and
-// rules, its own team trophies) and is no longer a division inside Target. Its
-// EOS tournament does not exist yet — leave `id` null and the segment is written
-// out empty, so the site can show the tab without inventing results.
+// rules, its own team trophies) and is no longer a division inside Target. HLSR
+// runs it outside this site, so it gets no segment here.
 interface SegmentConfig {
   key: string
   label: string
@@ -66,7 +65,6 @@ const EVENTS: EventConfig[] = [
     venue: 'Reliant Center, Hall A',
     dates: 'October 9-11, 2026',
     segments: [
-      { key: 'nasp', label: 'NASP', id: null },
       { key: 'target', label: 'Target', id: 'MWNOdFN5WnJ4VFZmQThEUk9jNUVadz09' },
       {
         key: '3d',
