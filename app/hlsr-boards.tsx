@@ -13,8 +13,21 @@ const SUBTITLE: Record<HlsrSegmentKey, (s: HlsrSegment) => string> = {
   '3d': (s) => `${s.divisions.length} classes · ${s.archers} archers · brackets only — qualification not published`,
 }
 
+/**
+ * Whether a segment has any head-to-head shooting on the board yet.
+ *
+ * 3D publishes nothing before then: HLSR asked that its qualification scores
+ * stay unpublished, so until Sunday's brackets exist the tab has nothing to
+ * show and only invites questions. It appears once the first bracket does.
+ */
+function hasHeadToHead(segment: HlsrSegment): boolean {
+  return segment.divisions.some((d) => d.bracket !== null && d.bracket.rounds.length > 0)
+}
+
 export function HlsrBoards({ event }: { event: HlsrEvent }) {
-  const tabs = orderedSegments(event)
+  const tabs = orderedSegments(event).filter(
+    ({ key, segment }) => key !== '3d' || hasHeadToHead(segment),
+  )
   // Open on the first segment that actually has entries, so an event mid-setup
   // does not land the visitor on an empty tab.
   const firstWithData = tabs.find((t) => t.segment.archers > 0) ?? tabs[0]
