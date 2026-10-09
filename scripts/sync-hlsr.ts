@@ -69,7 +69,7 @@ const EVENTS: EventConfig[] = [
       {
         key: '3d',
         label: '3D',
-        id: 'UWcxL0RMaWx4RllZczhQU09yeVlTZz09',
+        id: 'Y0lXWGo0MkY4Zms4RTNBK2dkRDdaUT09',
         publishQualification: false,
       },
     ],
@@ -185,8 +185,11 @@ async function syncSegment(id: string) {
       }
     }
 
-    // No bracket (qual-only division, e.g. 3D): champion is the top qualifier.
-    if (champion === null && bracket === null) {
+    // No bracket (qual-only division, e.g. 3D): champion is the top qualifier —
+    // but only once somebody has actually scored. EOS loads the entry roster
+    // before the first arrow, leaving everyone on 0 at rank 1, and the "top
+    // qualifier" there is just whoever registered first.
+    if (champion === null && bracket === null && qualification.some((q) => q.score > 0)) {
       champion = qualification.find((q) => q.rank === 1)?.name ?? null
     }
 
