@@ -40,14 +40,14 @@
       {
        "rank": 1,
        "name": "Laurent Chang",
-       "avg": "8.03",
-       "score": 241
+       "avg": "8.14",
+       "score": 285
       },
       {
        "rank": 2,
        "name": "Harishankar Pitchish",
-       "avg": "7.67",
-       "score": 230
+       "avg": "7.74",
+       "score": 271
       },
       {
        "rank": 3,
@@ -108,14 +108,14 @@
       {
        "rank": 1,
        "name": "Adeline Oliver",
-       "avg": "6.27",
-       "score": 188
+       "avg": "6.49",
+       "score": 227
       },
       {
        "rank": 2,
        "name": "Rukia Nunez",
-       "avg": "4.60",
-       "score": 115
+       "avg": "5.06",
+       "score": 177
       },
       {
        "rank": 3,
@@ -194,8 +194,8 @@
       {
        "rank": 1,
        "name": "Aubre Baker",
-       "avg": "8.57",
-       "score": 257
+       "avg": "8.63",
+       "score": 302
       },
       {
        "rank": 2,
@@ -279,14 +279,14 @@
       {
        "rank": 1,
        "name": "Ryleigh Telischak",
-       "avg": "9.50",
-       "score": 285
+       "avg": "9.20",
+       "score": 322
       },
       {
        "rank": 2,
        "name": "Elizabeth Madden",
-       "avg": "7.20",
-       "score": 144
+       "avg": "7.49",
+       "score": 262
       },
       {
        "rank": 3,
@@ -334,14 +334,14 @@
       {
        "rank": 1,
        "name": "Remington Whitehead",
-       "avg": "9.90",
-       "score": 297
+       "avg": "9.89",
+       "score": 346
       },
       {
        "rank": 2,
        "name": "Brentley Roy",
-       "avg": "9.00",
-       "score": 225
+       "avg": "9.14",
+       "score": 320
       },
       {
        "rank": 3,
@@ -437,14 +437,14 @@
       {
        "rank": 1,
        "name": "Addison Schleifer",
-       "avg": "9.88",
-       "score": 247
+       "avg": "9.86",
+       "score": 345
       },
       {
        "rank": 2,
        "name": "Jacey Hapes",
-       "avg": "6.84",
-       "score": 171
+       "avg": "6.34",
+       "score": 222
       },
       {
        "rank": 3,
@@ -504,26 +504,26 @@
       {
        "rank": 1,
        "name": "Cole Ware",
-       "avg": "9.97",
-       "score": 299
+       "avg": "9.94",
+       "score": 348
       },
       {
        "rank": 2,
        "name": "Mason Travelstead",
-       "avg": "9.87",
-       "score": 296
+       "avg": "9.89",
+       "score": 346
       },
       {
        "rank": 3,
        "name": "Jacob Goff",
        "avg": "9.80",
-       "score": 294
+       "score": 343
       },
       {
        "rank": 4,
        "name": "Owen Sansing",
-       "avg": "9.77",
-       "score": 293
+       "avg": "9.74",
+       "score": 341
       },
       {
        "rank": 5,
@@ -661,14 +661,14 @@
       {
        "rank": 1,
        "name": "Kendall Garner",
-       "avg": "8.88",
-       "score": 222
+       "avg": "8.77",
+       "score": 307
       },
       {
        "rank": 2,
        "name": "Evelyn Echavarria-Hyden",
-       "avg": "8.36",
-       "score": 209
+       "avg": "8.23",
+       "score": 288
       },
       {
        "rank": 3,
@@ -717,19 +717,19 @@
     },
     {
      "name": "Freestyle Compound Junior Male",
-     "champion": "Finn Maddux",
+     "champion": "Dillon Michels",
      "qualification": [
       {
        "rank": 1,
-       "name": "Finn Maddux",
-       "avg": "8.17",
-       "score": 245
+       "name": "Dillon Michels",
+       "avg": "9.51",
+       "score": 333
       },
       {
        "rank": 2,
-       "name": "Dillon Michels",
-       "avg": "9.48",
-       "score": 237
+       "name": "Finn Maddux",
+       "avg": "8.29",
+       "score": 290
       },
       {
        "rank": 3,
@@ -759,8 +759,8 @@
       {
        "rank": 1,
        "name": "Brinley Snyder",
-       "avg": "4.97",
-       "score": 149
+       "avg": "5.11",
+       "score": 179
       },
       {
        "rank": 2,
@@ -838,8 +838,8 @@
       {
        "rank": 1,
        "name": "Stockton DeRouen",
-       "avg": "9.30",
-       "score": 279
+       "avg": "9.31",
+       "score": 326
       },
       {
        "rank": 2,
@@ -899,8 +899,8 @@
       {
        "rank": 1,
        "name": "Lona Toomer",
-       "avg": "8.50",
-       "score": 255
+       "avg": "8.46",
+       "score": 296
       },
       {
        "rank": 2,
@@ -978,8 +978,8 @@
       {
        "rank": 1,
        "name": "Porter Merz",
-       "avg": "8.23",
-       "score": 247
+       "avg": "8.09",
+       "score": 283
       },
       {
        "rank": 2,
@@ -1070,13 +1070,13 @@
        "rank": 1,
        "name": "Elise Schleifer",
        "avg": "9.77",
-       "score": 293
+       "score": 342
       },
       {
        "rank": 2,
        "name": "Molly Halbert",
-       "avg": "6.17",
-       "score": 185
+       "avg": "6.26",
+       "score": 219
       },
       {
        "rank": 3,
@@ -1130,14 +1130,14 @@
       {
        "rank": 1,
        "name": "Jackson Vaughn",
-       "avg": "8.80",
-       "score": 264
+       "avg": "8.89",
+       "score": 311
       },
       {
        "rank": 2,
        "name": "Charles Sears Jr",
-       "avg": "5.20",
-       "score": 130
+       "avg": "5.14",
+       "score": 180
       },
       {
        "rank": 3,
@@ -1209,26 +1209,26 @@
       {
        "rank": 1,
        "name": "Abigail Little",
-       "avg": "7.13",
-       "score": 214
+       "avg": "6.91",
+       "score": 242
       },
       {
        "rank": 2,
        "name": "Brynnly Hohlt",
-       "avg": "6.90",
-       "score": 207
+       "avg": "6.83",
+       "score": 239
       },
       {
        "rank": 3,
        "name": "Mithali Kadur",
-       "avg": "6.60",
-       "score": 198
+       "avg": "6.54",
+       "score": 229
       },
       {
        "rank": 4,
        "name": "Haelee Jeon",
-       "avg": "5.70",
-       "score": 171
+       "avg": "5.31",
+       "score": 186
       },
       {
        "rank": 5,
@@ -1312,20 +1312,20 @@
       {
        "rank": 1,
        "name": "Collin Russell",
-       "avg": "6.87",
-       "score": 206
+       "avg": "7.09",
+       "score": 248
       },
       {
        "rank": 2,
        "name": "Bryce Maddux",
-       "avg": "5.57",
-       "score": 167
+       "avg": "5.29",
+       "score": 185
       },
       {
        "rank": 3,
        "name": "Weston Meissl",
-       "avg": "3.57",
-       "score": 107
+       "avg": "3.40",
+       "score": 119
       },
       {
        "rank": 4,
@@ -1373,20 +1373,20 @@
       {
        "rank": 1,
        "name": "Raylon Loupee",
-       "avg": "5.30",
-       "score": 159
+       "avg": "5.57",
+       "score": 195
       },
       {
        "rank": 2,
        "name": "Jackson Little",
-       "avg": "5.10",
-       "score": 153
+       "avg": "4.89",
+       "score": 171
       },
       {
        "rank": 3,
        "name": "Dean Rosas",
-       "avg": "3.60",
-       "score": 108
+       "avg": "3.20",
+       "score": 112
       },
       {
        "rank": 4,
@@ -1488,14 +1488,14 @@
       {
        "rank": 1,
        "name": "Greenlee Wentz",
-       "avg": "4.60",
-       "score": 138
+       "avg": "4.66",
+       "score": 163
       },
       {
        "rank": 2,
        "name": "Morgan Beasley",
-       "avg": "4.33",
-       "score": 130
+       "avg": "4.40",
+       "score": 154
       },
       {
        "rank": 3,
@@ -1567,8 +1567,8 @@
       {
        "rank": 1,
        "name": "Bree Hohlt",
-       "avg": "7.33",
-       "score": 220
+       "avg": "7.20",
+       "score": 252
       },
       {
        "rank": 2,
@@ -1593,19 +1593,19 @@
        "rank": 1,
        "name": "Jimmy Jones",
        "avg": "4.60",
-       "score": 138
+       "score": 161
       },
       {
        "rank": 2,
        "name": "Gideon Wentz",
-       "avg": "1.10",
-       "score": 33
+       "avg": "1.17",
+       "score": 41
       },
       {
        "rank": 3,
        "name": "Adrian Trimble",
-       "avg": "0.83",
-       "score": 25
+       "avg": "0.86",
+       "score": 30
       },
       {
        "rank": 4,
