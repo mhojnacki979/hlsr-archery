@@ -1,10 +1,11 @@
-node_modules/
-.next/
-out/
-.env
-.env.*
 !.env.example
 *.log
 .DS_Store
-tsconfig.tsbuildinfo
+.env
+.env.*
+.event-sync.log
+.next/
 next-env.d.ts
+node_modules/
+out/
+tsconfig.tsbuildinfo
