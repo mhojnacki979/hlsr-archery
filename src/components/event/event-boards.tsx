@@ -5,6 +5,8 @@ import type { EventDivision } from '@/data/events'
 import { getPlacings } from '@/data/events'
 import { DivisionBracket } from './division-bracket'
 import { RoundsView } from './rounds-view'
+import { ScorecardModal } from './scorecard-modal'
+import type { SelectedArcher } from './scorecard-modal'
 
 type ViewMode = 'bracket' | 'rounds' | 'qualification'
 
@@ -48,7 +50,14 @@ function Placings({
   )
 }
 
-function QualTable({ division }: { division: EventDivision }) {
+function QualTable({
+  division,
+  onPick,
+}: {
+  division: EventDivision
+  /** Absent when no scorecard can be fetched — rows then stay plain text. */
+  onPick?: (archer: SelectedArcher) => void
+}) {
   return (
     <div className="table-wrap">
       <table className="board-table">
@@ -61,22 +70,40 @@ function QualTable({ division }: { division: EventDivision }) {
           </tr>
         </thead>
         <tbody>
-          {division.qualification.map((r) => (
-            <tr key={`${r.rank}-${r.name}`}>
-              <td>
-                {r.rank <= 3 ? (
-                  <span className={`rank-badge rank-${r.rank}`}>{r.rank}</span>
-                ) : (
-                  <span className="rank-rest">{r.rank}</span>
-                )}
-              </td>
-              <td className="archer-name">{r.name}</td>
-              <td className="cell-num mono">{r.avg}</td>
-              <td className="cell-num">
-                <span className="score-total">{r.score}</span>
-              </td>
-            </tr>
-          ))}
+          {division.qualification.map((r) => {
+            // Only offer a scorecard where there is one to show: the archer
+            // needs an EOS id, and needs to have actually shot.
+            const pickable =
+              onPick !== undefined && r.shooterId !== undefined && r.shooterId !== '' && r.score > 0
+            return (
+              <tr key={`${r.rank}-${r.name}`}>
+                <td>
+                  {r.rank <= 3 ? (
+                    <span className={`rank-badge rank-${r.rank}`}>{r.rank}</span>
+                  ) : (
+                    <span className="rank-rest">{r.rank}</span>
+                  )}
+                </td>
+                <td className="archer-name">
+                  {pickable ? (
+                    <button
+                      type="button"
+                      className="archer-link"
+                      onClick={() => onPick({ shooterId: r.shooterId as string, name: r.name })}
+                    >
+                      {r.name}
+                    </button>
+                  ) : (
+                    r.name
+                  )}
+                </td>
+                <td className="cell-num mono">{r.avg}</td>
+                <td className="cell-num">
+                  <span className="score-total">{r.score}</span>
+                </td>
+              </tr>
+            )
+          })}
         </tbody>
       </table>
     </div>
@@ -86,6 +113,7 @@ function QualTable({ division }: { division: EventDivision }) {
 export function EventBoards({
   divisions,
   hideQualification,
+  tournamentId,
 }: {
   divisions: EventDivision[]
   /**
@@ -95,10 +123,13 @@ export function EventBoards({
    * qualification tab or leaking the order through fallback placings.
    */
   hideQualification?: boolean
+  /** EOS tournament id. Without it, no scorecard can be fetched. */
+  tournamentId?: string | null
 }) {
   const [activeName, setActiveName] = useState(divisions[0]?.name ?? '')
   const active = divisions.find((d) => d.name === activeName) ?? divisions[0]
   const [view, setView] = useState<ViewMode>('bracket')
+  const [picked, setPicked] = useState<SelectedArcher | null>(null)
 
   if (active === undefined) {
     return <p className="muted">No results recorded for this event.</p>
@@ -108,6 +139,10 @@ export function EventBoards({
   const hideQuals = hideQualification === true
   const showBracket = (view === 'bracket' || hideQuals) && hasBracket
   const modes: ViewMode[] = hideQuals ? ['bracket', 'rounds'] : ['bracket', 'rounds', 'qualification']
+  // Scorecards need an EOS id to query, and are never offered where the whole
+  // qualification round is withheld.
+  const canScorecard =
+    !hideQuals && typeof tournamentId === 'string' && tournamentId !== ''
 
   return (
     <section aria-label="Event results">
@@ -156,7 +191,20 @@ export function EventBoards({
           bracket shooting begins.
         </p>
       )}
-      {!hideQuals && (view === 'qualification' || !hasBracket) && <QualTable division={active} />}
+      {!hideQuals && (view === 'qualification' || !hasBracket) && (
+        <QualTable
+          division={active}
+          {...(canScorecard ? { onPick: setPicked } : {})}
+        />
+      )}
+
+      {canScorecard && picked !== null && (
+        <ScorecardModal
+          tournamentId={tournamentId as string}
+          selected={picked}
+          onClose={() => setPicked(null)}
+        />
+      )}
     </section>
   )
 }

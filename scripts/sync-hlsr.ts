@@ -157,6 +157,9 @@ async function syncSegment(id: string) {
       name: String(r.name ?? '').trim(),
       avg: String(r.avg_count ?? ''),
       score: toInt(r.total_score),
+      // Lets the page fetch this archer's scorecard when their row is tapped.
+      // Dropped along with the rest of the row where qualification is withheld.
+      shooterId: String(r.shooter_id ?? ''),
     }))
 
     const shooterId = String(rows[0].shooter_id ?? '')
@@ -228,7 +231,8 @@ async function syncEvent(event: EventConfig): Promise<void> {
             champion: d.bracket === null ? null : d.champion,
           }))
         : divisions
-    segments[seg.key] = { label: seg.label, archers, divisions: published }
+    // The id travels with the data so the page can fetch a scorecard on demand.
+    segments[seg.key] = { label: seg.label, tournamentId: seg.id, archers, divisions: published }
     console.log(
       `${seg.label}: ${divisions.length} classes, ${archers} archers, ` +
         `${divisions.filter((d) => d.bracket).length} with brackets`,

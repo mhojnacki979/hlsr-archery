@@ -22,6 +22,8 @@ export interface HlsrSegment {
   label: string
   archers: number
   divisions: EventDivision[]
+  /** EOS tournament id, for fetching an archer's scorecard on demand. */
+  tournamentId?: string | null
 }
 
 export type HlsrSegmentKey = 'nasp' | 'target' | '3d'

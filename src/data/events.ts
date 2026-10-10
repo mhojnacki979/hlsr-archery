@@ -12,6 +12,12 @@ export interface EventQualRow {
   name: string
   avg: string
   score: number
+  /**
+   * EOS shooter id, used to pull this archer's end-by-end scorecard on demand.
+   * Absent on 3D, whose qualification rows are withheld entirely, and on
+   * anything synced before scorecards existed.
+   */
+  shooterId?: string
 }
 
 /** One archer's side of a head-to-head match. */

@@ -856,8 +856,8 @@
       {
        "rank": 1,
        "name": "Brinley Snyder",
-       "avg": "5.34",
-       "score": 267,
+       "avg": "5.44",
+       "score": 299,
        "shooterId": "TEhIaWM4alFPWEtTV25LRVQyeXFRUT09"
       },
       {
@@ -1220,8 +1220,8 @@
       {
        "rank": 2,
        "name": "Molly Halbert",
-       "avg": "6.42",
-       "score": 321,
+       "avg": "6.25",
+       "score": 344,
        "shooterId": "RmFwTnZoUUViclh4UHl5RDhhWnZtdz09"
       },
       {
@@ -1290,8 +1290,8 @@
       {
        "rank": 2,
        "name": "Charles Sears Jr",
-       "avg": "4.36",
-       "score": 218,
+       "avg": "4.33",
+       "score": 238,
        "shooterId": "bGVxR0huTUpzcUJqaERsRzQ0WTltQT09"
       },
       {
@@ -1369,28 +1369,28 @@
     },
     {
      "name": "Barebow Senior Female",
-     "champion": "Mithali Kadur",
+     "champion": "Brynnly Hohlt",
      "qualification": [
       {
        "rank": 1,
+       "name": "Brynnly Hohlt",
+       "avg": "6.93",
+       "score": 381,
+       "shooterId": "OWFQcVZhdjZJQ3A4dUM1Z0pLdmUzUT09"
+      },
+      {
+       "rank": 2,
+       "name": "Abigail Little",
+       "avg": "6.73",
+       "score": 370,
+       "shooterId": "OGk1ZU5sY0NDYmRMQkM1TFpXWllodz09"
+      },
+      {
+       "rank": 3,
        "name": "Mithali Kadur",
        "avg": "6.67",
        "score": 367,
        "shooterId": "dm5nRWFFMnc5Z2JEV1NWY1JVTEwwQT09"
-      },
-      {
-       "rank": 2,
-       "name": "Brynnly Hohlt",
-       "avg": "6.96",
-       "score": 348,
-       "shooterId": "OWFQcVZhdjZJQ3A4dUM1Z0pLdmUzUT09"
-      },
-      {
-       "rank": 3,
-       "name": "Abigail Little",
-       "avg": "6.74",
-       "score": 337,
-       "shooterId": "OGk1ZU5sY0NDYmRMQkM1TFpXWllodz09"
       },
       {
        "rank": 4,
@@ -1577,8 +1577,8 @@
       {
        "rank": 3,
        "name": "Dean Rosas",
-       "avg": "3.42",
-       "score": 171,
+       "avg": "3.44",
+       "score": 189,
        "shooterId": "Q0pnSFg1YVZoSmhnb1Azek5QZzdVQT09"
       },
       {

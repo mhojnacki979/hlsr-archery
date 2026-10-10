@@ -69,6 +69,7 @@ export function HlsrBoards({ event }: { event: HlsrEvent }) {
           key={current.key}
           divisions={current.segment.divisions}
           hideQualification={current.key === '3d'}
+          tournamentId={current.segment.tournamentId}
         />
       )}
     </>
