@@ -6,7 +6,7 @@
  "segments": {
   "target": {
    "label": "Target",
-   "archers": 249,
+   "archers": 247,
    "divisions": [
     {
      "name": "Recurve Intermediate Female",
@@ -35,40 +35,40 @@
     },
     {
      "name": "Recurve Intermediate Male",
-     "champion": null,
+     "champion": "Laurent Chang",
      "qualification": [
       {
        "rank": 1,
-       "name": "Marivn Wang",
+       "name": "Laurent Chang",
+       "avg": "7.85",
+       "score": 157
+      },
+      {
+       "rank": 2,
+       "name": "Harishankar Pitchish",
+       "avg": "7.60",
+       "score": 152
+      },
+      {
+       "rank": 3,
+       "name": "Marvin Wang",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 3,
        "name": "Alain Pinto",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 3,
        "name": "Ashvath Sana",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
-       "name": "Laurent Chang",
-       "avg": "0.00",
-       "score": 0
-      },
-      {
-       "rank": 1,
-       "name": "Harishankar Pitchish",
-       "avg": "0.00",
-       "score": 0
-      },
-      {
-       "rank": 1,
+       "rank": 3,
        "name": "Dhruv Sheth",
        "avg": "0.00",
        "score": 0
@@ -103,40 +103,40 @@
     },
     {
      "name": "Recurve Junior Female",
-     "champion": null,
+     "champion": "Adeline Oliver",
      "qualification": [
       {
        "rank": 1,
+       "name": "Adeline Oliver",
+       "avg": "6.05",
+       "score": 121
+      },
+      {
+       "rank": 2,
+       "name": "Rukia Nunez",
+       "avg": "4.27",
+       "score": 64
+      },
+      {
+       "rank": 3,
        "name": "Josephine Schaefer",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 3,
        "name": "Nicole Simon",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 3,
        "name": "Violet Burnett",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
-       "name": "Adeline Oliver",
-       "avg": "0.00",
-       "score": 0
-      },
-      {
-       "rank": 1,
-       "name": "Rukia Nunez",
-       "avg": "0.00",
-       "score": 0
-      },
-      {
-       "rank": 1,
+       "rank": 3,
        "name": "Emily Luo",
        "avg": "0.00",
        "score": 0
@@ -189,83 +189,83 @@
     },
     {
      "name": "Recurve Senior Female",
-     "champion": null,
+     "champion": "Aubre Baker",
      "qualification": [
       {
        "rank": 1,
+       "name": "Aubre Baker",
+       "avg": "8.70",
+       "score": 174
+      },
+      {
+       "rank": 2,
        "name": "Angela Ma",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 2,
        "name": "Vivian Wong",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 2,
        "name": "Ellie Booth",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 2,
        "name": "Elyse Chan",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 2,
        "name": "Madelyn Yi",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 2,
        "name": "Madeleine Dodson",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 2,
        "name": "Kenya Boone",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 2,
        "name": "Ann Gregie",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 2,
        "name": "Milla Shanklin",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 2,
        "name": "Calista Schwab",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 2,
        "name": "Alexis Ackerman",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 2,
        "name": "Alice Yu",
-       "avg": "0.00",
-       "score": 0
-      },
-      {
-       "rank": 1,
-       "name": "Aubre Baker",
        "avg": "0.00",
        "score": 0
       }
@@ -274,59 +274,53 @@
     },
     {
      "name": "Freestyle Compound Intermediate Female",
-     "champion": null,
+     "champion": "Ryleigh Telischak",
      "qualification": [
       {
        "rank": 1,
+       "name": "Ryleigh Telischak",
+       "avg": "9.50",
+       "score": 190
+      },
+      {
+       "rank": 2,
+       "name": "Elizabeth Madden",
+       "avg": "6.80",
+       "score": 68
+      },
+      {
+       "rank": 3,
        "name": "Taylin Myers",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 3,
        "name": "Darci Burden",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 3,
        "name": "Makaela Alvarez",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 3,
        "name": "Sarah Evans",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 3,
        "name": "Jaliyah Davis",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 3,
        "name": "Emery Arendt",
-       "avg": "0.00",
-       "score": 0
-      },
-      {
-       "rank": 1,
-       "name": "Amarie DeHoyos",
-       "avg": "0.00",
-       "score": 0
-      },
-      {
-       "rank": 1,
-       "name": "Ryleigh Telischak",
-       "avg": "0.00",
-       "score": 0
-      },
-      {
-       "rank": 1,
-       "name": "Elizabeth Madden",
        "avg": "0.00",
        "score": 0
       }
@@ -335,101 +329,101 @@
     },
     {
      "name": "Freestyle Compound Intermediate Male",
-     "champion": null,
+     "champion": "Remington Whitehead",
      "qualification": [
       {
        "rank": 1,
+       "name": "Remington Whitehead",
+       "avg": "9.90",
+       "score": 198
+      },
+      {
+       "rank": 2,
+       "name": "Brentley Roy",
+       "avg": "9.13",
+       "score": 137
+      },
+      {
+       "rank": 3,
        "name": "Everett Pawlik",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 3,
        "name": "Slone Smalley",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 3,
        "name": "Ethan Thomas",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 3,
        "name": "Tristan Alvarez",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 3,
        "name": "Kaydon Shell",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 3,
        "name": "Logan Hartman",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 3,
        "name": "Stockton DeRouen",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 3,
        "name": "Stratton Randolph",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 3,
        "name": "Noah Ross",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 3,
        "name": "Warick Burt",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 3,
        "name": "Anthony Defrancis",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 3,
        "name": "Wyatt Franklin",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 3,
        "name": "Kooper Bartee",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 3,
        "name": "Krishna Gorla",
-       "avg": "0.00",
-       "score": 0
-      },
-      {
-       "rank": 1,
-       "name": "Remington Whitehead",
-       "avg": "0.00",
-       "score": 0
-      },
-      {
-       "rank": 1,
-       "name": "Brentley Roy",
        "avg": "0.00",
        "score": 0
       }
@@ -438,65 +432,65 @@
     },
     {
      "name": "Freestyle Compound Senior Female",
-     "champion": null,
+     "champion": "Addison Schleifer",
      "qualification": [
       {
        "rank": 1,
+       "name": "Addison Schleifer",
+       "avg": "10.00",
+       "score": 150
+      },
+      {
+       "rank": 2,
+       "name": "Jacey Hapes",
+       "avg": "6.47",
+       "score": 97
+      },
+      {
+       "rank": 3,
        "name": "Keelie Ellensohn",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 3,
        "name": "Alexandra Youmans",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 3,
        "name": "Kylie Ybarbo",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 3,
        "name": "Khadijah El-Abid",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 3,
        "name": "Emiliana Nardi",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 3,
        "name": "Elliana Farquhar",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 3,
        "name": "Elsie Sheehan",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 3,
        "name": "Khloe Noeke",
-       "avg": "0.00",
-       "score": 0
-      },
-      {
-       "rank": 1,
-       "name": "Addison Schleifer",
-       "avg": "0.00",
-       "score": 0
-      },
-      {
-       "rank": 1,
-       "name": "Jacey Hapes",
        "avg": "0.00",
        "score": 0
       }
@@ -505,161 +499,155 @@
     },
     {
      "name": "Freestyle Compound Senior Male",
-     "champion": null,
+     "champion": "Cole Ware",
      "qualification": [
       {
        "rank": 1,
+       "name": "Cole Ware",
+       "avg": "9.95",
+       "score": 199
+      },
+      {
+       "rank": 2,
+       "name": "Mason Travelstead",
+       "avg": "9.90",
+       "score": 198
+      },
+      {
+       "rank": 3,
+       "name": "Owen Sansing",
+       "avg": "9.80",
+       "score": 196
+      },
+      {
+       "rank": 4,
+       "name": "Jacob Goff",
+       "avg": "9.70",
+       "score": 194
+      },
+      {
+       "rank": 5,
        "name": "Colton Payne",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 5,
        "name": "Matthan Ellis",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
-       "name": "Owen Sansing",
-       "avg": "0.00",
-       "score": 0
-      },
-      {
-       "rank": 1,
-       "name": "Mason Travelstead",
-       "avg": "0.00",
-       "score": 0
-      },
-      {
-       "rank": 1,
-       "name": "Jacob Goff",
-       "avg": "0.00",
-       "score": 0
-      },
-      {
-       "rank": 1,
-       "name": "Cole Ware",
-       "avg": "0.00",
-       "score": 0
-      },
-      {
-       "rank": 1,
+       "rank": 5,
        "name": "Nash Thompson",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 5,
        "name": "Levi Titzman",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 5,
        "name": "Benjamin Jarrett",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 5,
        "name": "Cody Johnson",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 5,
        "name": "Lucas Pertuit",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 5,
        "name": "Wyatt Burt",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 5,
        "name": "Miller Dishman",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 5,
        "name": "Korbin Pate",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 5,
        "name": "Aiden Maloy",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 5,
        "name": "Weldon Bowers",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 5,
        "name": "Connor Goehring",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 5,
        "name": "Josiah Herrington",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 5,
        "name": "Chase Gilliland",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 5,
        "name": "Landon Roland",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 5,
        "name": "Elijah Green",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 5,
        "name": "Colten Michels",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 5,
        "name": "Landan Cunningham",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 5,
        "name": "Tucker Fair",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 5,
        "name": "Garrett Casarez",
-       "avg": "0.00",
-       "score": 0
-      },
-      {
-       "rank": 1,
-       "name": "Crash DeHoyos",
        "avg": "0.00",
        "score": 0
       }
@@ -668,59 +656,59 @@
     },
     {
      "name": "Freestyle Compound Junior Female",
-     "champion": null,
+     "champion": "Kendall Garner",
      "qualification": [
       {
        "rank": 1,
+       "name": "Kendall Garner",
+       "avg": "8.73",
+       "score": 131
+      },
+      {
+       "rank": 2,
+       "name": "Evelyn Echavarria-Hyden",
+       "avg": "7.73",
+       "score": 116
+      },
+      {
+       "rank": 3,
        "name": "Emeri Burden",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 3,
        "name": "Gianna Ross",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 3,
        "name": "Riley Berger",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 3,
        "name": "Lona Toomer",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 3,
        "name": "Everly Ebarb",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 3,
        "name": "Lauren Venegas",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 3,
        "name": "Lea Venegas",
-       "avg": "0.00",
-       "score": 0
-      },
-      {
-       "rank": 1,
-       "name": "Evelyn Echavarria-Hyden",
-       "avg": "0.00",
-       "score": 0
-      },
-      {
-       "rank": 1,
-       "name": "Kendall Garner",
        "avg": "0.00",
        "score": 0
       }
@@ -729,35 +717,35 @@
     },
     {
      "name": "Freestyle Compound Junior Male",
-     "champion": null,
+     "champion": "Dillon Michels",
      "qualification": [
       {
        "rank": 1,
+       "name": "Dillon Michels",
+       "avg": "9.47",
+       "score": 142
+      },
+      {
+       "rank": 2,
+       "name": "Finn Maddux",
+       "avg": "7.80",
+       "score": 117
+      },
+      {
+       "rank": 3,
        "name": "Branson Massey",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 3,
        "name": "Sutton Arnold",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 3,
        "name": "Larry Cochran",
-       "avg": "0.00",
-       "score": 0
-      },
-      {
-       "rank": 1,
-       "name": "Dillon Michels",
-       "avg": "0.00",
-       "score": 0
-      },
-      {
-       "rank": 1,
-       "name": "Finn Maddux",
        "avg": "0.00",
        "score": 0
       }
@@ -766,77 +754,77 @@
     },
     {
      "name": "Fixed Pin Compound Intermediate Female",
-     "champion": null,
+     "champion": "Brinley Snyder",
      "qualification": [
       {
        "rank": 1,
+       "name": "Brinley Snyder",
+       "avg": "4.65",
+       "score": 93
+      },
+      {
+       "rank": 2,
        "name": "Austyn Key",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 2,
        "name": "Jancsi West",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 2,
        "name": "Eliza Sternadel",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 2,
        "name": "Hailey Williams",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 2,
        "name": "Sky O'Kelley",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 2,
        "name": "Maliha Butt",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 2,
        "name": "Cora Kelley",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 2,
        "name": "Leena Green",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 2,
        "name": "Asher Harrison",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 2,
        "name": "Kinley Harris",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 2,
        "name": "Amelia Rodgers",
-       "avg": "0.00",
-       "score": 0
-      },
-      {
-       "rank": 1,
-       "name": "Brinley Snyder",
        "avg": "0.00",
        "score": 0
       }
@@ -845,59 +833,59 @@
     },
     {
      "name": "Fixed Pin Compound Intermediate Male",
-     "champion": null,
+     "champion": "Stockton DeRouen",
      "qualification": [
       {
        "rank": 1,
+       "name": "Stockton DeRouen",
+       "avg": "9.25",
+       "score": 185
+      },
+      {
+       "rank": 2,
        "name": "Teal Mazzola",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 2,
        "name": "Tripp Southwell",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 2,
        "name": "Lincoln Idleman",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 2,
        "name": "Colin Holub",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 2,
        "name": "Jackson Just",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 2,
        "name": "Cason Patterson",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 2,
        "name": "Zachary Lane",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 2,
        "name": "Judah Harrison",
-       "avg": "0.00",
-       "score": 0
-      },
-      {
-       "rank": 1,
-       "name": "Stockton DeRouen",
        "avg": "0.00",
        "score": 0
       }
@@ -906,77 +894,77 @@
     },
     {
      "name": "Fixed Pin Compound Junior Female",
-     "champion": null,
+     "champion": "Lona Toomer",
      "qualification": [
       {
        "rank": 1,
+       "name": "Lona Toomer",
+       "avg": "8.65",
+       "score": 173
+      },
+      {
+       "rank": 2,
        "name": "Bryleigh Morse",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 2,
        "name": "Nealee Vines",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 2,
        "name": "Parker Henry",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 2,
        "name": "Lily O'Kelly",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 2,
        "name": "Kendall Garner",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 2,
        "name": "Adalyn Meeks",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 2,
        "name": "Lucy Lane",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 2,
        "name": "Adelynn Goolsby",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 2,
        "name": "Valerie Blossom",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 2,
        "name": "Aireon Rodgers",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 2,
        "name": "Alove Rodgers",
-       "avg": "0.00",
-       "score": 0
-      },
-      {
-       "rank": 1,
-       "name": "Lona Toomer",
        "avg": "0.00",
        "score": 0
       }
@@ -985,89 +973,89 @@
     },
     {
      "name": "Fixed Pin Compound Junior Male",
-     "champion": null,
+     "champion": "Porter Merz",
      "qualification": [
       {
        "rank": 1,
+       "name": "Porter Merz",
+       "avg": "7.90",
+       "score": 158
+      },
+      {
+       "rank": 2,
        "name": "Oliver THOMAS",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 2,
        "name": "Jacob Williams",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 2,
        "name": "Casen Idleman",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 2,
        "name": "Casen Kilgore",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 2,
        "name": "William Early",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 2,
        "name": "Connor Chang",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 2,
        "name": "Andrew Knapp",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 2,
        "name": "Henry Watts",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 2,
        "name": "Hunter Harrelson",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 2,
        "name": "Omar El-Abid",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 2,
        "name": "Levi Smith",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 2,
        "name": "Worth Bowers",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 2,
        "name": "Boe Ebarb",
-       "avg": "0.00",
-       "score": 0
-      },
-      {
-       "rank": 1,
-       "name": "Porter Merz",
        "avg": "0.00",
        "score": 0
       }
@@ -1076,59 +1064,59 @@
     },
     {
      "name": "Fixed Pin Compound Senior Female",
-     "champion": null,
+     "champion": "Elise Schleifer",
      "qualification": [
       {
        "rank": 1,
+       "name": "Elise Schleifer",
+       "avg": "9.85",
+       "score": 197
+      },
+      {
+       "rank": 2,
+       "name": "Molly Halbert",
+       "avg": "5.75",
+       "score": 115
+      },
+      {
+       "rank": 3,
        "name": "Chloe Brandt",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 3,
        "name": "Maryn Lee",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 3,
        "name": "Ava Lowe",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 3,
        "name": "Elsie Dietz",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 3,
        "name": "Jacqueline Vasquez",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 3,
        "name": "Macie Huchingson",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 3,
        "name": "Chloe Giesecke",
-       "avg": "0.00",
-       "score": 0
-      },
-      {
-       "rank": 1,
-       "name": "Elise Schleifer",
-       "avg": "0.00",
-       "score": 0
-      },
-      {
-       "rank": 1,
-       "name": "Molly Halbert",
        "avg": "0.00",
        "score": 0
       }
@@ -1137,77 +1125,77 @@
     },
     {
      "name": "Fixed Pin Compound Senior Male",
-     "champion": null,
+     "champion": "Jackson Vaughn",
      "qualification": [
       {
        "rank": 1,
+       "name": "Jackson Vaughn",
+       "avg": "8.90",
+       "score": 178
+      },
+      {
+       "rank": 2,
+       "name": "Charles Sears Jr",
+       "avg": "5.60",
+       "score": 112
+      },
+      {
+       "rank": 3,
        "name": "Keaton Pike",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 3,
        "name": "Connor Goehring",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 3,
        "name": "Weldon Bowers",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 3,
        "name": "Eli Neu",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 3,
        "name": "Isaac Blakey",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 3,
        "name": "Hasan El-Abid",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 3,
        "name": "Conner Garcia",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 3,
        "name": "Monica Nelson",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 3,
        "name": "Kelton Harris",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 3,
        "name": "Joel Bonner",
-       "avg": "0.00",
-       "score": 0
-      },
-      {
-       "rank": 1,
-       "name": "Charles Sears Jr",
-       "avg": "0.00",
-       "score": 0
-      },
-      {
-       "rank": 1,
-       "name": "Jackson Vaughn",
        "avg": "0.00",
        "score": 0
       }
@@ -1216,101 +1204,101 @@
     },
     {
      "name": "Barebow Senior Female",
-     "champion": null,
+     "champion": "Abigail Little",
      "qualification": [
       {
        "rank": 1,
+       "name": "Abigail Little",
+       "avg": "7.56",
+       "score": 189
+      },
+      {
+       "rank": 2,
+       "name": "Brynnly Hohlt",
+       "avg": "7.00",
+       "score": 140
+      },
+      {
+       "rank": 3,
+       "name": "Mithali Kadur",
+       "avg": "6.90",
+       "score": 138
+      },
+      {
+       "rank": 4,
+       "name": "Haelee Jeon",
+       "avg": "5.60",
+       "score": 112
+      },
+      {
+       "rank": 5,
        "name": "Talley Baker",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 5,
        "name": "Alasia Butler",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 5,
        "name": "Vivienne Irby",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 5,
        "name": "Ayana Butt",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 5,
        "name": "Clara Mott",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 5,
        "name": "Isabel Sladaritz",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 5,
        "name": "Elaina Olson",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 5,
        "name": "Anastacia Hernandez",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 5,
        "name": "Paige Brister",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 5,
        "name": "Ellie Van Meter",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 5,
        "name": "Sara Fromme",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 5,
        "name": "Agnes Trimble",
-       "avg": "0.00",
-       "score": 0
-      },
-      {
-       "rank": 1,
-       "name": "Mithali Kadur",
-       "avg": "0.00",
-       "score": 0
-      },
-      {
-       "rank": 1,
-       "name": "Brynnly Hohlt",
-       "avg": "0.00",
-       "score": 0
-      },
-      {
-       "rank": 1,
-       "name": "Abigail Little",
-       "avg": "0.00",
-       "score": 0
-      },
-      {
-       "rank": 1,
-       "name": "Haelee Jeon",
        "avg": "0.00",
        "score": 0
       }
@@ -1319,59 +1307,59 @@
     },
     {
      "name": "Barebow Senior Male",
-     "champion": null,
+     "champion": "Collin Russell",
      "qualification": [
       {
        "rank": 1,
+       "name": "Collin Russell",
+       "avg": "6.55",
+       "score": 131
+      },
+      {
+       "rank": 2,
+       "name": "Bryce Maddux",
+       "avg": "5.95",
+       "score": 119
+      },
+      {
+       "rank": 3,
+       "name": "Weston Meissl",
+       "avg": "3.55",
+       "score": 71
+      },
+      {
+       "rank": 4,
        "name": "Austin Smith",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 4,
        "name": "Barrett Warren",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 4,
        "name": "Connor Aiken",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 4,
        "name": "Zack Sulais",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 4,
        "name": "Koltyn DuBose",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 4,
        "name": "Nathan Schoeneberg",
-       "avg": "0.00",
-       "score": 0
-      },
-      {
-       "rank": 1,
-       "name": "Collin Russell",
-       "avg": "0.00",
-       "score": 0
-      },
-      {
-       "rank": 1,
-       "name": "Weston Meissl",
-       "avg": "0.00",
-       "score": 0
-      },
-      {
-       "rank": 1,
-       "name": "Bryce Maddux",
        "avg": "0.00",
        "score": 0
       }
@@ -1380,112 +1368,112 @@
     },
     {
      "name": "Barebow Intermediate Male",
-     "champion": null,
+     "champion": "Raylon Loupee",
      "qualification": [
       {
        "rank": 1,
+       "name": "Raylon Loupee",
+       "avg": "5.50",
+       "score": 110
+      },
+      {
+       "rank": 2,
+       "name": "Jackson Little",
+       "avg": "5.35",
+       "score": 107
+      },
+      {
+       "rank": 3,
+       "name": "Dean Rosas",
+       "avg": "5.20",
+       "score": 104
+      },
+      {
+       "rank": 4,
        "name": "Greyson Jones",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 4,
        "name": "Luke Titzman",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
-       "name": "Jackson Little",
-       "avg": "0.00",
-       "score": 0
-      },
-      {
-       "rank": 1,
-       "name": "Dean Rosas",
-       "avg": "0.00",
-       "score": 0
-      },
-      {
-       "rank": 1,
-       "name": "Raylon Loupee",
-       "avg": "0.00",
-       "score": 0
-      },
-      {
-       "rank": 1,
+       "rank": 4,
        "name": "Logan LaRue",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 4,
        "name": "Caleb Burnett",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 4,
        "name": "Andrew Meglasson",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 4,
        "name": "Jacob Craig",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 4,
        "name": "Judson Watson",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 4,
        "name": "Carter Dietz",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 4,
        "name": "David Longoria",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 4,
        "name": "Marcos Hernandez",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 4,
        "name": "Johnathon Calbat",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 4,
        "name": "Mason Vann",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 4,
        "name": "Aidan Wray",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 4,
        "name": "Armaan Farooqi",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 4,
        "name": "Kleat Barrett",
        "avg": "0.00",
        "score": 0
@@ -1495,77 +1483,77 @@
     },
     {
      "name": "Barebow Intermediate Female",
-     "champion": null,
+     "champion": "Morgan Beasley",
      "qualification": [
       {
        "rank": 1,
+       "name": "Morgan Beasley",
+       "avg": "5.30",
+       "score": 106
+      },
+      {
+       "rank": 2,
+       "name": "Greenlee Wentz",
+       "avg": "4.10",
+       "score": 82
+      },
+      {
+       "rank": 3,
        "name": "Braylie Auler",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 3,
        "name": "Maria Hindi",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 3,
        "name": "Riley Childress",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 3,
        "name": "Taryn Thibodeaux",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 3,
        "name": "Nisha Rahman",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 3,
        "name": "Aurora Crawford",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 3,
        "name": "Elizabeth Vigueras Custodio",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 3,
        "name": "Hadley Harrison",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 3,
        "name": "Laura Schoeneberg",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 3,
        "name": "Ava Fritze",
-       "avg": "0.00",
-       "score": 0
-      },
-      {
-       "rank": 1,
-       "name": "Greenlee Wentz",
-       "avg": "0.00",
-       "score": 0
-      },
-      {
-       "rank": 1,
-       "name": "Morgan Beasley",
        "avg": "0.00",
        "score": 0
       }
@@ -1574,23 +1562,23 @@
     },
     {
      "name": "Barebow Junior Female",
-     "champion": null,
+     "champion": "Bree Hohlt",
      "qualification": [
       {
        "rank": 1,
+       "name": "Bree Hohlt",
+       "avg": "7.35",
+       "score": 147
+      },
+      {
+       "rank": 2,
        "name": "Nicole Lopez",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 2,
        "name": "Jessie Vann",
-       "avg": "0.00",
-       "score": 0
-      },
-      {
-       "rank": 1,
-       "name": "Bree Hohlt",
        "avg": "0.00",
        "score": 0
       }
@@ -1599,71 +1587,71 @@
     },
     {
      "name": "Barebow Junior Male",
-     "champion": null,
+     "champion": "Jimmy Jones",
      "qualification": [
       {
        "rank": 1,
+       "name": "Jimmy Jones",
+       "avg": "4.45",
+       "score": 89
+      },
+      {
+       "rank": 2,
+       "name": "Gideon Wentz",
+       "avg": "0.85",
+       "score": 17
+      },
+      {
+       "rank": 3,
+       "name": "Adrian Trimble",
+       "avg": "0.20",
+       "score": 4
+      },
+      {
+       "rank": 4,
        "name": "Ray Lopez",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 4,
        "name": "Jonathan Vann",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
-       "name": "Adrian Trimble",
-       "avg": "0.00",
-       "score": 0
-      },
-      {
-       "rank": 1,
+       "rank": 4,
        "name": "Eeshwar Kollu",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 4,
        "name": "Marcus Caves",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 4,
        "name": "Bo Rerich",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 4,
        "name": "Ephraim Harrison",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 4,
        "name": "Zion Harrison",
        "avg": "0.00",
        "score": 0
       },
       {
-       "rank": 1,
+       "rank": 4,
        "name": "Luke Burnett",
-       "avg": "0.00",
-       "score": 0
-      },
-      {
-       "rank": 1,
-       "name": "Gideon Wentz",
-       "avg": "0.00",
-       "score": 0
-      },
-      {
-       "rank": 1,
-       "name": "Jimmy Jones",
        "avg": "0.00",
        "score": 0
       }
