@@ -463,13 +463,6 @@
       },
       {
        "rank": 4,
-       "name": "Wyatt Franklin",
-       "avg": "0.00",
-       "score": 0,
-       "shooterId": "dks4MVF2eDZCTndmN3p4MmE2aEd0UT09"
-      },
-      {
-       "rank": 4,
        "name": "Krishna Gorla",
        "avg": "0.00",
        "score": 0,
@@ -813,31 +806,17 @@
       },
       {
        "rank": 2,
-       "name": "Finn Maddux",
-       "avg": "8.33",
-       "score": 500,
-       "shooterId": "eTc3OEdvYmJPTG5rLzhSeDV3aFpYUT09"
-      },
-      {
-       "rank": 3,
        "name": "Branson Massey",
        "avg": "0.00",
        "score": 0,
        "shooterId": "dDc4QzJCb1pCSlhnUjBsSWRGRzJRQT09"
       },
       {
-       "rank": 3,
+       "rank": 2,
        "name": "Sutton Arnold",
        "avg": "0.00",
        "score": 0,
        "shooterId": "SksyeUt3WDh6ZWlnTXlGNDg0T2Zzdz09"
-      },
-      {
-       "rank": 3,
-       "name": "Larry Cochran",
-       "avg": "0.00",
-       "score": 0,
-       "shooterId": "MkVpL2dSVk5EaE5hZFRyR3Y1VDJzdz09"
       }
      ],
      "bracket": null
@@ -988,6 +967,13 @@
       },
       {
        "rank": 3,
+       "name": "Wyatt Franklin",
+       "avg": "0.00",
+       "score": 0,
+       "shooterId": "dks4MVF2eDZCTndmN3p4MmE2aEd0UT09"
+      },
+      {
+       "rank": 3,
        "name": "Jackson Just",
        "avg": "0.00",
        "score": 0,
@@ -1103,101 +1089,115 @@
     },
     {
      "name": "Fixed Pin Compound Junior Male",
-     "champion": "Porter Merz",
+     "champion": "Finn Maddux",
      "qualification": [
       {
        "rank": 1,
+       "name": "Finn Maddux",
+       "avg": "8.33",
+       "score": 500,
+       "shooterId": "eTc3OEdvYmJPTG5rLzhSeDV3aFpYUT09"
+      },
+      {
+       "rank": 2,
        "name": "Porter Merz",
        "avg": "8.07",
        "score": 484,
        "shooterId": "ZDRVVEVpZ05NSkVpWThsQWFlSk5Ldz09"
       },
       {
-       "rank": 2,
+       "rank": 3,
        "name": "Boe Ebarb",
        "avg": "4.93",
        "score": 296,
        "shooterId": "VkNKbXlWZnowVWNZWjhtRXNUWC85UT09"
       },
       {
-       "rank": 3,
+       "rank": 4,
        "name": "Oliver THOMAS",
        "avg": "0.00",
        "score": 0,
        "shooterId": "MTVJQTZXeEVEZi9mcEVWMGNMeGNiQT09"
       },
       {
-       "rank": 3,
+       "rank": 4,
        "name": "Jacob Williams",
        "avg": "0.00",
        "score": 0,
        "shooterId": "dXo4cDUyc012bVRxYnhxNDhST1JxUT09"
       },
       {
-       "rank": 3,
+       "rank": 4,
        "name": "Casen Idleman",
        "avg": "0.00",
        "score": 0,
        "shooterId": "Vk8rSXJHV3ZpTTJFSHNMNUprbjU3QT09"
       },
       {
-       "rank": 3,
+       "rank": 4,
        "name": "Casen Kilgore",
        "avg": "0.00",
        "score": 0,
        "shooterId": "dENiRnJuM2YzeGdyNTljdzJiNUxGZz09"
       },
       {
-       "rank": 3,
+       "rank": 4,
        "name": "William Early",
        "avg": "0.00",
        "score": 0,
        "shooterId": "SjRjVllXMHRIUVNZa0NZaktJMm5ndz09"
       },
       {
-       "rank": 3,
+       "rank": 4,
+       "name": "Larry Cochran",
+       "avg": "0.00",
+       "score": 0,
+       "shooterId": "MkVpL2dSVk5EaE5hZFRyR3Y1VDJzdz09"
+      },
+      {
+       "rank": 4,
        "name": "Connor Chang",
        "avg": "0.00",
        "score": 0,
        "shooterId": "UWpJdUMrMUdXcmxxeVFIWnhEa2duQT09"
       },
       {
-       "rank": 3,
+       "rank": 4,
        "name": "Andrew Knapp",
        "avg": "0.00",
        "score": 0,
        "shooterId": "R3MrNmdrQzYwTDVzT3JCZkNNd0NDQT09"
       },
       {
-       "rank": 3,
+       "rank": 4,
        "name": "Henry Watts",
        "avg": "0.00",
        "score": 0,
        "shooterId": "ZFI3UnVPbkpMUHlhM04ybEJmWTBtdz09"
       },
       {
-       "rank": 3,
+       "rank": 4,
        "name": "Hunter Harrelson",
        "avg": "0.00",
        "score": 0,
        "shooterId": "R0tvR3E0QmQ4WWZTOTlLRWFPOXVWdz09"
       },
       {
-       "rank": 3,
+       "rank": 4,
        "name": "Omar El-Abid",
        "avg": "0.00",
        "score": 0,
        "shooterId": "dk5EQ29wN2J2UllVWXVYdWN3MTk2Zz09"
       },
       {
-       "rank": 3,
+       "rank": 4,
        "name": "Levi Smith",
        "avg": "0.00",
        "score": 0,
        "shooterId": "cEFveHU1RGVVNk05bVpFdUswQk1mZz09"
       },
       {
-       "rank": 3,
+       "rank": 4,
        "name": "Worth Bowers",
        "avg": "0.00",
        "score": 0,
