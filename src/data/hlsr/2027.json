@@ -77,10 +77,10 @@
       {
        "rank": 4,
        "name": "Ashvath Sana",
-       "avg": "8.20",
-       "score": 369,
+       "avg": "8.26",
+       "score": 413,
        "shooterId": "VEluM3NTTnIyVGxncVRnSWNudmsxdz09",
-       "arrows": 45,
+       "arrows": 50,
        "arrowsTotal": 60
       },
       {
@@ -196,6 +196,15 @@
       },
       {
        "rank": 2,
+       "name": "Gabriel Rodriguez",
+       "avg": "8.10",
+       "score": 405,
+       "shooterId": "bGIvbU5uZnJqUUZTWXRjaFZ2N0NKQT09",
+       "arrows": 50,
+       "arrowsTotal": 60
+      },
+      {
+       "rank": 3,
        "name": "Micah Xie",
        "avg": "8.78",
        "score": 395,
@@ -204,21 +213,12 @@
        "arrowsTotal": 60
       },
       {
-       "rank": 3,
-       "name": "Gabriel Rodriguez",
-       "avg": "8.02",
-       "score": 361,
-       "shooterId": "bGIvbU5uZnJqUUZTWXRjaFZ2N0NKQT09",
-       "arrows": 45,
-       "arrowsTotal": 60
-      },
-      {
        "rank": 4,
        "name": "Lane Smith",
-       "avg": "2.60",
+       "avg": "2.34",
        "score": 117,
        "shooterId": "L1U0cndqL2NzbVJaWWp0QTBHZnd1QT09",
-       "arrows": 45,
+       "arrows": 50,
        "arrowsTotal": 60
       },
       {
@@ -258,23 +258,50 @@
       {
        "rank": 2,
        "name": "Vivian Wong",
-       "avg": "9.49",
-       "score": 427,
+       "avg": "9.52",
+       "score": 476,
        "shooterId": "ejZwaU95QUU3VkJwWnhDZUo0U1RuUT09",
-       "arrows": 45,
+       "arrows": 50,
        "arrowsTotal": 60
       },
       {
        "rank": 3,
        "name": "Madelyn Yi",
-       "avg": "9.44",
-       "score": 425,
+       "avg": "9.40",
+       "score": 470,
        "shooterId": "cmdmT1pSb0Vhb0hvMERteHViTUMyZz09",
-       "arrows": 45,
+       "arrows": 50,
        "arrowsTotal": 60
       },
       {
        "rank": 4,
+       "name": "Madeleine Dodson",
+       "avg": "9.22",
+       "score": 461,
+       "shooterId": "clZiS245bnlpRU82U3V0ZmpUUHd6UT09",
+       "arrows": 50,
+       "arrowsTotal": 60
+      },
+      {
+       "rank": 5,
+       "name": "Angela Ma",
+       "avg": "9.12",
+       "score": 456,
+       "shooterId": "S2ttbm9yRStqVm53cm5HdHl6Y0szZz09",
+       "arrows": 50,
+       "arrowsTotal": 60
+      },
+      {
+       "rank": 6,
+       "name": "Ellie Booth",
+       "avg": "9.04",
+       "score": 452,
+       "shooterId": "OEN5MEtEY1lxYkRLSnQ0dThqNmxBdz09",
+       "arrows": 50,
+       "arrowsTotal": 60
+      },
+      {
+       "rank": 7,
        "name": "Calista Schwab",
        "avg": "9.27",
        "score": 417,
@@ -283,25 +310,7 @@
        "arrowsTotal": 60
       },
       {
-       "rank": 5,
-       "name": "Madeleine Dodson",
-       "avg": "9.22",
-       "score": 415,
-       "shooterId": "clZiS245bnlpRU82U3V0ZmpUUHd6UT09",
-       "arrows": 45,
-       "arrowsTotal": 60
-      },
-      {
-       "rank": 6,
-       "name": "Angela Ma",
-       "avg": "9.16",
-       "score": 412,
-       "shooterId": "S2ttbm9yRStqVm53cm5HdHl6Y0szZz09",
-       "arrows": 45,
-       "arrowsTotal": 60
-      },
-      {
-       "rank": 7,
+       "rank": 8,
        "name": "Milla Shanklin",
        "avg": "9.13",
        "score": 411,
@@ -310,16 +319,16 @@
        "arrowsTotal": 60
       },
       {
-       "rank": 8,
-       "name": "Ellie Booth",
-       "avg": "9.04",
-       "score": 407,
-       "shooterId": "OEN5MEtEY1lxYkRLSnQ0dThqNmxBdz09",
-       "arrows": 45,
+       "rank": 9,
+       "name": "Elyse Chan",
+       "avg": "8.20",
+       "score": 410,
+       "shooterId": "RXJkdExwNm9BZnVwZnRPeDN4QnpiQT09",
+       "arrows": 50,
        "arrowsTotal": 60
       },
       {
-       "rank": 9,
+       "rank": 10,
        "name": "Alice Yu",
        "avg": "6.55",
        "score": 393,
@@ -328,20 +337,11 @@
        "arrowsTotal": 60
       },
       {
-       "rank": 10,
+       "rank": 11,
        "name": "Alexis Ackerman",
        "avg": "8.69",
        "score": 391,
        "shooterId": "OENMUTFOWmtLTWJ2ZlcxRmNLWjFTUT09",
-       "arrows": 45,
-       "arrowsTotal": 60
-      },
-      {
-       "rank": 11,
-       "name": "Elyse Chan",
-       "avg": "8.18",
-       "score": 368,
-       "shooterId": "RXJkdExwNm9BZnVwZnRPeDN4QnpiQT09",
        "arrows": 45,
        "arrowsTotal": 60
       },
@@ -400,19 +400,19 @@
       {
        "rank": 3,
        "name": "Darci Burden",
-       "avg": "9.64",
-       "score": 434,
+       "avg": "9.66",
+       "score": 483,
        "shooterId": "YlhldWtLVGo1Yk1IRmxkRTRyb3p5UT09",
-       "arrows": 45,
+       "arrows": 50,
        "arrowsTotal": 60
       },
       {
        "rank": 4,
        "name": "Makaela Alvarez",
-       "avg": "9.62",
-       "score": 433,
+       "avg": "9.60",
+       "score": 480,
        "shooterId": "SkJidjMvK05yUy9WMXNtOFVmZlhCUT09",
-       "arrows": 45,
+       "arrows": 50,
        "arrowsTotal": 60
       },
       {
@@ -470,64 +470,64 @@
       {
        "rank": 3,
        "name": "Tristan Alvarez",
-       "avg": "9.53",
-       "score": 429,
+       "avg": "9.52",
+       "score": 476,
        "shooterId": "aTd5UkFTZ2x3VUlzSDhhNDJuS0Fvdz09",
-       "arrows": 45,
+       "arrows": 50,
        "arrowsTotal": 60
       },
       {
        "rank": 4,
        "name": "Stockton DeRouen",
-       "avg": "9.44",
-       "score": 425,
+       "avg": "9.46",
+       "score": 473,
        "shooterId": "SDlxcno5ZGJUS2Z6RkdNRmZQVXk3UT09",
-       "arrows": 45,
+       "arrows": 50,
        "arrowsTotal": 60
       },
       {
        "rank": 5,
-       "name": "Logan Hartman",
-       "avg": "9.40",
-       "score": 423,
-       "shooterId": "bXV6WmRKVnNTUkl5UFlBVFBnME84UT09",
-       "arrows": 45,
+       "name": "Noah Ross",
+       "avg": "9.42",
+       "score": 471,
+       "shooterId": "L2Z0eWpUUlg1N1AyemxBSXJDaDNsUT09",
+       "arrows": 50,
        "arrowsTotal": 60
       },
       {
        "rank": 6,
-       "name": "Noah Ross",
+       "name": "Logan Hartman",
        "avg": "9.40",
-       "score": 423,
-       "shooterId": "L2Z0eWpUUlg1N1AyemxBSXJDaDNsUT09",
-       "arrows": 45,
+       "score": 470,
+       "shooterId": "bXV6WmRKVnNTUkl5UFlBVFBnME84UT09",
+       "arrows": 50,
        "arrowsTotal": 60
       },
       {
        "rank": 7,
        "name": "Kaydon Shell",
-       "avg": "9.36",
-       "score": 421,
+       "avg": "9.38",
+       "score": 469,
        "shooterId": "S2dKTnZBZ3FZcSt5a2U0aGpoNllOZz09",
-       "arrows": 45,
+       "arrows": 50,
        "arrowsTotal": 60
       },
       {
        "rank": 8,
        "name": "Warick Burt",
-       "avg": "8.87",
-       "score": 399,
+       "avg": "8.88",
+       "score": 444,
        "shooterId": "LzZabDBNbGxyZHZ0NGF6L0p1eHlaQT09",
-       "arrows": 45,
+       "arrows": 50,
        "arrowsTotal": 60
       },
       {
        "rank": 9,
        "name": "Stratton Randolph",
-       "avg": "8.20",
-       "score": 369,
+       "avg": "8.28",
+       "score": 414,
        "shooterId": "NDE2djNYMnRHVW9nWHpxVzNyd2w5dz09",
-       "arrows": 45,
+       "arrows": 50,
        "arrowsTotal": 60
       },
       {
@@ -542,10 +542,10 @@
       {
        "rank": 11,
        "name": "Anthony Defrancis",
-       "avg": "0.58",
-       "score": 26,
+       "avg": "0.56",
+       "score": 28,
        "shooterId": "SHBwN0EyUG5KSFRNcy8yVVY4WlNIZz09",
-       "arrows": 45,
+       "arrows": 50,
        "arrowsTotal": 60
       },
       {
@@ -621,19 +621,19 @@
       {
        "rank": 4,
        "name": "Khadijah El-Abid",
-       "avg": "9.91",
-       "score": 446,
+       "avg": "9.92",
+       "score": 496,
        "shooterId": "WExEQ1V6SjdqTWptbGRCVXRjNDJiQT09",
-       "arrows": 45,
+       "arrows": 50,
        "arrowsTotal": 60
       },
       {
        "rank": 5,
        "name": "Emiliana Nardi",
-       "avg": "9.20",
-       "score": 414,
+       "avg": "9.24",
+       "score": 462,
        "shooterId": "RG9JemY1L3FRUGh5aG15SytnY2pZZz09",
-       "arrows": 45,
+       "arrows": 50,
        "arrowsTotal": 60
       },
       {
@@ -753,6 +753,78 @@
       },
       {
        "rank": 9,
+       "name": "Connor Goehring",
+       "avg": "9.96",
+       "score": 498,
+       "shooterId": "eVJ0dUFjbVRUNHF0TjFXZXB1dmdOQT09",
+       "arrows": 50,
+       "arrowsTotal": 60
+      },
+      {
+       "rank": 10,
+       "name": "Weldon Bowers",
+       "avg": "9.90",
+       "score": 495,
+       "shooterId": "amNKNzdaK2kyOURkNWJveG9KS0ZLdz09",
+       "arrows": 50,
+       "arrowsTotal": 60
+      },
+      {
+       "rank": 11,
+       "name": "Aiden Maloy",
+       "avg": "9.80",
+       "score": 490,
+       "shooterId": "Z1F0Ny9CRHdKUmhIamZ1NzVXVEhkZz09",
+       "arrows": 50,
+       "arrowsTotal": 60
+      },
+      {
+       "rank": 12,
+       "name": "Colten Michels",
+       "avg": "9.74",
+       "score": 487,
+       "shooterId": "R2V0MFZxcWR1bEdKWjlDZGdwTjAxQT09",
+       "arrows": 50,
+       "arrowsTotal": 60
+      },
+      {
+       "rank": 13,
+       "name": "Josiah Herrington",
+       "avg": "9.68",
+       "score": 484,
+       "shooterId": "blUvN3ZGaTB4L0NiZ3Z1QmloSGFLUT09",
+       "arrows": 50,
+       "arrowsTotal": 60
+      },
+      {
+       "rank": 14,
+       "name": "Chase Gilliland",
+       "avg": "9.18",
+       "score": 459,
+       "shooterId": "cUZ2ZnE0OGxacUU4cjhtYnRUdldMUT09",
+       "arrows": 50,
+       "arrowsTotal": 60
+      },
+      {
+       "rank": 15,
+       "name": "Wyatt Burt",
+       "avg": "9.18",
+       "score": 459,
+       "shooterId": "em5SVExlbFhOTFVqN0NkV05HaTlrQT09",
+       "arrows": 50,
+       "arrowsTotal": 60
+      },
+      {
+       "rank": 16,
+       "name": "Elijah Green",
+       "avg": "9.08",
+       "score": 454,
+       "shooterId": "NVhHYjNmR25DNmNSbklzRTFZc1Rtdz09",
+       "arrows": 50,
+       "arrowsTotal": 60
+      },
+      {
+       "rank": 17,
        "name": "Landon Roland",
        "avg": "9.96",
        "score": 448,
@@ -761,102 +833,30 @@
        "arrowsTotal": 60
       },
       {
-       "rank": 10,
-       "name": "Connor Goehring",
-       "avg": "9.96",
-       "score": 448,
-       "shooterId": "eVJ0dUFjbVRUNHF0TjFXZXB1dmdOQT09",
-       "arrows": 45,
-       "arrowsTotal": 60
-      },
-      {
-       "rank": 11,
-       "name": "Weldon Bowers",
-       "avg": "9.91",
-       "score": 446,
-       "shooterId": "amNKNzdaK2kyOURkNWJveG9KS0ZLdz09",
-       "arrows": 45,
-       "arrowsTotal": 60
-      },
-      {
-       "rank": 12,
-       "name": "Aiden Maloy",
-       "avg": "9.84",
-       "score": 443,
-       "shooterId": "Z1F0Ny9CRHdKUmhIamZ1NzVXVEhkZz09",
-       "arrows": 45,
-       "arrowsTotal": 60
-      },
-      {
-       "rank": 13,
-       "name": "Colten Michels",
-       "avg": "9.73",
-       "score": 438,
-       "shooterId": "R2V0MFZxcWR1bEdKWjlDZGdwTjAxQT09",
-       "arrows": 45,
-       "arrowsTotal": 60
-      },
-      {
-       "rank": 14,
-       "name": "Josiah Herrington",
-       "avg": "9.69",
-       "score": 436,
-       "shooterId": "blUvN3ZGaTB4L0NiZ3Z1QmloSGFLUT09",
-       "arrows": 45,
-       "arrowsTotal": 60
-      },
-      {
-       "rank": 15,
-       "name": "Chase Gilliland",
-       "avg": "9.18",
-       "score": 413,
-       "shooterId": "cUZ2ZnE0OGxacUU4cjhtYnRUdldMUT09",
-       "arrows": 45,
-       "arrowsTotal": 60
-      },
-      {
-       "rank": 16,
-       "name": "Wyatt Burt",
-       "avg": "9.13",
-       "score": 411,
-       "shooterId": "em5SVExlbFhOTFVqN0NkV05HaTlrQT09",
-       "arrows": 45,
-       "arrowsTotal": 60
-      },
-      {
-       "rank": 17,
-       "name": "Elijah Green",
-       "avg": "9.09",
-       "score": 409,
-       "shooterId": "NVhHYjNmR25DNmNSbklzRTFZc1Rtdz09",
-       "arrows": 45,
-       "arrowsTotal": 60
-      },
-      {
        "rank": 18,
        "name": "Miller Dishman",
-       "avg": "8.91",
-       "score": 401,
+       "avg": "8.92",
+       "score": 446,
        "shooterId": "clk2aXlLb21iRnlFKzU4Nzd1T1lkdz09",
-       "arrows": 45,
+       "arrows": 50,
        "arrowsTotal": 60
       },
       {
        "rank": 19,
        "name": "Matthan Ellis",
-       "avg": "8.58",
-       "score": 386,
+       "avg": "8.66",
+       "score": 433,
        "shooterId": "bDEvOHNwZmtYYVdycWp0d1ptQ0xYUT09",
-       "arrows": 45,
+       "arrows": 50,
        "arrowsTotal": 60
       },
       {
        "rank": 20,
        "name": "Lucas Pertuit",
-       "avg": "4.00",
-       "score": 180,
+       "avg": "3.90",
+       "score": 195,
        "shooterId": "dmRXL0htclhHN2Q3Q3VKUEZqeDdCUT09",
-       "arrows": 45,
+       "arrows": 50,
        "arrowsTotal": 60
       },
       {
@@ -950,19 +950,19 @@
       {
        "rank": 5,
        "name": "Lona Toomer",
-       "avg": "8.47",
-       "score": 381,
+       "avg": "8.44",
+       "score": 422,
        "shooterId": "UDB5cjE5K0FCckdvUWtGSkFuSUpTZz09",
-       "arrows": 45,
+       "arrows": 50,
        "arrowsTotal": 60
       },
       {
        "rank": 6,
        "name": "Riley Berger",
-       "avg": "7.58",
-       "score": 341,
+       "avg": "7.74",
+       "score": 387,
        "shooterId": "WmlaV1IybHJDOEh6Z3RNazVteFNHZz09",
-       "arrows": 45,
+       "arrows": 50,
        "arrowsTotal": 60
       },
       {
@@ -1012,18 +1012,18 @@
        "rank": 2,
        "name": "Branson Massey",
        "avg": "9.42",
-       "score": 424,
+       "score": 471,
        "shooterId": "dDc4QzJCb1pCSlhnUjBsSWRGRzJRQT09",
-       "arrows": 45,
+       "arrows": 50,
        "arrowsTotal": 60
       },
       {
        "rank": 3,
        "name": "Sutton Arnold",
-       "avg": "8.80",
-       "score": 396,
+       "avg": "8.78",
+       "score": 439,
        "shooterId": "SksyeUt3WDh6ZWlnTXlGNDg0T2Zzdz09",
-       "arrows": 45,
+       "arrows": 50,
        "arrowsTotal": 60
       }
      ],
@@ -1055,18 +1055,18 @@
        "rank": 3,
        "name": "Maliha Butt",
        "avg": "8.58",
-       "score": 386,
+       "score": 429,
        "shooterId": "V3lDTVRvRTBHVXF6K3NoSitKYnI0UT09",
-       "arrows": 45,
+       "arrows": 50,
        "arrowsTotal": 60
       },
       {
        "rank": 4,
        "name": "Cora Kelley",
-       "avg": "7.27",
-       "score": 327,
+       "avg": "7.32",
+       "score": 366,
        "shooterId": "M3UwczdlakVGZ1pzc01vYk5TVkdNZz09",
-       "arrows": 45,
+       "arrows": 50,
        "arrowsTotal": 60
       },
       {
@@ -1081,10 +1081,10 @@
       {
        "rank": 6,
        "name": "Leena Green",
-       "avg": "5.80",
-       "score": 261,
+       "avg": "5.70",
+       "score": 285,
        "shooterId": "ei9qSGdGclo4UWJhK2tuZXE0OUFxQT09",
-       "arrows": 45,
+       "arrows": 50,
        "arrowsTotal": 60
       },
       {
@@ -1099,10 +1099,10 @@
       {
        "rank": 8,
        "name": "Sky O'Kelley",
-       "avg": "2.91",
-       "score": 131,
+       "avg": "2.98",
+       "score": 149,
        "shooterId": "SjAwN1FYT2txSmlhZ3dGRkd0VmxDdz09",
-       "arrows": 45,
+       "arrows": 50,
        "arrowsTotal": 60
       },
       {
@@ -1178,37 +1178,37 @@
       {
        "rank": 3,
        "name": "Jackson Just",
-       "avg": "8.51",
-       "score": 383,
+       "avg": "8.58",
+       "score": 429,
        "shooterId": "WGJCOUhFL1FqWlhhUXByMytpdGZYdz09",
-       "arrows": 45,
+       "arrows": 50,
        "arrowsTotal": 60
       },
       {
        "rank": 4,
        "name": "Zachary Lane",
-       "avg": "7.71",
-       "score": 347,
+       "avg": "7.86",
+       "score": 393,
        "shooterId": "a3RtZEZrN2d3bzNYMnRoR3lMSnp3UT09",
-       "arrows": 45,
+       "arrows": 50,
        "arrowsTotal": 60
       },
       {
        "rank": 5,
        "name": "Wyatt Franklin",
-       "avg": "4.96",
-       "score": 223,
+       "avg": "5.08",
+       "score": 254,
        "shooterId": "dks4MVF2eDZCTndmN3p4MmE2aEd0UT09",
-       "arrows": 45,
+       "arrows": 50,
        "arrowsTotal": 60
       },
       {
        "rank": 6,
        "name": "Cason Patterson",
-       "avg": "1.78",
-       "score": 80,
+       "avg": "1.68",
+       "score": 84,
        "shooterId": "ZUhYcXBUb0x3TDdvQ3JyNExBdFczQT09",
-       "arrows": 45,
+       "arrows": 50,
        "arrowsTotal": 60
       },
       {
@@ -1266,10 +1266,10 @@
       {
        "rank": 2,
        "name": "Kendall Garner",
-       "avg": "8.24",
-       "score": 371,
+       "avg": "8.10",
+       "score": 405,
        "shooterId": "WG1mNlA2N1lIdFJpb2JKc2x1UFpFQT09",
-       "arrows": 45,
+       "arrows": 50,
        "arrowsTotal": 60
       },
       {
@@ -1283,19 +1283,19 @@
       },
       {
        "rank": 4,
-       "name": "Valerie Blossom",
-       "avg": "3.16",
-       "score": 142,
-       "shooterId": "N0I5a21lc0hlOVZMVVE3MmFJT1VzQT09",
-       "arrows": 45,
+       "name": "Lily O'Kelly",
+       "avg": "2.92",
+       "score": 146,
+       "shooterId": "WC9IbzFsSjdGL3VLK1hzOHhpTitsUT09",
+       "arrows": 50,
        "arrowsTotal": 60
       },
       {
        "rank": 5,
-       "name": "Lily O'Kelly",
-       "avg": "3.09",
-       "score": 139,
-       "shooterId": "WC9IbzFsSjdGL3VLK1hzOHhpTitsUT09",
+       "name": "Valerie Blossom",
+       "avg": "3.16",
+       "score": 142,
+       "shooterId": "N0I5a21lc0hlOVZMVVE3MmFJT1VzQT09",
        "arrows": 45,
        "arrowsTotal": 60
       },
@@ -1320,10 +1320,10 @@
       {
        "rank": 8,
        "name": "Adalyn Meeks",
-       "avg": "1.24",
+       "avg": "1.12",
        "score": 56,
        "shooterId": "MGF4NStkd2duYVp1UklxRjF6OFQydz09",
-       "arrows": 45,
+       "arrows": 50,
        "arrowsTotal": 60
       },
       {
@@ -1390,32 +1390,50 @@
       {
        "rank": 3,
        "name": "Connor Chang",
-       "avg": "9.00",
-       "score": 405,
+       "avg": "8.98",
+       "score": 449,
        "shooterId": "UWpJdUMrMUdXcmxxeVFIWnhEa2duQT09",
-       "arrows": 45,
+       "arrows": 50,
        "arrowsTotal": 60
       },
       {
        "rank": 4,
        "name": "Omar El-Abid",
-       "avg": "8.56",
-       "score": 385,
+       "avg": "8.60",
+       "score": 430,
        "shooterId": "dk5EQ29wN2J2UllVWXVYdWN3MTk2Zz09",
-       "arrows": 45,
+       "arrows": 50,
        "arrowsTotal": 60
       },
       {
        "rank": 5,
        "name": "Henry Watts",
-       "avg": "8.36",
-       "score": 376,
+       "avg": "8.34",
+       "score": 417,
        "shooterId": "ZFI3UnVPbkpMUHlhM04ybEJmWTBtdz09",
-       "arrows": 45,
+       "arrows": 50,
        "arrowsTotal": 60
       },
       {
        "rank": 6,
+       "name": "Worth Bowers",
+       "avg": "6.82",
+       "score": 307,
+       "shooterId": "YlgyUVlWWkM3N0ptRTl4MllJNFJ2UT09",
+       "arrows": 45,
+       "arrowsTotal": 60
+      },
+      {
+       "rank": 7,
+       "name": "Levi Smith",
+       "avg": "5.92",
+       "score": 296,
+       "shooterId": "cEFveHU1RGVVNk05bVpFdUswQk1mZz09",
+       "arrows": 50,
+       "arrowsTotal": 60
+      },
+      {
+       "rank": 8,
        "name": "Boe Ebarb",
        "avg": "4.93",
        "score": 296,
@@ -1424,48 +1442,30 @@
        "arrowsTotal": 60
       },
       {
-       "rank": 7,
-       "name": "Worth Bowers",
-       "avg": "6.70",
-       "score": 268,
-       "shooterId": "YlgyUVlWWkM3N0ptRTl4MllJNFJ2UT09",
-       "arrows": 40,
-       "arrowsTotal": 60
-      },
-      {
-       "rank": 8,
-       "name": "Hunter Harrelson",
-       "avg": "5.84",
-       "score": 263,
-       "shooterId": "R0tvR3E0QmQ4WWZTOTlLRWFPOXVWdz09",
-       "arrows": 45,
-       "arrowsTotal": 60
-      },
-      {
        "rank": 9,
-       "name": "Levi Smith",
-       "avg": "5.82",
-       "score": 262,
-       "shooterId": "cEFveHU1RGVVNk05bVpFdUswQk1mZz09",
-       "arrows": 45,
+       "name": "Hunter Harrelson",
+       "avg": "5.70",
+       "score": 285,
+       "shooterId": "R0tvR3E0QmQ4WWZTOTlLRWFPOXVWdz09",
+       "arrows": 50,
        "arrowsTotal": 60
       },
       {
        "rank": 10,
        "name": "Larry Cochran",
-       "avg": "5.64",
-       "score": 254,
+       "avg": "5.60",
+       "score": 280,
        "shooterId": "MkVpL2dSVk5EaE5hZFRyR3Y1VDJzdz09",
-       "arrows": 45,
+       "arrows": 50,
        "arrowsTotal": 60
       },
       {
        "rank": 11,
        "name": "Andrew Knapp",
-       "avg": "4.67",
-       "score": 210,
+       "avg": "4.68",
+       "score": 234,
        "shooterId": "R3MrNmdrQzYwTDVzT3JCZkNNd0NDQT09",
-       "arrows": 45,
+       "arrows": 50,
        "arrowsTotal": 60
       },
       {
@@ -1540,6 +1540,15 @@
       },
       {
        "rank": 3,
+       "name": "Elsie Dietz",
+       "avg": "8.88",
+       "score": 444,
+       "shooterId": "RzlwODdkMHdSSUlqSHpDL2xFNmFodz09",
+       "arrows": 50,
+       "arrowsTotal": 60
+      },
+      {
+       "rank": 4,
        "name": "Ava Lowe",
        "avg": "9.18",
        "score": 413,
@@ -1548,16 +1557,16 @@
        "arrowsTotal": 60
       },
       {
-       "rank": 4,
-       "name": "Elsie Dietz",
-       "avg": "8.89",
-       "score": 400,
-       "shooterId": "RzlwODdkMHdSSUlqSHpDL2xFNmFodz09",
-       "arrows": 45,
+       "rank": 5,
+       "name": "Jacqueline Vasquez",
+       "avg": "8.04",
+       "score": 402,
+       "shooterId": "YUlRWkcxemR3YTFhcExNbURrMnpoQT09",
+       "arrows": 50,
        "arrowsTotal": 60
       },
       {
-       "rank": 5,
+       "rank": 6,
        "name": "Molly Halbert",
        "avg": "6.33",
        "score": 380,
@@ -1566,21 +1575,12 @@
        "arrowsTotal": 60
       },
       {
-       "rank": 6,
-       "name": "Jacqueline Vasquez",
-       "avg": "8.20",
-       "score": 369,
-       "shooterId": "YUlRWkcxemR3YTFhcExNbURrMnpoQT09",
-       "arrows": 45,
-       "arrowsTotal": 60
-      },
-      {
        "rank": 7,
        "name": "Macie Huchingson",
-       "avg": "6.24",
-       "score": 281,
+       "avg": "6.28",
+       "score": 314,
        "shooterId": "ZWhIbjIyNEJDK2Z2ZDk3MHBCY0hodz09",
-       "arrows": 45,
+       "arrows": 50,
        "arrowsTotal": 60
       },
       {
@@ -1629,46 +1629,46 @@
       {
        "rank": 3,
        "name": "Hasan El-Abid",
-       "avg": "9.91",
-       "score": 446,
+       "avg": "9.90",
+       "score": 495,
        "shooterId": "bDdCb2lCMVp2eXFQMGw1NTNUVzFZdz09",
-       "arrows": 45,
+       "arrows": 50,
        "arrowsTotal": 60
       },
       {
        "rank": 4,
        "name": "Isaac Blakey",
-       "avg": "9.71",
-       "score": 437,
+       "avg": "9.72",
+       "score": 486,
        "shooterId": "MXhpWG1Va2F5KzRkTEYzcGtqNEMvQT09",
-       "arrows": 45,
+       "arrows": 50,
        "arrowsTotal": 60
       },
       {
        "rank": 5,
        "name": "Monica Nelson",
-       "avg": "9.58",
-       "score": 431,
+       "avg": "9.60",
+       "score": 480,
        "shooterId": "QjZuWTBvNXJJb1Y5VjIxNVgyN1M1dz09",
-       "arrows": 45,
+       "arrows": 50,
        "arrowsTotal": 60
       },
       {
        "rank": 6,
        "name": "Conner Garcia",
-       "avg": "8.29",
-       "score": 373,
+       "avg": "8.32",
+       "score": 416,
        "shooterId": "ckRkeEtXYVJQNWpVOFVFMGgxZU5sdz09",
-       "arrows": 45,
+       "arrows": 50,
        "arrowsTotal": 60
       },
       {
        "rank": 7,
        "name": "Kelton Harris",
-       "avg": "7.44",
-       "score": 335,
+       "avg": "7.48",
+       "score": 374,
        "shooterId": "cld6OUJQakcyWnZNNVM5Qk9wZnVDQT09",
-       "arrows": 45,
+       "arrows": 50,
        "arrowsTotal": 60
       },
       {
@@ -1753,23 +1753,32 @@
       {
        "rank": 4,
        "name": "Ayana Butt",
-       "avg": "7.80",
-       "score": 351,
+       "avg": "7.78",
+       "score": 389,
        "shooterId": "KzVxcC9xOHNJMm9LSlBZZDVhMHF4Zz09",
-       "arrows": 45,
+       "arrows": 50,
        "arrowsTotal": 60
       },
       {
        "rank": 5,
        "name": "Isabel Sladaritz",
-       "avg": "7.78",
-       "score": 350,
+       "avg": "7.76",
+       "score": 388,
        "shooterId": "MzhrZGJ6Z2QwNWI0NWVycmw4UFFFZz09",
-       "arrows": 45,
+       "arrows": 50,
        "arrowsTotal": 60
       },
       {
        "rank": 6,
+       "name": "Chloe Copeland",
+       "avg": "6.20",
+       "score": 310,
+       "shooterId": "WGR2dXJnZ3dlL2dRWHJmWENVN1JQZz09",
+       "arrows": 50,
+       "arrowsTotal": 60
+      },
+      {
+       "rank": 7,
        "name": "Haelee Jeon",
        "avg": "4.92",
        "score": 295,
@@ -1778,7 +1787,16 @@
        "arrowsTotal": 60
       },
       {
-       "rank": 7,
+       "rank": 8,
+       "name": "Clara Mott",
+       "avg": "5.74",
+       "score": 287,
+       "shooterId": "RHZEbW93TXZ2VHBmaXZoeDFJcHV1dz09",
+       "arrows": 50,
+       "arrowsTotal": 60
+      },
+      {
+       "rank": 9,
        "name": "Agnes Trimble",
        "avg": "4.72",
        "score": 283,
@@ -1787,66 +1805,48 @@
        "arrowsTotal": 60
       },
       {
-       "rank": 8,
-       "name": "Chloe Copeland",
-       "avg": "6.22",
-       "score": 280,
-       "shooterId": "WGR2dXJnZ3dlL2dRWHJmWENVN1JQZz09",
-       "arrows": 45,
-       "arrowsTotal": 60
-      },
-      {
-       "rank": 9,
-       "name": "Clara Mott",
-       "avg": "5.73",
-       "score": 258,
-       "shooterId": "RHZEbW93TXZ2VHBmaXZoeDFJcHV1dz09",
-       "arrows": 45,
-       "arrowsTotal": 60
-      },
-      {
        "rank": 10,
        "name": "Ellie Van Meter",
-       "avg": "5.67",
-       "score": 255,
+       "avg": "5.64",
+       "score": 282,
        "shooterId": "RjhPbU9QbE1iN1RVTjBnd1kwTkdqZz09",
-       "arrows": 45,
+       "arrows": 50,
        "arrowsTotal": 60
       },
       {
        "rank": 11,
        "name": "Elaina Olson",
-       "avg": "4.87",
-       "score": 219,
+       "avg": "4.80",
+       "score": 240,
        "shooterId": "bHNxVU5PWStuQ2pHOVVZRTk2MDNhZz09",
-       "arrows": 45,
+       "arrows": 50,
        "arrowsTotal": 60
       },
       {
        "rank": 12,
        "name": "Sara Fromme",
-       "avg": "4.51",
-       "score": 203,
+       "avg": "4.74",
+       "score": 237,
        "shooterId": "ZGhFSEJOVVpEY0J1RWR3dzBMYTNPUT09",
-       "arrows": 45,
+       "arrows": 50,
        "arrowsTotal": 60
       },
       {
        "rank": 13,
        "name": "Paige Brister",
-       "avg": "4.33",
-       "score": 195,
+       "avg": "4.60",
+       "score": 230,
        "shooterId": "ejhsMi9qZVRSTG5iZ1lka2dIOFBvUT09",
-       "arrows": 45,
+       "arrows": 50,
        "arrowsTotal": 60
       },
       {
        "rank": 14,
        "name": "Vivienne Irby",
-       "avg": "3.22",
-       "score": 145,
+       "avg": "3.12",
+       "score": 156,
        "shooterId": "MmY1M2NtTkMyVm9rOEpLUUJYWldVQT09",
-       "arrows": 45,
+       "arrows": 50,
        "arrowsTotal": 60
       },
       {
@@ -1913,37 +1913,37 @@
       {
        "rank": 4,
        "name": "Connor Aiken",
-       "avg": "5.51",
-       "score": 248,
+       "avg": "5.70",
+       "score": 285,
        "shooterId": "MHFmTDg3eUtjMTQ1NkhQSm1QdGE0Zz09",
-       "arrows": 45,
+       "arrows": 50,
        "arrowsTotal": 60
       },
       {
        "rank": 5,
        "name": "Zack Sulais",
-       "avg": "5.27",
-       "score": 237,
+       "avg": "5.40",
+       "score": 270,
        "shooterId": "NDNEZDdoQ0hTaEttaFBvdlNxZXJwdz09",
-       "arrows": 45,
+       "arrows": 50,
        "arrowsTotal": 60
       },
       {
        "rank": 6,
        "name": "Barrett Warren",
-       "avg": "5.11",
-       "score": 230,
+       "avg": "5.26",
+       "score": 263,
        "shooterId": "a2dGMkpGZlV4cHZOLzhySVNMZkJOQT09",
-       "arrows": 45,
+       "arrows": 50,
        "arrowsTotal": 60
       },
       {
        "rank": 7,
        "name": "Koltyn DuBose",
-       "avg": "4.96",
-       "score": 223,
+       "avg": "5.24",
+       "score": 262,
        "shooterId": "RCtLdXVYb2NUVkNwa2JKZlBudEdlQT09",
-       "arrows": 45,
+       "arrows": 50,
        "arrowsTotal": 60
       },
       {
@@ -1992,10 +1992,10 @@
       {
        "rank": 3,
        "name": "Carter Dietz",
-       "avg": "7.27",
-       "score": 327,
+       "avg": "7.30",
+       "score": 365,
        "shooterId": "YVhNZE9xbytYWTVtbGFGZmR3VjJ5dz09",
-       "arrows": 45,
+       "arrows": 50,
        "arrowsTotal": 60
       },
       {
@@ -2009,20 +2009,20 @@
       },
       {
        "rank": 5,
+       "name": "Aidan Wray",
+       "avg": "6.10",
+       "score": 305,
+       "shooterId": "RjdsdzBERzd1L3daRTA4NkRvYzF6QT09",
+       "arrows": 50,
+       "arrowsTotal": 60
+      },
+      {
+       "rank": 6,
        "name": "Jackson Little",
        "avg": "5.02",
        "score": 301,
        "shooterId": "T3Rkem9KN1BCMFdHMzVrU2huVGlMUT09",
        "arrows": 60,
-       "arrowsTotal": 60
-      },
-      {
-       "rank": 6,
-       "name": "Aidan Wray",
-       "avg": "6.11",
-       "score": 275,
-       "shooterId": "RjdsdzBERzd1L3daRTA4NkRvYzF6QT09",
-       "arrows": 45,
        "arrowsTotal": 60
       },
       {
@@ -2055,37 +2055,37 @@
       {
        "rank": 10,
        "name": "Armaan Farooqi",
-       "avg": "3.33",
-       "score": 150,
+       "avg": "3.32",
+       "score": 166,
        "shooterId": "Szd5RWRvTXd0WUwxbGUvdFgwUG9Gdz09",
-       "arrows": 45,
+       "arrows": 50,
        "arrowsTotal": 60
       },
       {
        "rank": 11,
        "name": "David Longoria",
-       "avg": "3.22",
-       "score": 145,
+       "avg": "3.02",
+       "score": 151,
        "shooterId": "MC84b3hWVHJFYzhrTTh1Q3lxWGlWdz09",
-       "arrows": 45,
+       "arrows": 50,
        "arrowsTotal": 60
       },
       {
        "rank": 12,
        "name": "Johnathon Calbat",
-       "avg": "2.78",
-       "score": 125,
+       "avg": "2.94",
+       "score": 147,
        "shooterId": "emVSSGNTTVVreUlFeHZDZkFLZGxjUT09",
-       "arrows": 45,
+       "arrows": 50,
        "arrowsTotal": 60
       },
       {
        "rank": 13,
        "name": "Mason Vann",
-       "avg": "1.36",
-       "score": 61,
+       "avg": "1.42",
+       "score": 71,
        "shooterId": "TCtuSnlXaDBIdjQvdE04cGtiRFM4dz09",
-       "arrows": 45,
+       "arrows": 50,
        "arrowsTotal": 60
       },
       {
@@ -2143,14 +2143,23 @@
       {
        "rank": 2,
        "name": "Riley Childress",
-       "avg": "6.13",
-       "score": 276,
+       "avg": "6.04",
+       "score": 302,
        "shooterId": "OFVnTm1SaW1kNVZid1dCNkt1WXI2QT09",
-       "arrows": 45,
+       "arrows": 50,
        "arrowsTotal": 60
       },
       {
        "rank": 3,
+       "name": "Braylie Auler",
+       "avg": "6.00",
+       "score": 300,
+       "shooterId": "MnExRzlPQ1Z5ZXJJdFJFOXlRREdpZz09",
+       "arrows": 50,
+       "arrowsTotal": 60
+      },
+      {
+       "rank": 4,
        "name": "Greenlee Wentz",
        "avg": "4.40",
        "score": 264,
@@ -2159,16 +2168,16 @@
        "arrowsTotal": 60
       },
       {
-       "rank": 4,
-       "name": "Braylie Auler",
-       "avg": "5.82",
-       "score": 262,
-       "shooterId": "MnExRzlPQ1Z5ZXJJdFJFOXlRREdpZz09",
-       "arrows": 45,
+       "rank": 5,
+       "name": "Taryn Thibodeaux",
+       "avg": "5.18",
+       "score": 259,
+       "shooterId": "MkFHWWJVZDZPME91cTJyT2FGTkFIQT09",
+       "arrows": 50,
        "arrowsTotal": 60
       },
       {
-       "rank": 5,
+       "rank": 6,
        "name": "Morgan Beasley",
        "avg": "4.28",
        "score": 257,
@@ -2177,30 +2186,21 @@
        "arrowsTotal": 60
       },
       {
-       "rank": 6,
-       "name": "Taryn Thibodeaux",
-       "avg": "5.24",
-       "score": 236,
-       "shooterId": "MkFHWWJVZDZPME91cTJyT2FGTkFIQT09",
-       "arrows": 45,
-       "arrowsTotal": 60
-      },
-      {
        "rank": 7,
        "name": "Hadley Harrison",
        "avg": "3.84",
-       "score": 173,
+       "score": 192,
        "shooterId": "Q21Obi9RN0Y2Nndhc29KMWJ6L2s5dz09",
-       "arrows": 45,
+       "arrows": 50,
        "arrowsTotal": 60
       },
       {
        "rank": 8,
        "name": "Maria Hindi",
-       "avg": "3.73",
-       "score": 168,
+       "avg": "3.64",
+       "score": 182,
        "shooterId": "VytGMkpXTEFZVXN2eXdMQlNhczkvdz09",
-       "arrows": 45,
+       "arrows": 50,
        "arrowsTotal": 60
       },
       {
@@ -2215,19 +2215,19 @@
       {
        "rank": 10,
        "name": "Aurora Crawford",
-       "avg": "2.33",
-       "score": 105,
+       "avg": "2.46",
+       "score": 123,
        "shooterId": "YjRua1VEVTROUVV0bTUyc2Z2aEhrUT09",
-       "arrows": 45,
+       "arrows": 50,
        "arrowsTotal": 60
       },
       {
        "rank": 11,
        "name": "Elizabeth Vigueras Custodio",
-       "avg": "0.80",
-       "score": 36,
+       "avg": "0.82",
+       "score": 41,
        "shooterId": "eXBoUUFpMVg5MnF3SVhzUjE2UGFZdz09",
-       "arrows": 45,
+       "arrows": 50,
        "arrowsTotal": 60
       },
       {
@@ -2258,19 +2258,19 @@
       {
        "rank": 2,
        "name": "Nicole Lopez",
-       "avg": "2.02",
-       "score": 91,
+       "avg": "2.12",
+       "score": 106,
        "shooterId": "THQ5eVY0elJ4blQxb2dUUzNHNEwvUT09",
-       "arrows": 45,
+       "arrows": 50,
        "arrowsTotal": 60
       },
       {
        "rank": 3,
        "name": "Jessie Vann",
-       "avg": "1.29",
-       "score": 58,
+       "avg": "1.20",
+       "score": 60,
        "shooterId": "MzVrcGRJZnA3TTRkU2ZHK2xzL3VVdz09",
-       "arrows": 45,
+       "arrows": 50,
        "arrowsTotal": 60
       }
      ],
@@ -2310,19 +2310,19 @@
       {
        "rank": 4,
        "name": "Eeshwar Kollu",
-       "avg": "5.40",
-       "score": 243,
+       "avg": "5.52",
+       "score": 276,
        "shooterId": "YnRNZUJscWJ2VW9STUxuclpaRE5udz09",
-       "arrows": 45,
+       "arrows": 50,
        "arrowsTotal": 60
       },
       {
        "rank": 5,
        "name": "Jonathan Vann",
-       "avg": "3.71",
-       "score": 167,
+       "avg": "3.58",
+       "score": 179,
        "shooterId": "MExBWW83N1NNMnhlY2l0WFRmSmZqUT09",
-       "arrows": 45,
+       "arrows": 50,
        "arrowsTotal": 60
       },
       {
@@ -2336,20 +2336,20 @@
       },
       {
        "rank": 7,
+       "name": "Marcus Caves",
+       "avg": "2.34",
+       "score": 117,
+       "shooterId": "dC9ZWEgyeUpFQ3F0T2pOTUtNR2F0UT09",
+       "arrows": 50,
+       "arrowsTotal": 60
+      },
+      {
+       "rank": 8,
        "name": "Zion Harrison",
        "avg": "1.90",
        "score": 114,
        "shooterId": "NmNIYWNTOEsyZjZLVlRuT3daRzhnUT09",
        "arrows": 60,
-       "arrowsTotal": 60
-      },
-      {
-       "rank": 8,
-       "name": "Marcus Caves",
-       "avg": "2.44",
-       "score": 110,
-       "shooterId": "dC9ZWEgyeUpFQ3F0T2pOTUtNR2F0UT09",
-       "arrows": 45,
        "arrowsTotal": 60
       },
       {
@@ -2373,10 +2373,10 @@
       {
        "rank": 11,
        "name": "Ray Lopez",
-       "avg": "0.62",
+       "avg": "0.56",
        "score": 28,
        "shooterId": "ZXdZc29vd3poNzV6Q0R1SisrNGtSQT09",
-       "arrows": 45,
+       "arrows": 50,
        "arrowsTotal": 60
       }
      ],
