@@ -50,6 +50,34 @@ function Placings({
   )
 }
 
+/**
+ * Arrows shot out of arrows in the round — "15/60".
+ *
+ * The part-shot archers are the ones worth marking: their score is low because
+ * they are a round behind, not because they are losing. A finished card is the
+ * quiet state; an in-progress one is called out.
+ */
+function ArrowCount({ shot, total }: { shot?: number; total?: number }) {
+  if (total === undefined || total <= 0) return <span className="muted">—</span>
+  const n = shot ?? 0
+  // Three states, not two. An archer on 0 has not started — saying "still
+  // shooting" of them is wrong, and highlighting them would drown out the
+  // genuinely part-shot archers, who are the ones whose score misleads.
+  const state = n >= total ? 'done' : n === 0 ? 'waiting' : 'shooting'
+  const label =
+    state === 'done' ? 'round complete' : state === 'waiting' ? 'not started' : 'still shooting'
+  return (
+    <span
+      className={`arrow-count is-${state}`}
+      title={state === 'done' ? 'Round complete' : `${total - n} arrows remaining`}
+    >
+      {n}/{total}
+      {state === 'done' && <span className="arrow-done-tick" aria-hidden="true"> ✓</span>}
+      <span className="sr-only"> {label}</span>
+    </span>
+  )
+}
+
 function QualTable({
   division,
   onPick,
@@ -65,6 +93,7 @@ function QualTable({
           <tr>
             <th>Seed</th>
             <th>Archer</th>
+            <th className="cell-num">Arrows</th>
             <th className="cell-num">Arrow Avg</th>
             <th className="cell-num">Score</th>
           </tr>
@@ -96,6 +125,9 @@ function QualTable({
                   ) : (
                     r.name
                   )}
+                </td>
+                <td className="cell-num">
+                  <ArrowCount shot={r.arrows} total={r.arrowsTotal} />
                 </td>
                 <td className="cell-num mono">{r.avg}</td>
                 <td className="cell-num">

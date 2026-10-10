@@ -2107,3 +2107,43 @@ a.button:hover {
   padding: 2rem 1.25rem;
   text-align: center;
 }
+
+/* ---------- Arrow progress (XX/60) in the qualification table ------------- */
+
+.arrow-count {
+  font-family: var(--font-condensed);
+  font-variant-numeric: tabular-nums;
+  font-size: 0.82rem;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+
+/* Finished, and not-yet-started, are both quiet. Only the part-shot archers
+   are called out, because only their score reads as worse than it is. */
+.arrow-count.is-done,
+.arrow-count.is-waiting {
+  color: var(--text-muted);
+}
+
+/* Still shooting is the one worth noticing: a low score here means a round
+   outstanding, not a bad performance. */
+.arrow-count.is-shooting {
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.arrow-done-tick {
+  opacity: 0.65;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}

@@ -160,6 +160,9 @@ async function syncSegment(id: string) {
       // Lets the page fetch this archer's scorecard when their row is tapped.
       // Dropped along with the rest of the row where qualification is withheld.
       shooterId: String(r.shooter_id ?? ''),
+      // Progress through the round, so a part-shot score is not read as a bad one.
+      arrows: toInt(r.total_attended_arrows_count),
+      arrowsTotal: toInt(r.total_arrow_count),
     }))
 
     const shooterId = String(rows[0].shooter_id ?? '')
