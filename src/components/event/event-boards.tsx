@@ -20,6 +20,27 @@ function ordinal(place: number): string {
   return `${place}${suffix}`
 }
 
+/**
+ * Whether this division has finished shooting.
+ *
+ * Qualification order means nothing until everyone has shot the same number of
+ * arrows. Mid-round it ranks a 20/60 score against a 60/60 one and calls the
+ * result a placing — during this event it publicly listed an archer averaging
+ * 9.10 as "3rd" off 20 arrows, and one who had not drawn a bow as "5th".
+ *
+ * A bracket is its own answer: those placings come from head-to-head results,
+ * not from arrow counts. And where no row carries arrow data at all — older
+ * synced events — there is nothing to judge, so the placings stand.
+ */
+function divisionComplete(division: EventDivision): boolean {
+  if (division.bracket !== null && division.bracket.rounds.length > 0) return true
+  const measurable = division.qualification.filter(
+    (r) => r.arrowsTotal !== undefined && r.arrowsTotal > 0,
+  )
+  if (measurable.length === 0) return true
+  return measurable.every((r) => (r.arrows ?? 0) >= (r.arrowsTotal as number))
+}
+
 function Placings({
   division,
   bracketOnly,
@@ -28,6 +49,7 @@ function Placings({
   /** Drop places that fall back to qualification order — see EventBoards. */
   bracketOnly?: boolean
 }) {
+  if (!divisionComplete(division)) return null
   const all = getPlacings(division)
   const placings = bracketOnly === true ? all.filter((p) => p.source === 'bracket') : all
   if (placings.length === 0) return null
