@@ -43,6 +43,12 @@ interface SegmentConfig {
    * own full copy for scoring.
    */
   publishQualification?: boolean
+  /**
+   * EOS holds this tournament's scores as private: the public score list comes
+   * back empty, and only an `is_private=true` read returns them. The 2027 3D
+   * competition is set up this way, which is why it read as all zeros.
+   */
+  privateScores?: boolean
 }
 
 interface EventConfig {
@@ -69,7 +75,10 @@ const EVENTS: EventConfig[] = [
       {
         key: '3d',
         label: '3D',
-        id: 'Y0lXWGo0MkY4Zms4RTNBK2dkRDdaUT09',
+        id: 'UWcxL0RMaWx4RllZczhQU09yeVlTZz09',
+        // The competition record, not '2027 HLSR 3D Archery Competition Times',
+        // which is a schedule copy with the roster but no scores.
+        privateScores: true,
         publishQualification: false,
       },
     ],
@@ -135,8 +144,10 @@ function sessionDate(rows: any[]): string {
   return ''
 }
 
-async function syncSegment(id: string) {
-  const qual = await post(`${API}/tournament_score_list?is_private=false&id=${id}&for_fav=true`)
+async function syncSegment(id: string, privateScores = false) {
+  const qual = await post(
+    `${API}/tournament_score_list?is_private=${privateScores}&id=${id}&for_fav=true`,
+  )
   const qualSorting = qual.sortingResult ?? {}
 
   const divisions: any[] = []
@@ -219,7 +230,7 @@ async function syncEvent(event: EventConfig): Promise<void> {
       console.log(`${seg.label}: not yet created in EOS — written empty`)
       continue
     }
-    const { divisions, archers, date: segDate } = await syncSegment(seg.id)
+    const { divisions, archers, date: segDate } = await syncSegment(seg.id, seg.privateScores === true)
     if (date === '' && segDate !== '') date = segDate
     // Withhold qualification scores where the committee asked us not to publish
     // them. The archer count is kept — it drives the 24+ finalists rule.
