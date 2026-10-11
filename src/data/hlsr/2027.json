@@ -1606,7 +1606,7 @@
     },
     {
      "name": "Freestyle Compound Junior Female",
-     "champion": "Gianna Ross",
+     "champion": null,
      "qualification": [
       {
        "rank": 1,
@@ -1619,15 +1619,6 @@
       },
       {
        "rank": 2,
-       "name": "Kendall Garner",
-       "avg": "8.62",
-       "score": 517,
-       "shooterId": "YU83UnVBaWZsZy9IL0pzMG1TQmVyUT09",
-       "arrows": 60,
-       "arrowsTotal": 60
-      },
-      {
-       "rank": 3,
        "name": "Lona Toomer",
        "avg": "8.45",
        "score": 507,
@@ -1636,7 +1627,7 @@
        "arrowsTotal": 60
       },
       {
-       "rank": 4,
+       "rank": 3,
        "name": "Evelyn Echavarria-Hyden",
        "avg": "8.38",
        "score": 503,
@@ -1645,7 +1636,7 @@
        "arrowsTotal": 60
       },
       {
-       "rank": 5,
+       "rank": 4,
        "name": "Riley Berger",
        "avg": "7.73",
        "score": 464,
@@ -1654,7 +1645,7 @@
        "arrowsTotal": 60
       },
       {
-       "rank": 6,
+       "rank": 5,
        "name": "Emeri Burden",
        "avg": "7.25",
        "score": 435,
@@ -1663,12 +1654,21 @@
        "arrowsTotal": 60
       },
       {
-       "rank": 7,
+       "rank": 6,
        "name": "Everly Ebarb",
        "avg": "7.22",
        "score": 433,
        "shooterId": "WW93dDVPcDROZWJZU2s3NmtWeGFnZz09",
        "arrows": 60,
+       "arrowsTotal": 60
+      },
+      {
+       "rank": 7,
+       "name": "Kendall Garner",
+       "avg": "8.60",
+       "score": 430,
+       "shooterId": "YU83UnVBaWZsZy9IL0pzMG1TQmVyUT09",
+       "arrows": 50,
        "arrowsTotal": 60
       },
       {
@@ -1690,7 +1690,76 @@
        "arrowsTotal": 60
       }
      ],
-     "bracket": null
+     "bracket": {
+      "rounds": [
+       {
+        "name": "Semi Finals",
+        "matches": [
+         {
+          "a": {
+           "name": "Gianna Ross",
+           "seed": 1,
+           "score": 0,
+           "winner": false
+          },
+          "b": {
+           "name": "Riley Berger",
+           "seed": 4,
+           "score": 0,
+           "winner": false
+          }
+         },
+         {
+          "a": {
+           "name": "Evelyn Echavarria-Hyden",
+           "seed": 3,
+           "score": 0,
+           "winner": false
+          },
+          "b": {
+           "name": "Lona Toomer",
+           "seed": 2,
+           "score": 0,
+           "winner": false
+          }
+         }
+        ]
+       },
+       {
+        "name": "Finals",
+        "matches": [
+         {
+          "a": {
+           "name": "",
+           "seed": 0,
+           "score": 0,
+           "winner": false
+          },
+          "b": {
+           "name": "",
+           "seed": 0,
+           "score": 0,
+           "winner": false
+          }
+         },
+         {
+          "a": {
+           "name": "",
+           "seed": 0,
+           "score": 0,
+           "winner": false
+          },
+          "b": {
+           "name": "",
+           "seed": 0,
+           "score": 0,
+           "winner": false
+          }
+         }
+        ]
+       }
+      ]
+     }
     },
     {
      "name": "Freestyle Compound Junior Male",
@@ -2156,7 +2225,7 @@
     },
     {
      "name": "Fixed Pin Compound Junior Female",
-     "champion": null,
+     "champion": "Nealee Vines",
      "qualification": [
       {
        "rank": 1,
@@ -2267,76 +2336,7 @@
        "arrowsTotal": 60
       }
      ],
-     "bracket": {
-      "rounds": [
-       {
-        "name": "Semi Finals",
-        "matches": [
-         {
-          "a": {
-           "name": "Nealee Vines",
-           "seed": 1,
-           "score": 0,
-           "winner": false
-          },
-          "b": {
-           "name": "Bryleigh Morse",
-           "seed": 4,
-           "score": 0,
-           "winner": false
-          }
-         },
-         {
-          "a": {
-           "name": "Kendall Garner",
-           "seed": 3,
-           "score": 0,
-           "winner": false
-          },
-          "b": {
-           "name": "Lona Toomer",
-           "seed": 2,
-           "score": 0,
-           "winner": false
-          }
-         }
-        ]
-       },
-       {
-        "name": "Finals",
-        "matches": [
-         {
-          "a": {
-           "name": "",
-           "seed": 0,
-           "score": 0,
-           "winner": false
-          },
-          "b": {
-           "name": "",
-           "seed": 0,
-           "score": 0,
-           "winner": false
-          }
-         },
-         {
-          "a": {
-           "name": "",
-           "seed": 0,
-           "score": 0,
-           "winner": false
-          },
-          "b": {
-           "name": "",
-           "seed": 0,
-           "score": 0,
-           "winner": false
-          }
-         }
-        ]
-       }
-      ]
-     }
+     "bracket": null
     },
     {
      "name": "Fixed Pin Compound Junior Male",
