@@ -64,13 +64,13 @@
           "a": {
            "name": "Grace Walter",
            "seed": 3,
-           "score": 45,
+           "score": 90,
            "winner": true
           },
           "b": {
            "name": "Ella Phillips",
            "seed": 2,
-           "score": 42,
+           "score": 86,
            "winner": false
           }
          }
@@ -171,13 +171,13 @@
           "a": {
            "name": "Alain Pinto",
            "seed": 1,
-           "score": 46,
-           "winner": false
+           "score": 93,
+           "winner": true
           },
           "b": {
            "name": "Laurent Chang",
            "seed": 4,
-           "score": 46,
+           "score": 90,
            "winner": false
           }
          },
@@ -185,13 +185,13 @@
           "a": {
            "name": "Ashvath Sana",
            "seed": 3,
-           "score": 43,
+           "score": 78,
            "winner": false
           },
           "b": {
            "name": "Marvin Wang",
            "seed": 2,
-           "score": 45,
+           "score": 93,
            "winner": true
           }
          }
@@ -288,13 +288,13 @@
           "a": {
            "name": "Aydin Naqvi",
            "seed": 3,
-           "score": 22,
+           "score": 55,
            "winner": false
           },
           "b": {
            "name": "Saahas Chakra Chidurala",
            "seed": 2,
-           "score": 44,
+           "score": 75,
            "winner": true
           }
          }
@@ -395,13 +395,13 @@
           "a": {
            "name": "Adeline Oliver",
            "seed": 1,
-           "score": 10,
+           "score": 37,
            "winner": false
           },
           "b": {
            "name": "Emily Luo",
            "seed": 4,
-           "score": 29,
+           "score": 66,
            "winner": true
           }
          },
@@ -409,14 +409,14 @@
           "a": {
            "name": "Rukia Nunez",
            "seed": 3,
-           "score": 31,
-           "winner": false
+           "score": 64,
+           "winner": true
           },
           "b": {
            "name": "Josephine Schaefer",
            "seed": 2,
-           "score": 34,
-           "winner": true
+           "score": 59,
+           "winner": false
           }
          }
         ]
@@ -516,13 +516,13 @@
           "a": {
            "name": "Caelan Shanklin",
            "seed": 1,
-           "score": 40,
+           "score": 89,
            "winner": true
           },
           "b": {
            "name": "Jackson Norlin",
            "seed": 4,
-           "score": 31,
+           "score": 55,
            "winner": false
           }
          },
@@ -530,14 +530,14 @@
           "a": {
            "name": "Gabriel Rodriguez",
            "seed": 3,
-           "score": 45,
+           "score": 92,
            "winner": false
           },
           "b": {
            "name": "Micah Xie",
            "seed": 2,
-           "score": 47,
-           "winner": true
+           "score": 92,
+           "winner": false
           }
          }
         ]
@@ -700,13 +700,13 @@
           "a": {
            "name": "Vivian Wong",
            "seed": 1,
-           "score": 46,
-           "winner": false
+           "score": 94,
+           "winner": true
           },
           "b": {
            "name": "Calista Schwab",
            "seed": 4,
-           "score": 46,
+           "score": 88,
            "winner": false
           }
          },
@@ -714,13 +714,13 @@
           "a": {
            "name": "Madeleine Dodson",
            "seed": 3,
-           "score": 43,
+           "score": 88,
            "winner": false
           },
           "b": {
            "name": "Madelyn Yi",
            "seed": 2,
-           "score": 48,
+           "score": 94,
            "winner": true
           }
          }
@@ -839,13 +839,13 @@
           "a": {
            "name": "Taylin Myers",
            "seed": 1,
-           "score": 46,
-           "winner": false
+           "score": 92,
+           "winner": true
           },
           "b": {
            "name": "Ryleigh Telischak",
            "seed": 4,
-           "score": 46,
+           "score": 91,
            "winner": false
           }
          },
@@ -853,13 +853,13 @@
           "a": {
            "name": "Makaela Alvarez",
            "seed": 3,
-           "score": 46,
+           "score": 83,
            "winner": false
           },
           "b": {
            "name": "Darci Burden",
            "seed": 2,
-           "score": 50,
+           "score": 98,
            "winner": true
           }
          }
@@ -1041,13 +1041,13 @@
           "a": {
            "name": "Remington Whitehead",
            "seed": 1,
-           "score": 49,
+           "score": 99,
            "winner": true
           },
           "b": {
            "name": "Kaydon Shell",
            "seed": 4,
-           "score": 43,
+           "score": 89,
            "winner": false
           }
          },
@@ -1055,14 +1055,14 @@
           "a": {
            "name": "Tristan Alvarez",
            "seed": 3,
-           "score": 48,
+           "score": 95,
            "winner": false
           },
           "b": {
            "name": "Everett Pawlik",
            "seed": 2,
-           "score": 49,
-           "winner": true
+           "score": 95,
+           "winner": false
           }
          }
         ]
@@ -1189,13 +1189,13 @@
           "a": {
            "name": "Khadijah El-Abid",
            "seed": 1,
-           "score": 49,
-           "winner": false
+           "score": 99,
+           "winner": true
           },
           "b": {
            "name": "Addison Schleifer",
            "seed": 4,
-           "score": 49,
+           "score": 98,
            "winner": false
           }
          },
@@ -1203,14 +1203,14 @@
           "a": {
            "name": "Elliana Farquhar",
            "seed": 3,
-           "score": 49,
+           "score": 99,
            "winner": false
           },
           "b": {
            "name": "Keelie Ellensohn",
            "seed": 2,
-           "score": 50,
-           "winner": true
+           "score": 99,
+           "winner": false
           }
          }
         ]
@@ -1542,13 +1542,13 @@
           "a": {
            "name": "Connor Goehring",
            "seed": 1,
-           "score": 50,
-           "winner": false
+           "score": 100,
+           "winner": true
           },
           "b": {
            "name": "Landon Roland",
            "seed": 4,
-           "score": 50,
+           "score": 99,
            "winner": false
           }
          },
@@ -1556,13 +1556,13 @@
           "a": {
            "name": "Nash Thompson",
            "seed": 3,
-           "score": 50,
+           "score": 100,
            "winner": false
           },
           "b": {
            "name": "Cole Ware",
            "seed": 2,
-           "score": 50,
+           "score": 100,
            "winner": false
           }
          }
@@ -1699,13 +1699,13 @@
           "a": {
            "name": "Gianna Ross",
            "seed": 1,
-           "score": 49,
+           "score": 97,
            "winner": true
           },
           "b": {
            "name": "Riley Berger",
            "seed": 4,
-           "score": 32,
+           "score": 68,
            "winner": false
           }
          },
@@ -1713,13 +1713,13 @@
           "a": {
            "name": "Evelyn Echavarria-Hyden",
            "seed": 3,
-           "score": 45,
+           "score": 92,
            "winner": true
           },
           "b": {
            "name": "Lona Toomer",
            "seed": 2,
-           "score": 44,
+           "score": 84,
            "winner": false
           }
          }
@@ -1816,13 +1816,13 @@
           "a": {
            "name": "Sutton Arnold",
            "seed": 3,
-           "score": 46,
+           "score": 91,
            "winner": false
           },
           "b": {
            "name": "Dillon Michels",
            "seed": 2,
-           "score": 49,
+           "score": 97,
            "winner": true
           }
          }
@@ -1995,13 +1995,13 @@
           "a": {
            "name": "Asher Harrison",
            "seed": 1,
-           "score": 45,
+           "score": 93,
            "winner": true
           },
           "b": {
            "name": "Maliha Butt",
            "seed": 4,
-           "score": 35,
+           "score": 74,
            "winner": false
           }
          },
@@ -2009,13 +2009,13 @@
           "a": {
            "name": "Jancsi West",
            "seed": 3,
-           "score": 44,
+           "score": 83,
            "winner": true
           },
           "b": {
            "name": "Eliza Sternadel",
            "seed": 2,
-           "score": 42,
+           "score": 81,
            "winner": false
           }
          }
@@ -2161,27 +2161,27 @@
           "a": {
            "name": "Stockton DeRouen",
            "seed": 1,
-           "score": 46,
+           "score": 94,
            "winner": false
           },
           "b": {
            "name": "Tripp Southwell",
            "seed": 4,
-           "score": 47,
-           "winner": true
+           "score": 94,
+           "winner": false
           }
          },
          {
           "a": {
            "name": "Jackson Just",
            "seed": 3,
-           "score": 47,
+           "score": 93,
            "winner": true
           },
           "b": {
            "name": "Judah Harrison",
            "seed": 2,
-           "score": 43,
+           "score": 89,
            "winner": false
           }
          }
@@ -2345,13 +2345,13 @@
           "a": {
            "name": "Nealee Vines",
            "seed": 1,
-           "score": 43,
+           "score": 87,
            "winner": true
           },
           "b": {
            "name": "Lucy Lane",
            "seed": 4,
-           "score": 34,
+           "score": 72,
            "winner": false
           }
          },
@@ -2359,14 +2359,14 @@
           "a": {
            "name": "Bryleigh Morse",
            "seed": 3,
-           "score": 42,
-           "winner": true
+           "score": 78,
+           "winner": false
           },
           "b": {
            "name": "Kendall Garner",
            "seed": 2,
-           "score": 41,
-           "winner": false
+           "score": 81,
+           "winner": true
           }
          }
         ]
@@ -2556,13 +2556,13 @@
           "a": {
            "name": "Connor Chang",
            "seed": 1,
-           "score": 46,
+           "score": 93,
            "winner": true
           },
           "b": {
            "name": "Henry Watts",
            "seed": 4,
-           "score": 36,
+           "score": 75,
            "winner": false
           }
          },
@@ -2570,13 +2570,13 @@
           "a": {
            "name": "William Early",
            "seed": 3,
-           "score": 37,
+           "score": 78,
            "winner": false
           },
           "b": {
            "name": "Omar El-Abid",
            "seed": 2,
-           "score": 44,
+           "score": 88,
            "winner": true
           }
          }
@@ -2713,13 +2713,13 @@
           "a": {
            "name": "Elise Schleifer",
            "seed": 1,
-           "score": 46,
+           "score": 95,
            "winner": true
           },
           "b": {
            "name": "Elsie Dietz",
            "seed": 4,
-           "score": 44,
+           "score": 80,
            "winner": false
           }
          },
@@ -2727,13 +2727,13 @@
           "a": {
            "name": "Ava Lowe",
            "seed": 3,
-           "score": 48,
+           "score": 98,
            "winner": false
           },
           "b": {
            "name": "Chloe Brandt",
            "seed": 2,
-           "score": 48,
+           "score": 98,
            "winner": false
           }
          }
@@ -2888,13 +2888,13 @@
           "a": {
            "name": "Hasan El-Abid",
            "seed": 1,
-           "score": 49,
+           "score": 99,
            "winner": true
           },
           "b": {
            "name": "Trustin Nelson",
            "seed": 4,
-           "score": 47,
+           "score": 96,
            "winner": false
           }
          },
@@ -2902,13 +2902,13 @@
           "a": {
            "name": "Joel Bonner",
            "seed": 3,
-           "score": 50,
+           "score": 98,
            "winner": true
           },
           "b": {
            "name": "Isaac Blakey",
            "seed": 2,
-           "score": 49,
+           "score": 97,
            "winner": false
           }
          }
@@ -3108,13 +3108,13 @@
           "a": {
            "name": "Ayana Butt",
            "seed": 1,
-           "score": 25,
+           "score": 48,
            "winner": false
           },
           "b": {
            "name": "Abigail Little",
            "seed": 4,
-           "score": 35,
+           "score": 57,
            "winner": true
           }
          },
@@ -3122,13 +3122,13 @@
           "a": {
            "name": "Brynnly Hohlt",
            "seed": 3,
-           "score": 36,
+           "score": 67,
            "winner": false
           },
           "b": {
            "name": "Isabel Sladaritz",
            "seed": 2,
-           "score": 42,
+           "score": 76,
            "winner": true
           }
          }
@@ -3265,13 +3265,13 @@
           "a": {
            "name": "Nathan Schoeneberg",
            "seed": 1,
-           "score": 33,
+           "score": 72,
            "winner": true
           },
           "b": {
            "name": "Bryce Maddux",
            "seed": 4,
-           "score": 28,
+           "score": 65,
            "winner": false
           }
          },
@@ -3279,14 +3279,14 @@
           "a": {
            "name": "Collin Russell",
            "seed": 3,
-           "score": 23,
+           "score": 65,
            "winner": false
           },
           "b": {
            "name": "Austin Smith",
            "seed": 2,
-           "score": 29,
-           "winner": true
+           "score": 65,
+           "winner": false
           }
          }
         ]
@@ -3476,13 +3476,13 @@
           "a": {
            "name": "Andrew Meglasson",
            "seed": 1,
-           "score": 40,
+           "score": 72,
            "winner": true
           },
           "b": {
            "name": "Caleb Burnett",
            "seed": 4,
-           "score": 31,
+           "score": 62,
            "winner": false
           }
          },
@@ -3490,13 +3490,13 @@
           "a": {
            "name": "Greyson Jones",
            "seed": 3,
-           "score": 34,
+           "score": 68,
            "winner": false
           },
           "b": {
            "name": "Carter Dietz",
            "seed": 2,
-           "score": 39,
+           "score": 78,
            "winner": true
           }
          }
@@ -3660,13 +3660,13 @@
           "a": {
            "name": "Laura Schoeneberg",
            "seed": 1,
-           "score": 32,
+           "score": 58,
            "winner": true
           },
           "b": {
            "name": "Taryn Thibodeaux",
            "seed": 4,
-           "score": 31,
+           "score": 50,
            "winner": false
           }
          },
@@ -3674,13 +3674,13 @@
           "a": {
            "name": "Braylie Auler",
            "seed": 3,
-           "score": 37,
+           "score": 68,
            "winner": true
           },
           "b": {
            "name": "Riley Childress",
            "seed": 2,
-           "score": 32,
+           "score": 66,
            "winner": false
           }
          }
@@ -3783,7 +3783,7 @@
           "b": {
            "name": "Nicole Lopez",
            "seed": 2,
-           "score": 9,
+           "score": 22,
            "winner": true
           }
          }
@@ -3938,27 +3938,27 @@
           "a": {
            "name": "Eeshwar Kollu",
            "seed": 1,
-           "score": 28,
-           "winner": true
+           "score": 47,
+           "winner": false
           },
           "b": {
            "name": "Luke Burnett",
            "seed": 4,
-           "score": 23,
-           "winner": false
+           "score": 55,
+           "winner": true
           }
          },
          {
           "a": {
            "name": "Jimmy Jones",
            "seed": 3,
-           "score": 11,
+           "score": 36,
            "winner": false
           },
           "b": {
            "name": "Bo Rerich",
            "seed": 2,
-           "score": 30,
+           "score": 53,
            "winner": true
           }
          }
