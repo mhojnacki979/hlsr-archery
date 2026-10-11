@@ -7,7 +7,7 @@
   "target": {
    "label": "Target",
    "tournamentId": "MWNOdFN5WnJ4VFZmQThEUk9jNUVadz09",
-   "archers": 245,
+   "archers": 237,
    "divisions": [
     {
      "name": "Recurve Intermediate Female",
@@ -229,15 +229,6 @@
        "shooterId": "L1U0cndqL2NzbVJaWWp0QTBHZnd1QT09",
        "arrows": 60,
        "arrowsTotal": 60
-      },
-      {
-       "rank": 6,
-       "name": "CJ Hood",
-       "avg": "0.00",
-       "score": 0,
-       "shooterId": "RlZTbThZNGI2citVcU8yNU5odnZoQT09",
-       "arrows": 0,
-       "arrowsTotal": 60
       }
      ],
      "bracket": null
@@ -352,24 +343,6 @@
        "score": 393,
        "shooterId": "dkxycVR0S0J2dEx5UElKZUNRU2lXQT09",
        "arrows": 60,
-       "arrowsTotal": 60
-      },
-      {
-       "rank": 13,
-       "name": "Kenya Boone",
-       "avg": "0.00",
-       "score": 0,
-       "shooterId": "ZlIwdEpkNit2Vk9NL3loVGxWa01kZz09",
-       "arrows": 0,
-       "arrowsTotal": 60
-      },
-      {
-       "rank": 13,
-       "name": "Ann Gregie",
-       "avg": "0.00",
-       "score": 0,
-       "shooterId": "aGg3MkFRYVRIVG1GN2lwNy82ZFVHdz09",
-       "arrows": 0,
        "arrowsTotal": 60
       }
      ],
@@ -662,15 +635,6 @@
        "shooterId": "UUpBLzVDeXZUWXNjTDJZbEwwVm9kQT09",
        "arrows": 60,
        "arrowsTotal": 60
-      },
-      {
-       "rank": 9,
-       "name": "Kylie Ybarbo",
-       "avg": "0.00",
-       "score": 0,
-       "shooterId": "Zm1KSGVBME1YQU4vU0tObmxrbmJXZz09",
-       "arrows": 0,
-       "arrowsTotal": 60
       }
      ],
      "bracket": null
@@ -893,15 +857,6 @@
        "score": 231,
        "shooterId": "dmRXL0htclhHN2Q3Q3VKUEZqeDdCUT09",
        "arrows": 60,
-       "arrowsTotal": 60
-      },
-      {
-       "rank": 25,
-       "name": "Landan Cunningham",
-       "avg": "0.00",
-       "score": 0,
-       "shooterId": "c3pJOWV5MWJHYUMzS1I5cnplRmxtUT09",
-       "arrows": 0,
        "arrowsTotal": 60
       }
      ],
@@ -1503,15 +1458,6 @@
        "shooterId": "VkNKbXlWZnowVWNZWjhtRXNUWC85UT09",
        "arrows": 60,
        "arrowsTotal": 60
-      },
-      {
-       "rank": 16,
-       "name": "Casen Kilgore",
-       "avg": "0.00",
-       "score": 0,
-       "shooterId": "dENiRnJuM2YzeGdyNTljdzJiNUxGZz09",
-       "arrows": 0,
-       "arrowsTotal": 60
       }
      ],
      "bracket": null
@@ -1706,15 +1652,6 @@
        "shooterId": "bGVxR0huTUpzcUJqaERsRzQ0WTltQT09",
        "arrows": 60,
        "arrowsTotal": 60
-      },
-      {
-       "rank": 12,
-       "name": "Connor Goehring",
-       "avg": "0.00",
-       "score": 0,
-       "shooterId": "UE5SNW5EUHpkSlpOdlgzaXkwTXVMQT09",
-       "arrows": 0,
-       "arrowsTotal": 60
       }
      ],
      "bracket": null
@@ -1865,15 +1802,6 @@
        "score": 174,
        "shooterId": "MmY1M2NtTkMyVm9rOEpLUUJYWldVQT09",
        "arrows": 60,
-       "arrowsTotal": 60
-      },
-      {
-       "rank": 17,
-       "name": "Anastacia Hernandez",
-       "avg": "0.00",
-       "score": 0,
-       "shooterId": "QnBKc2pDSVUrSkFEM1Z2VWV0djdhdz09",
-       "arrows": 0,
        "arrowsTotal": 60
       }
      ],
