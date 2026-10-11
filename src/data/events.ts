@@ -79,6 +79,37 @@ function nameKey(name: string): string {
   return name.trim().toLowerCase()
 }
 
+/** EOS fills an odd bracket with "BYE". It is an empty slot, never an archer. */
+function isArcher(name: string): boolean {
+  const key = nameKey(name)
+  return key !== '' && key !== 'bye'
+}
+
+/**
+ * Whether the final round has been shot: the gold match, and the bronze match
+ * where there is one, each have a winner with a score behind it.
+ *
+ * Until then nobody's place is known. Four archers in the semis are all still
+ * in it for 1st, so ranking them would be a guess dressed up as a result.
+ *
+ * A winner alone is not enough: EOS marks winners on a drawn-but-unshot tree
+ * wherever a BYE advances someone. So a match also needs a score — unless it
+ * is itself against a BYE, as a three-archer class's bronze match is. That one
+ * is never shot, and the archer takes 3rd on the award alone.
+ */
+function matchDecided(m: BracketMatch): boolean {
+  const hasWinner = m.a.winner || m.b?.winner === true
+  const shot = m.a.score > 0 || (m.b !== null && m.b.score > 0)
+  const walkover = !isArcher(m.a.name) || m.b === null || !isArcher(m.b.name)
+  return hasWinner && (shot || walkover)
+}
+
+export function finalDecided(division: EventDivision): boolean {
+  const rounds = division.bracket?.rounds ?? []
+  const medalMatches = rounds[rounds.length - 1]?.matches.slice(0, 2) ?? []
+  return medalMatches.length > 0 && medalMatches.every(matchDecided)
+}
+
 /** Qualification rank for an archer — orders the losers of each elimination round. */
 function qualRank(division: EventDivision, name: string): number {
   const key = nameKey(name)
@@ -127,7 +158,7 @@ export function getPlacings(division: EventDivision, limit = 8): Placing[] {
 
   const add = (name: string, score: number, source: Placing['source']): void => {
     const key = nameKey(name)
-    if (key === '' || taken.has(key)) return
+    if (!isArcher(name) || taken.has(key)) return
     taken.add(key)
     placings.push({ place: placings.length + 1, name, score, source })
   }

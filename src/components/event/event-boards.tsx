@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 import type { EventDivision } from '@/data/events'
-import { getPlacings } from '@/data/events'
+import { finalDecided, getPlacings } from '@/data/events'
 import { DivisionBracket } from './division-bracket'
 import { RoundsView } from './rounds-view'
 import { ScorecardModal } from './scorecard-modal'
@@ -28,12 +28,13 @@ function ordinal(place: number): string {
  * result a placing — during this event it publicly listed an archer averaging
  * 9.10 as "3rd" off 20 arrows, and one who had not drawn a bow as "5th".
  *
- * A bracket is its own answer: those placings come from head-to-head results,
- * not from arrow counts. And where no row carries arrow data at all — older
- * synced events — there is nothing to judge, so the placings stand.
+ * A bracket is its own answer, but only once its medal matches are shot —
+ * before that, every archer still in it could finish 1st. And where no row
+ * carries arrow data at all — older synced events — there is nothing to judge,
+ * so the placings stand.
  */
 function divisionComplete(division: EventDivision): boolean {
-  if (division.bracket !== null && division.bracket.rounds.length > 0) return true
+  if (division.bracket !== null && division.bracket.rounds.length > 0) return finalDecided(division)
   const measurable = division.qualification.filter(
     (r) => r.arrowsTotal !== undefined && r.arrowsTotal > 0,
   )
