@@ -2225,7 +2225,7 @@
     },
     {
      "name": "Fixed Pin Compound Junior Female",
-     "champion": "Nealee Vines",
+     "champion": null,
      "qualification": [
       {
        "rank": 1,
@@ -2238,15 +2238,6 @@
       },
       {
        "rank": 2,
-       "name": "Lona Toomer",
-       "avg": "8.45",
-       "score": 507,
-       "shooterId": "S3pSVTU3ZEU4VUJMN3MwMUdtNW50QT09",
-       "arrows": 60,
-       "arrowsTotal": 60
-      },
-      {
-       "rank": 3,
        "name": "Kendall Garner",
        "avg": "8.07",
        "score": 484,
@@ -2255,7 +2246,7 @@
        "arrowsTotal": 60
       },
       {
-       "rank": 4,
+       "rank": 3,
        "name": "Bryleigh Morse",
        "avg": "6.95",
        "score": 417,
@@ -2264,12 +2255,21 @@
        "arrowsTotal": 60
       },
       {
-       "rank": 5,
+       "rank": 4,
        "name": "Lucy Lane",
        "avg": "6.40",
        "score": 384,
        "shooterId": "cHRpTkwvcUw2c3Z2UFlxT3hWR2dJUT09",
        "arrows": 60,
+       "arrowsTotal": 60
+      },
+      {
+       "rank": 5,
+       "name": "Lona Toomer",
+       "avg": "8.42",
+       "score": 379,
+       "shooterId": "S3pSVTU3ZEU4VUJMN3MwMUdtNW50QT09",
+       "arrows": 45,
        "arrowsTotal": 60
       },
       {
@@ -2336,7 +2336,76 @@
        "arrowsTotal": 60
       }
      ],
-     "bracket": null
+     "bracket": {
+      "rounds": [
+       {
+        "name": "Semi Finals",
+        "matches": [
+         {
+          "a": {
+           "name": "Nealee Vines",
+           "seed": 1,
+           "score": 0,
+           "winner": false
+          },
+          "b": {
+           "name": "Lucy Lane",
+           "seed": 4,
+           "score": 0,
+           "winner": false
+          }
+         },
+         {
+          "a": {
+           "name": "Bryleigh Morse",
+           "seed": 3,
+           "score": 0,
+           "winner": false
+          },
+          "b": {
+           "name": "Kendall Garner",
+           "seed": 2,
+           "score": 0,
+           "winner": false
+          }
+         }
+        ]
+       },
+       {
+        "name": "Finals",
+        "matches": [
+         {
+          "a": {
+           "name": "",
+           "seed": 0,
+           "score": 0,
+           "winner": false
+          },
+          "b": {
+           "name": "",
+           "seed": 0,
+           "score": 0,
+           "winner": false
+          }
+         },
+         {
+          "a": {
+           "name": "",
+           "seed": 0,
+           "score": 0,
+           "winner": false
+          },
+          "b": {
+           "name": "",
+           "seed": 0,
+           "score": 0,
+           "winner": false
+          }
+         }
+        ]
+       }
+      ]
+     }
     },
     {
      "name": "Fixed Pin Compound Junior Male",
