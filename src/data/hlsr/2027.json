@@ -3540,7 +3540,7 @@
     },
     {
      "name": "Barebow Intermediate Female",
-     "champion": "Laura Schoeneberg",
+     "champion": null,
      "qualification": [
       {
        "rank": 1,
@@ -3651,11 +3651,80 @@
        "arrowsTotal": 60
       }
      ],
-     "bracket": null
+     "bracket": {
+      "rounds": [
+       {
+        "name": "Semi Finals",
+        "matches": [
+         {
+          "a": {
+           "name": "Laura Schoeneberg",
+           "seed": 1,
+           "score": 0,
+           "winner": false
+          },
+          "b": {
+           "name": "Taryn Thibodeaux",
+           "seed": 4,
+           "score": 0,
+           "winner": false
+          }
+         },
+         {
+          "a": {
+           "name": "Braylie Auler",
+           "seed": 3,
+           "score": 0,
+           "winner": false
+          },
+          "b": {
+           "name": "Riley Childress",
+           "seed": 2,
+           "score": 0,
+           "winner": false
+          }
+         }
+        ]
+       },
+       {
+        "name": "Finals",
+        "matches": [
+         {
+          "a": {
+           "name": "",
+           "seed": 0,
+           "score": 0,
+           "winner": false
+          },
+          "b": {
+           "name": "",
+           "seed": 0,
+           "score": 0,
+           "winner": false
+          }
+         },
+         {
+          "a": {
+           "name": "",
+           "seed": 0,
+           "score": 0,
+           "winner": false
+          },
+          "b": {
+           "name": "",
+           "seed": 0,
+           "score": 0,
+           "winner": false
+          }
+         }
+        ]
+       }
+      ]
+     }
     },
     {
      "name": "Barebow Junior Female",
-     "champion": "Bree Hohlt",
+     "champion": null,
      "qualification": [
       {
        "rank": 1,
@@ -3685,11 +3754,80 @@
        "arrowsTotal": 60
       }
      ],
-     "bracket": null
+     "bracket": {
+      "rounds": [
+       {
+        "name": "Semi Finals",
+        "matches": [
+         {
+          "a": {
+           "name": "Bree Hohlt",
+           "seed": 1,
+           "score": 0,
+           "winner": true
+          },
+          "b": {
+           "name": "BYE",
+           "seed": 0,
+           "score": 0,
+           "winner": false
+          }
+         },
+         {
+          "a": {
+           "name": "Jessie Vann",
+           "seed": 3,
+           "score": 0,
+           "winner": false
+          },
+          "b": {
+           "name": "Nicole Lopez",
+           "seed": 2,
+           "score": 0,
+           "winner": false
+          }
+         }
+        ]
+       },
+       {
+        "name": "Finals",
+        "matches": [
+         {
+          "a": {
+           "name": "",
+           "seed": 0,
+           "score": 0,
+           "winner": false
+          },
+          "b": {
+           "name": "",
+           "seed": 0,
+           "score": 0,
+           "winner": false
+          }
+         },
+         {
+          "a": {
+           "name": "",
+           "seed": 0,
+           "score": 0,
+           "winner": false
+          },
+          "b": {
+           "name": "",
+           "seed": 0,
+           "score": 0,
+           "winner": false
+          }
+         }
+        ]
+       }
+      ]
+     }
     },
     {
      "name": "Barebow Junior Male",
-     "champion": "Eeshwar Kollu",
+     "champion": null,
      "qualification": [
       {
        "rank": 1,
@@ -3791,7 +3929,76 @@
        "arrowsTotal": 60
       }
      ],
-     "bracket": null
+     "bracket": {
+      "rounds": [
+       {
+        "name": "Semi Finals",
+        "matches": [
+         {
+          "a": {
+           "name": "Eeshwar Kollu",
+           "seed": 1,
+           "score": 0,
+           "winner": false
+          },
+          "b": {
+           "name": "Luke Burnett",
+           "seed": 4,
+           "score": 0,
+           "winner": false
+          }
+         },
+         {
+          "a": {
+           "name": "Jimmy Jones",
+           "seed": 3,
+           "score": 0,
+           "winner": false
+          },
+          "b": {
+           "name": "Bo Rerich",
+           "seed": 2,
+           "score": 0,
+           "winner": false
+          }
+         }
+        ]
+       },
+       {
+        "name": "Finals",
+        "matches": [
+         {
+          "a": {
+           "name": "",
+           "seed": 0,
+           "score": 0,
+           "winner": false
+          },
+          "b": {
+           "name": "",
+           "seed": 0,
+           "score": 0,
+           "winner": false
+          }
+         },
+         {
+          "a": {
+           "name": "",
+           "seed": 0,
+           "score": 0,
+           "winner": false
+          },
+          "b": {
+           "name": "",
+           "seed": 0,
+           "score": 0,
+           "winner": false
+          }
+         }
+        ]
+       }
+      ]
+     }
     }
    ]
   },
