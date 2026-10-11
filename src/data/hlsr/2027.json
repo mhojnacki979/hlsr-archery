@@ -934,15 +934,6 @@
       },
       {
        "rank": 4,
-       "name": "Stockton DeRouen",
-       "avg": "9.45",
-       "score": 567,
-       "shooterId": "SDlxcno5ZGJUS2Z6RkdNRmZQVXk3UT09",
-       "arrows": 60,
-       "arrowsTotal": 60
-      },
-      {
-       "rank": 5,
        "name": "Kaydon Shell",
        "avg": "9.42",
        "score": 565,
@@ -951,7 +942,7 @@
        "arrowsTotal": 60
       },
       {
-       "rank": 6,
+       "rank": 5,
        "name": "Noah Ross",
        "avg": "9.42",
        "score": 565,
@@ -960,11 +951,20 @@
        "arrowsTotal": 60
       },
       {
-       "rank": 7,
+       "rank": 6,
        "name": "Logan Hartman",
        "avg": "9.38",
        "score": 563,
        "shooterId": "bXV6WmRKVnNTUkl5UFlBVFBnME84UT09",
+       "arrows": 60,
+       "arrowsTotal": 60
+      },
+      {
+       "rank": 7,
+       "name": "Stockton DeRouen",
+       "avg": "9.38",
+       "score": 563,
+       "shooterId": "SDlxcno5ZGJUS2Z6RkdNRmZQVXk3UT09",
        "arrows": 60,
        "arrowsTotal": 60
       },
@@ -1045,7 +1045,7 @@
            "winner": false
           },
           "b": {
-           "name": "Stockton DeRouen",
+           "name": "Kaydon Shell",
            "seed": 4,
            "score": 0,
            "winner": false
