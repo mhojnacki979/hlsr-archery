@@ -1606,7 +1606,7 @@
     },
     {
      "name": "Freestyle Compound Junior Female",
-     "champion": null,
+     "champion": "Gianna Ross",
      "qualification": [
       {
        "rank": 1,
@@ -1690,76 +1690,7 @@
        "arrowsTotal": 60
       }
      ],
-     "bracket": {
-      "rounds": [
-       {
-        "name": "Semi Finals",
-        "matches": [
-         {
-          "a": {
-           "name": "Gianna Ross",
-           "seed": 1,
-           "score": 0,
-           "winner": false
-          },
-          "b": {
-           "name": "Evelyn Echavarria-Hyden",
-           "seed": 4,
-           "score": 0,
-           "winner": false
-          }
-         },
-         {
-          "a": {
-           "name": "Lona Toomer",
-           "seed": 3,
-           "score": 0,
-           "winner": false
-          },
-          "b": {
-           "name": "Kendall Garner",
-           "seed": 2,
-           "score": 0,
-           "winner": false
-          }
-         }
-        ]
-       },
-       {
-        "name": "Finals",
-        "matches": [
-         {
-          "a": {
-           "name": "",
-           "seed": 0,
-           "score": 0,
-           "winner": false
-          },
-          "b": {
-           "name": "",
-           "seed": 0,
-           "score": 0,
-           "winner": false
-          }
-         },
-         {
-          "a": {
-           "name": "",
-           "seed": 0,
-           "score": 0,
-           "winner": false
-          },
-          "b": {
-           "name": "",
-           "seed": 0,
-           "score": 0,
-           "winner": false
-          }
-         }
-        ]
-       }
-      ]
-     }
+     "bracket": null
     },
     {
      "name": "Freestyle Compound Junior Male",
