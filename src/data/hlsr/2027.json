@@ -7,7 +7,7 @@
   "target": {
    "label": "Target",
    "tournamentId": "MWNOdFN5WnJ4VFZmQThEUk9jNUVadz09",
-   "archers": 237,
+   "archers": 235,
    "divisions": [
     {
      "name": "Recurve Intermediate Female",
@@ -2032,24 +2032,6 @@
        "score": 108,
        "shooterId": "TCtuSnlXaDBIdjQvdE04cGtiRFM4dz09",
        "arrows": 60,
-       "arrowsTotal": 60
-      },
-      {
-       "rank": 16,
-       "name": "Jacob Craig",
-       "avg": "0.00",
-       "score": 0,
-       "shooterId": "V1o0MmM3NEtPWUZvV1AvM3VuNFVDZz09",
-       "arrows": 0,
-       "arrowsTotal": 60
-      },
-      {
-       "rank": 16,
-       "name": "Marcos Hernandez",
-       "avg": "0.00",
-       "score": 0,
-       "shooterId": "Qm8zbjNJQ2tkTGcxa2NySFh4bGx4QT09",
-       "arrows": 0,
        "arrowsTotal": 60
       }
      ],
