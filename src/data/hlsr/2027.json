@@ -1481,13 +1481,13 @@
           "a": {
            "name": "Connor Goehring",
            "seed": 1,
-           "score": 99,
+           "score": 149,
            "winner": true
           },
           "b": {
            "name": "Aiden Maloy",
            "seed": 8,
-           "score": 98,
+           "score": 147,
            "winner": false
           }
          },
@@ -1495,27 +1495,27 @@
           "a": {
            "name": "Weldon Bowers",
            "seed": 5,
-           "score": 99,
+           "score": 145,
            "winner": false
           },
           "b": {
            "name": "Landon Roland",
            "seed": 4,
-           "score": 99,
-           "winner": false
+           "score": 149,
+           "winner": true
           }
          },
          {
           "a": {
            "name": "Nash Thompson",
            "seed": 3,
-           "score": 100,
-           "winner": false
+           "score": 150,
+           "winner": true
           },
           "b": {
            "name": "Mason Travelstead",
            "seed": 6,
-           "score": 100,
+           "score": 149,
            "winner": false
           }
          },
@@ -1523,13 +1523,13 @@
           "a": {
            "name": "Benjamin Jarrett",
            "seed": 7,
-           "score": 92,
+           "score": 141,
            "winner": false
           },
           "b": {
            "name": "Cole Ware",
            "seed": 2,
-           "score": 100,
+           "score": 150,
            "winner": true
           }
          }
@@ -1540,28 +1540,28 @@
         "matches": [
          {
           "a": {
-           "name": "",
-           "seed": 0,
+           "name": "Connor Goehring",
+           "seed": 1,
            "score": 0,
            "winner": false
           },
           "b": {
-           "name": "",
-           "seed": 0,
+           "name": "Landon Roland",
+           "seed": 4,
            "score": 0,
            "winner": false
           }
          },
          {
           "a": {
-           "name": "",
-           "seed": 0,
+           "name": "Nash Thompson",
+           "seed": 3,
            "score": 0,
            "winner": false
           },
           "b": {
-           "name": "",
-           "seed": 0,
+           "name": "Cole Ware",
+           "seed": 2,
            "score": 0,
            "winner": false
           }
