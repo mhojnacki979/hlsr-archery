@@ -426,20 +426,20 @@
       },
       {
        "rank": 6,
-       "name": "Elizabeth Madden",
-       "avg": "7.17",
-       "score": 430,
-       "shooterId": "eUd6dEM4aGdudkpUc2h1WVZicGpVdz09",
-       "arrows": 60,
-       "arrowsTotal": 120
-      },
-      {
-       "rank": 7,
        "name": "Taylin Myers",
        "avg": "0.00",
        "score": 0,
        "shooterId": "eHZ5Uk9neTFpT0VvNVFGREJUQVhWQT09",
        "arrows": 0,
+       "arrowsTotal": 60
+      },
+      {
+       "rank": 6,
+       "name": "Elizabeth Madden",
+       "avg": "0.00",
+       "score": 0,
+       "shooterId": "eUd6dEM4aGdudkpUc2h1WVZicGpVdz09",
+       "arrows": 60,
        "arrowsTotal": 60
       }
      ],
