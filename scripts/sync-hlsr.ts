@@ -44,6 +44,15 @@ interface SegmentConfig {
    */
   publishQualification?: boolean
   /**
+   * Arrows actually shot for score, when EOS's round size is larger.
+   *
+   * The 2027 3D round is set to 25 so the last 5 are there for a shoot-down,
+   * which only some divisions shoot. Left at 25, every archer reads "20/25
+   * still shooting" and no 3D division ever shows placings. The score is not
+   * touched: a shoot-down arrow counts for the division it settles.
+   */
+  roundArrows?: number
+  /**
    * EOS holds this tournament's scores as private: the public score list comes
    * back empty, and only an `is_private=true` read returns them. The 2027 3D
    * competition is set up this way, which is why it read as all zeros.
@@ -79,7 +88,11 @@ const EVENTS: EventConfig[] = [
         // The competition record, not '2027 HLSR 3D Archery Competition Times',
         // which is a schedule copy with the roster but no scores.
         privateScores: true,
-        publishQualification: false,
+        // HLSR withheld 3D qualification while the course was being shot and
+        // released it on 11 October once every line had finished. The scores
+        // are still private in EOS itself — that is `privateScores`, which is
+        // how we read them; this flag is only about publishing them.
+        roundArrows: 20,
       },
     ],
   },
@@ -144,7 +157,7 @@ function sessionDate(rows: any[]): string {
   return ''
 }
 
-async function syncSegment(id: string, privateScores = false) {
+async function syncSegment(id: string, privateScores = false, roundArrows?: number) {
   const qual = await post(
     `${API}/tournament_score_list?is_private=${privateScores}&id=${id}&for_fav=true`,
   )
@@ -173,7 +186,7 @@ async function syncSegment(id: string, privateScores = false) {
       shooterId: String(r.shooter_id ?? ''),
       // Progress through the round, so a part-shot score is not read as a bad one.
       arrows: toInt(r.total_attended_arrows_count),
-      arrowsTotal: toInt(r.total_arrow_count),
+      arrowsTotal: roundArrows ?? toInt(r.total_arrow_count),
     }))
 
     const shooterId = String(rows[0].shooter_id ?? '')
@@ -230,7 +243,11 @@ async function syncEvent(event: EventConfig): Promise<void> {
       console.log(`${seg.label}: not yet created in EOS — written empty`)
       continue
     }
-    const { divisions, archers, date: segDate } = await syncSegment(seg.id, seg.privateScores === true)
+    const { divisions, archers, date: segDate } = await syncSegment(
+      seg.id,
+      seg.privateScores === true,
+      seg.roundArrows,
+    )
     if (date === '' && segDate !== '') date = segDate
     // Withhold qualification scores where the committee asked us not to publish
     // them. The archer count is kept — it drives the 24+ finalists rule.
