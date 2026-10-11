@@ -7,11 +7,11 @@
   "target": {
    "label": "Target",
    "tournamentId": "MWNOdFN5WnJ4VFZmQThEUk9jNUVadz09",
-   "archers": 235,
+   "archers": 234,
    "divisions": [
     {
      "name": "Recurve Intermediate Female",
-     "champion": "Mika Takagi",
+     "champion": null,
      "qualification": [
       {
        "rank": 1,
@@ -41,11 +41,80 @@
        "arrowsTotal": 60
       }
      ],
-     "bracket": null
+     "bracket": {
+      "rounds": [
+       {
+        "name": "Semi Finals",
+        "matches": [
+         {
+          "a": {
+           "name": "Mika Takagi",
+           "seed": 1,
+           "score": 0,
+           "winner": true
+          },
+          "b": {
+           "name": "BYE",
+           "seed": 0,
+           "score": 0,
+           "winner": false
+          }
+         },
+         {
+          "a": {
+           "name": "Grace Walter",
+           "seed": 3,
+           "score": 0,
+           "winner": false
+          },
+          "b": {
+           "name": "Ella Phillips",
+           "seed": 2,
+           "score": 0,
+           "winner": false
+          }
+         }
+        ]
+       },
+       {
+        "name": "Finals",
+        "matches": [
+         {
+          "a": {
+           "name": "",
+           "seed": 0,
+           "score": 0,
+           "winner": false
+          },
+          "b": {
+           "name": "",
+           "seed": 0,
+           "score": 0,
+           "winner": false
+          }
+         },
+         {
+          "a": {
+           "name": "",
+           "seed": 0,
+           "score": 0,
+           "winner": false
+          },
+          "b": {
+           "name": "",
+           "seed": 0,
+           "score": 0,
+           "winner": false
+          }
+         }
+        ]
+       }
+      ]
+     }
     },
     {
      "name": "Recurve Intermediate Male",
-     "champion": "Alain Pinto",
+     "champion": null,
      "qualification": [
       {
        "rank": 1,
@@ -93,11 +162,80 @@
        "arrowsTotal": 60
       }
      ],
-     "bracket": null
+     "bracket": {
+      "rounds": [
+       {
+        "name": "Semi Finals",
+        "matches": [
+         {
+          "a": {
+           "name": "Alain Pinto",
+           "seed": 1,
+           "score": 0,
+           "winner": false
+          },
+          "b": {
+           "name": "Laurent Chang",
+           "seed": 4,
+           "score": 0,
+           "winner": false
+          }
+         },
+         {
+          "a": {
+           "name": "Ashvath Sana",
+           "seed": 3,
+           "score": 0,
+           "winner": false
+          },
+          "b": {
+           "name": "Marvin Wang",
+           "seed": 2,
+           "score": 0,
+           "winner": false
+          }
+         }
+        ]
+       },
+       {
+        "name": "Finals",
+        "matches": [
+         {
+          "a": {
+           "name": "",
+           "seed": 0,
+           "score": 0,
+           "winner": false
+          },
+          "b": {
+           "name": "",
+           "seed": 0,
+           "score": 0,
+           "winner": false
+          }
+         },
+         {
+          "a": {
+           "name": "",
+           "seed": 0,
+           "score": 0,
+           "winner": false
+          },
+          "b": {
+           "name": "",
+           "seed": 0,
+           "score": 0,
+           "winner": false
+          }
+         }
+        ]
+       }
+      ]
+     }
     },
     {
      "name": "Recurve Junior Male",
-     "champion": "Liam Gomez",
+     "champion": null,
      "qualification": [
       {
        "rank": 1,
@@ -127,11 +265,80 @@
        "arrowsTotal": 60
       }
      ],
-     "bracket": null
+     "bracket": {
+      "rounds": [
+       {
+        "name": "Semi Finals",
+        "matches": [
+         {
+          "a": {
+           "name": "Liam Gomez",
+           "seed": 1,
+           "score": 0,
+           "winner": true
+          },
+          "b": {
+           "name": "BYE",
+           "seed": 0,
+           "score": 0,
+           "winner": false
+          }
+         },
+         {
+          "a": {
+           "name": "Aydin Naqvi",
+           "seed": 3,
+           "score": 0,
+           "winner": false
+          },
+          "b": {
+           "name": "Saahas Chakra Chidurala",
+           "seed": 2,
+           "score": 0,
+           "winner": false
+          }
+         }
+        ]
+       },
+       {
+        "name": "Finals",
+        "matches": [
+         {
+          "a": {
+           "name": "",
+           "seed": 0,
+           "score": 0,
+           "winner": false
+          },
+          "b": {
+           "name": "",
+           "seed": 0,
+           "score": 0,
+           "winner": false
+          }
+         },
+         {
+          "a": {
+           "name": "",
+           "seed": 0,
+           "score": 0,
+           "winner": false
+          },
+          "b": {
+           "name": "",
+           "seed": 0,
+           "score": 0,
+           "winner": false
+          }
+         }
+        ]
+       }
+      ]
+     }
     },
     {
      "name": "Recurve Junior Female",
-     "champion": "Adeline Oliver",
+     "champion": null,
      "qualification": [
       {
        "rank": 1,
@@ -179,7 +386,76 @@
        "arrowsTotal": 60
       }
      ],
-     "bracket": null
+     "bracket": {
+      "rounds": [
+       {
+        "name": "Semi Finals",
+        "matches": [
+         {
+          "a": {
+           "name": "Adeline Oliver",
+           "seed": 1,
+           "score": 0,
+           "winner": false
+          },
+          "b": {
+           "name": "Emily Luo",
+           "seed": 4,
+           "score": 0,
+           "winner": false
+          }
+         },
+         {
+          "a": {
+           "name": "Rukia Nunez",
+           "seed": 3,
+           "score": 0,
+           "winner": false
+          },
+          "b": {
+           "name": "Josephine Schaefer",
+           "seed": 2,
+           "score": 0,
+           "winner": false
+          }
+         }
+        ]
+       },
+       {
+        "name": "Finals",
+        "matches": [
+         {
+          "a": {
+           "name": "",
+           "seed": 0,
+           "score": 0,
+           "winner": false
+          },
+          "b": {
+           "name": "",
+           "seed": 0,
+           "score": 0,
+           "winner": false
+          }
+         },
+         {
+          "a": {
+           "name": "",
+           "seed": 0,
+           "score": 0,
+           "winner": false
+          },
+          "b": {
+           "name": "",
+           "seed": 0,
+           "score": 0,
+           "winner": false
+          }
+         }
+        ]
+       }
+      ]
+     }
     },
     {
      "name": "Recurve Senior Male",
@@ -546,15 +822,6 @@
        "score": 31,
        "shooterId": "SHBwN0EyUG5KSFRNcy8yVVY4WlNIZz09",
        "arrows": 60,
-       "arrowsTotal": 60
-      },
-      {
-       "rank": 15,
-       "name": "Krishna Gorla",
-       "avg": "0.00",
-       "score": 0,
-       "shooterId": "N1lCZDlURGE2alp4enVnaHU4bDVSQT09",
-       "arrows": 0,
        "arrowsTotal": 60
       }
      ],
