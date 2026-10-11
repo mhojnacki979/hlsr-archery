@@ -11,7 +11,7 @@
    "divisions": [
     {
      "name": "Recurve Intermediate Female",
-     "champion": null,
+     "champion": "Grace Walter",
      "qualification": [
       {
        "rank": 1,
@@ -83,14 +83,14 @@
           "a": {
            "name": "Mika Takagi",
            "seed": 1,
-           "score": 0,
+           "score": 43,
            "winner": false
           },
           "b": {
            "name": "Grace Walter",
            "seed": 3,
-           "score": 0,
-           "winner": false
+           "score": 46,
+           "winner": true
           }
          },
          {
@@ -114,7 +114,7 @@
     },
     {
      "name": "Recurve Intermediate Male",
-     "champion": null,
+     "champion": "Alain Pinto",
      "qualification": [
       {
        "rank": 1,
@@ -204,13 +204,13 @@
           "a": {
            "name": "Alain Pinto",
            "seed": 1,
-           "score": 0,
-           "winner": false
+           "score": 46,
+           "winner": true
           },
           "b": {
            "name": "Marvin Wang",
            "seed": 2,
-           "score": 0,
+           "score": 39,
            "winner": false
           }
          },
@@ -218,14 +218,14 @@
           "a": {
            "name": "Laurent Chang",
            "seed": 4,
-           "score": 0,
+           "score": 40,
            "winner": false
           },
           "b": {
            "name": "Ashvath Sana",
            "seed": 3,
-           "score": 0,
-           "winner": false
+           "score": 44,
+           "winner": true
           }
          }
         ]
@@ -235,7 +235,7 @@
     },
     {
      "name": "Recurve Junior Male",
-     "champion": null,
+     "champion": "Saahas Chakra Chidurala",
      "qualification": [
       {
        "rank": 1,
@@ -307,14 +307,14 @@
           "a": {
            "name": "Liam Gomez",
            "seed": 1,
-           "score": 0,
+           "score": 29,
            "winner": false
           },
           "b": {
            "name": "Saahas Chakra Chidurala",
            "seed": 2,
-           "score": 0,
-           "winner": false
+           "score": 39,
+           "winner": true
           }
          },
          {
@@ -338,7 +338,7 @@
     },
     {
      "name": "Recurve Junior Female",
-     "champion": null,
+     "champion": "Emily Luo",
      "qualification": [
       {
        "rank": 1,
@@ -428,13 +428,13 @@
           "a": {
            "name": "Emily Luo",
            "seed": 4,
-           "score": 0,
-           "winner": false
+           "score": 36,
+           "winner": true
           },
           "b": {
            "name": "Josephine Schaefer",
            "seed": 2,
-           "score": 0,
+           "score": 25,
            "winner": false
           }
          },
@@ -442,14 +442,14 @@
           "a": {
            "name": "Adeline Oliver",
            "seed": 1,
-           "score": 0,
+           "score": 15,
            "winner": false
           },
           "b": {
            "name": "Rukia Nunez",
            "seed": 3,
-           "score": 0,
-           "winner": false
+           "score": 24,
+           "winner": true
           }
          }
         ]
@@ -459,7 +459,7 @@
     },
     {
      "name": "Recurve Senior Male",
-     "champion": null,
+     "champion": "Caelan Shanklin",
      "qualification": [
       {
        "rank": 1,
@@ -549,13 +549,13 @@
           "a": {
            "name": "Caelan Shanklin",
            "seed": 1,
-           "score": 0,
-           "winner": false
+           "score": 47,
+           "winner": true
           },
           "b": {
            "name": "Gabriel Rodriguez",
            "seed": 3,
-           "score": 0,
+           "score": 43,
            "winner": false
           }
          },
@@ -563,14 +563,14 @@
           "a": {
            "name": "Jackson Norlin",
            "seed": 4,
-           "score": 0,
+           "score": 33,
            "winner": false
           },
           "b": {
            "name": "Micah Xie",
            "seed": 2,
-           "score": 0,
-           "winner": false
+           "score": 45,
+           "winner": true
           }
          }
         ]
@@ -733,13 +733,13 @@
           "a": {
            "name": "Vivian Wong",
            "seed": 1,
-           "score": 0,
+           "score": 48,
            "winner": false
           },
           "b": {
            "name": "Madelyn Yi",
            "seed": 2,
-           "score": 0,
+           "score": 48,
            "winner": false
           }
          },
@@ -747,14 +747,14 @@
           "a": {
            "name": "Calista Schwab",
            "seed": 4,
-           "score": 0,
+           "score": 34,
            "winner": false
           },
           "b": {
            "name": "Madeleine Dodson",
            "seed": 3,
-           "score": 0,
-           "winner": false
+           "score": 45,
+           "winner": true
           }
          }
         ]
@@ -764,7 +764,7 @@
     },
     {
      "name": "Freestyle Compound Intermediate Female",
-     "champion": null,
+     "champion": "Taylin Myers",
      "qualification": [
       {
        "rank": 1,
@@ -872,13 +872,13 @@
           "a": {
            "name": "Taylin Myers",
            "seed": 1,
-           "score": 0,
-           "winner": false
+           "score": 47,
+           "winner": true
           },
           "b": {
            "name": "Darci Burden",
            "seed": 2,
-           "score": 0,
+           "score": 46,
            "winner": false
           }
          },
@@ -886,13 +886,13 @@
           "a": {
            "name": "Ryleigh Telischak",
            "seed": 4,
-           "score": 0,
-           "winner": false
+           "score": 46,
+           "winner": true
           },
           "b": {
            "name": "Makaela Alvarez",
            "seed": 3,
-           "score": 0,
+           "score": 42,
            "winner": false
           }
          }
@@ -1074,13 +1074,13 @@
           "a": {
            "name": "Remington Whitehead",
            "seed": 1,
-           "score": 0,
+           "score": 49,
            "winner": false
           },
           "b": {
            "name": "Everett Pawlik",
            "seed": 2,
-           "score": 0,
+           "score": 49,
            "winner": false
           }
          },
@@ -1088,13 +1088,13 @@
           "a": {
            "name": "Kaydon Shell",
            "seed": 4,
-           "score": 0,
-           "winner": false
+           "score": 48,
+           "winner": true
           },
           "b": {
            "name": "Tristan Alvarez",
            "seed": 3,
-           "score": 0,
+           "score": 37,
            "winner": false
           }
          }
@@ -1105,7 +1105,7 @@
     },
     {
      "name": "Freestyle Compound Senior Female",
-     "champion": null,
+     "champion": "Keelie Ellensohn",
      "qualification": [
       {
        "rank": 1,
@@ -1222,28 +1222,28 @@
           "a": {
            "name": "Khadijah El-Abid",
            "seed": 1,
-           "score": 0,
+           "score": 49,
            "winner": false
           },
           "b": {
            "name": "Keelie Ellensohn",
            "seed": 2,
-           "score": 0,
-           "winner": false
+           "score": 50,
+           "winner": true
           }
          },
          {
           "a": {
            "name": "Addison Schleifer",
            "seed": 4,
-           "score": 0,
+           "score": 49,
            "winner": false
           },
           "b": {
            "name": "Elliana Farquhar",
            "seed": 3,
-           "score": 0,
-           "winner": false
+           "score": 50,
+           "winner": true
           }
          }
         ]
@@ -1575,13 +1575,13 @@
           "a": {
            "name": "Connor Goehring",
            "seed": 1,
-           "score": 0,
+           "score": 50,
            "winner": false
           },
           "b": {
            "name": "Nash Thompson",
            "seed": 3,
-           "score": 0,
+           "score": 50,
            "winner": false
           }
          },
@@ -1589,13 +1589,13 @@
           "a": {
            "name": "Landon Roland",
            "seed": 4,
-           "score": 0,
+           "score": 50,
            "winner": false
           },
           "b": {
            "name": "Cole Ware",
            "seed": 2,
-           "score": 0,
+           "score": 50,
            "winner": false
           }
          }
@@ -1606,7 +1606,7 @@
     },
     {
      "name": "Freestyle Compound Junior Female",
-     "champion": null,
+     "champion": "Gianna Ross",
      "qualification": [
       {
        "rank": 1,
@@ -1732,13 +1732,13 @@
           "a": {
            "name": "Gianna Ross",
            "seed": 1,
-           "score": 0,
-           "winner": false
+           "score": 49,
+           "winner": true
           },
           "b": {
            "name": "Evelyn Echavarria-Hyden",
            "seed": 3,
-           "score": 0,
+           "score": 47,
            "winner": false
           }
          },
@@ -1746,13 +1746,13 @@
           "a": {
            "name": "Riley Berger",
            "seed": 4,
-           "score": 0,
-           "winner": false
+           "score": 42,
+           "winner": true
           },
           "b": {
            "name": "Lona Toomer",
            "seed": 2,
-           "score": 0,
+           "score": 39,
            "winner": false
           }
          }
@@ -1763,7 +1763,7 @@
     },
     {
      "name": "Freestyle Compound Junior Male",
-     "champion": null,
+     "champion": "Branson Massey",
      "qualification": [
       {
        "rank": 1,
@@ -1835,13 +1835,13 @@
           "a": {
            "name": "Branson Massey",
            "seed": 1,
-           "score": 0,
-           "winner": false
+           "score": 49,
+           "winner": true
           },
           "b": {
            "name": "Dillon Michels",
            "seed": 2,
-           "score": 0,
+           "score": 48,
            "winner": false
           }
          },
@@ -1866,7 +1866,7 @@
     },
     {
      "name": "Fixed Pin Compound Intermediate Female",
-     "champion": null,
+     "champion": "Asher Harrison",
      "qualification": [
       {
        "rank": 1,
@@ -2028,13 +2028,13 @@
           "a": {
            "name": "Asher Harrison",
            "seed": 1,
-           "score": 0,
-           "winner": false
+           "score": 48,
+           "winner": true
           },
           "b": {
            "name": "Eliza Sternadel",
            "seed": 2,
-           "score": 0,
+           "score": 41,
            "winner": false
           }
          },
@@ -2042,14 +2042,14 @@
           "a": {
            "name": "Maliha Butt",
            "seed": 4,
-           "score": 0,
+           "score": 38,
            "winner": false
           },
           "b": {
            "name": "Jancsi West",
            "seed": 3,
-           "score": 0,
-           "winner": false
+           "score": 45,
+           "winner": true
           }
          }
         ]
@@ -2059,7 +2059,7 @@
     },
     {
      "name": "Fixed Pin Compound Intermediate Male",
-     "champion": null,
+     "champion": "Stockton DeRouen",
      "qualification": [
       {
        "rank": 1,
@@ -2194,13 +2194,13 @@
           "a": {
            "name": "Stockton DeRouen",
            "seed": 1,
-           "score": 0,
-           "winner": false
+           "score": 48,
+           "winner": true
           },
           "b": {
            "name": "Jackson Just",
            "seed": 3,
-           "score": 0,
+           "score": 46,
            "winner": false
           }
          },
@@ -2208,14 +2208,14 @@
           "a": {
            "name": "Tripp Southwell",
            "seed": 4,
-           "score": 0,
+           "score": 44,
            "winner": false
           },
           "b": {
            "name": "Judah Harrison",
            "seed": 2,
-           "score": 0,
-           "winner": false
+           "score": 48,
+           "winner": true
           }
          }
         ]
@@ -2225,7 +2225,7 @@
     },
     {
      "name": "Fixed Pin Compound Junior Female",
-     "champion": null,
+     "champion": "Nealee Vines",
      "qualification": [
       {
        "rank": 1,
@@ -2378,13 +2378,13 @@
           "a": {
            "name": "Nealee Vines",
            "seed": 1,
-           "score": 0,
-           "winner": false
+           "score": 42,
+           "winner": true
           },
           "b": {
            "name": "Kendall Garner",
            "seed": 2,
-           "score": 0,
+           "score": 39,
            "winner": false
           }
          },
@@ -2392,13 +2392,13 @@
           "a": {
            "name": "Lucy Lane",
            "seed": 4,
-           "score": 0,
-           "winner": false
+           "score": 43,
+           "winner": true
           },
           "b": {
            "name": "Bryleigh Morse",
            "seed": 3,
-           "score": 0,
+           "score": 29,
            "winner": false
           }
          }
@@ -2409,7 +2409,7 @@
     },
     {
      "name": "Fixed Pin Compound Junior Male",
-     "champion": null,
+     "champion": "Connor Chang",
      "qualification": [
       {
        "rank": 1,
@@ -2589,13 +2589,13 @@
           "a": {
            "name": "Connor Chang",
            "seed": 1,
-           "score": 0,
-           "winner": false
+           "score": 46,
+           "winner": true
           },
           "b": {
            "name": "Omar El-Abid",
            "seed": 2,
-           "score": 0,
+           "score": 43,
            "winner": false
           }
          },
@@ -2603,13 +2603,13 @@
           "a": {
            "name": "Henry Watts",
            "seed": 4,
-           "score": 0,
-           "winner": false
+           "score": 43,
+           "winner": true
           },
           "b": {
            "name": "William Early",
            "seed": 3,
-           "score": 0,
+           "score": 33,
            "winner": false
           }
          }
@@ -2620,7 +2620,7 @@
     },
     {
      "name": "Fixed Pin Compound Senior Female",
-     "champion": null,
+     "champion": "Chloe Brandt",
      "qualification": [
       {
        "rank": 1,
@@ -2746,27 +2746,27 @@
           "a": {
            "name": "Elise Schleifer",
            "seed": 1,
-           "score": 0,
+           "score": 48,
            "winner": false
           },
           "b": {
            "name": "Chloe Brandt",
            "seed": 2,
-           "score": 0,
-           "winner": false
+           "score": 49,
+           "winner": true
           }
          },
          {
           "a": {
            "name": "Elsie Dietz",
            "seed": 4,
-           "score": 0,
-           "winner": false
+           "score": 49,
+           "winner": true
           },
           "b": {
            "name": "Ava Lowe",
            "seed": 3,
-           "score": 0,
+           "score": 44,
            "winner": false
           }
          }
@@ -2777,7 +2777,7 @@
     },
     {
      "name": "Fixed Pin Compound Senior Male",
-     "champion": null,
+     "champion": "Joel Bonner",
      "qualification": [
       {
        "rank": 1,
@@ -2921,27 +2921,27 @@
           "a": {
            "name": "Hasan El-Abid",
            "seed": 1,
-           "score": 0,
+           "score": 48,
            "winner": false
           },
           "b": {
            "name": "Joel Bonner",
            "seed": 3,
-           "score": 0,
-           "winner": false
+           "score": 49,
+           "winner": true
           }
          },
          {
           "a": {
            "name": "Trustin Nelson",
            "seed": 4,
-           "score": 0,
+           "score": 49,
            "winner": false
           },
           "b": {
            "name": "Isaac Blakey",
            "seed": 2,
-           "score": 0,
+           "score": 49,
            "winner": false
           }
          }
@@ -2952,7 +2952,7 @@
     },
     {
      "name": "Barebow Senior Female",
-     "champion": null,
+     "champion": "Brynnly Hohlt",
      "qualification": [
       {
        "rank": 1,
@@ -3141,27 +3141,27 @@
           "a": {
            "name": "Abigail Little",
            "seed": 4,
-           "score": 0,
+           "score": 27,
            "winner": false
           },
           "b": {
            "name": "Brynnly Hohlt",
            "seed": 3,
-           "score": 0,
-           "winner": false
+           "score": 33,
+           "winner": true
           }
          },
          {
           "a": {
            "name": "Ayana Butt",
            "seed": 1,
-           "score": 0,
-           "winner": false
+           "score": 39,
+           "winner": true
           },
           "b": {
            "name": "Isabel Sladaritz",
            "seed": 2,
-           "score": 0,
+           "score": 38,
            "winner": false
           }
          }
@@ -3172,7 +3172,7 @@
     },
     {
      "name": "Barebow Senior Male",
-     "champion": null,
+     "champion": "Nathan Schoeneberg",
      "qualification": [
       {
        "rank": 1,
@@ -3298,13 +3298,13 @@
           "a": {
            "name": "Nathan Schoeneberg",
            "seed": 1,
-           "score": 0,
-           "winner": false
+           "score": 42,
+           "winner": true
           },
           "b": {
            "name": "Austin Smith",
            "seed": 2,
-           "score": 0,
+           "score": 34,
            "winner": false
           }
          },
@@ -3312,13 +3312,13 @@
           "a": {
            "name": "Bryce Maddux",
            "seed": 4,
-           "score": 0,
-           "winner": false
+           "score": 38,
+           "winner": true
           },
           "b": {
            "name": "Collin Russell",
            "seed": 3,
-           "score": 0,
+           "score": 35,
            "winner": false
           }
          }
@@ -3509,13 +3509,13 @@
           "a": {
            "name": "Andrew Meglasson",
            "seed": 1,
-           "score": 0,
+           "score": 39,
            "winner": false
           },
           "b": {
            "name": "Carter Dietz",
            "seed": 2,
-           "score": 0,
+           "score": 39,
            "winner": false
           }
          },
@@ -3523,13 +3523,13 @@
           "a": {
            "name": "Caleb Burnett",
            "seed": 4,
-           "score": 0,
-           "winner": false
+           "score": 36,
+           "winner": true
           },
           "b": {
            "name": "Greyson Jones",
            "seed": 3,
-           "score": 0,
+           "score": 24,
            "winner": false
           }
          }
@@ -3540,7 +3540,7 @@
     },
     {
      "name": "Barebow Intermediate Female",
-     "champion": null,
+     "champion": "Braylie Auler",
      "qualification": [
       {
        "rank": 1,
@@ -3693,28 +3693,28 @@
           "a": {
            "name": "Laura Schoeneberg",
            "seed": 1,
-           "score": 0,
+           "score": 28,
            "winner": false
           },
           "b": {
            "name": "Braylie Auler",
            "seed": 3,
-           "score": 0,
-           "winner": false
+           "score": 34,
+           "winner": true
           }
          },
          {
           "a": {
            "name": "Taryn Thibodeaux",
            "seed": 4,
-           "score": 0,
+           "score": 10,
            "winner": false
           },
           "b": {
            "name": "Riley Childress",
            "seed": 2,
-           "score": 0,
-           "winner": false
+           "score": 32,
+           "winner": true
           }
          }
         ]
@@ -3724,7 +3724,7 @@
     },
     {
      "name": "Barebow Junior Female",
-     "champion": null,
+     "champion": "Bree Hohlt",
      "qualification": [
       {
        "rank": 1,
@@ -3796,13 +3796,13 @@
           "a": {
            "name": "Bree Hohlt",
            "seed": 1,
-           "score": 0,
-           "winner": false
+           "score": 28,
+           "winner": true
           },
           "b": {
            "name": "Nicole Lopez",
            "seed": 2,
-           "score": 0,
+           "score": 5,
            "winner": false
           }
          },
@@ -3827,7 +3827,7 @@
     },
     {
      "name": "Barebow Junior Male",
-     "champion": null,
+     "champion": "Eeshwar Kollu",
      "qualification": [
       {
        "rank": 1,
@@ -3971,13 +3971,13 @@
           "a": {
            "name": "Eeshwar Kollu",
            "seed": 1,
-           "score": 0,
-           "winner": false
+           "score": 31,
+           "winner": true
           },
           "b": {
            "name": "Bo Rerich",
            "seed": 2,
-           "score": 0,
+           "score": 21,
            "winner": false
           }
          },
@@ -3985,14 +3985,14 @@
           "a": {
            "name": "Luke Burnett",
            "seed": 4,
-           "score": 0,
+           "score": 23,
            "winner": false
           },
           "b": {
            "name": "Jimmy Jones",
            "seed": 3,
-           "score": 0,
-           "winner": false
+           "score": 28,
+           "winner": true
           }
          }
         ]
