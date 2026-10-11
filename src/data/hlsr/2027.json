@@ -1481,13 +1481,13 @@
           "a": {
            "name": "Connor Goehring",
            "seed": 1,
-           "score": 49,
-           "winner": false
+           "score": 99,
+           "winner": true
           },
           "b": {
            "name": "Aiden Maloy",
            "seed": 8,
-           "score": 49,
+           "score": 98,
            "winner": false
           }
          },
@@ -1495,13 +1495,13 @@
           "a": {
            "name": "Weldon Bowers",
            "seed": 5,
-           "score": 49,
+           "score": 99,
            "winner": false
           },
           "b": {
            "name": "Landon Roland",
            "seed": 4,
-           "score": 49,
+           "score": 99,
            "winner": false
           }
          },
@@ -1509,13 +1509,13 @@
           "a": {
            "name": "Nash Thompson",
            "seed": 3,
-           "score": 50,
+           "score": 100,
            "winner": false
           },
           "b": {
            "name": "Mason Travelstead",
            "seed": 6,
-           "score": 50,
+           "score": 100,
            "winner": false
           }
          },
@@ -1523,13 +1523,13 @@
           "a": {
            "name": "Benjamin Jarrett",
            "seed": 7,
-           "score": 47,
+           "score": 92,
            "winner": false
           },
           "b": {
            "name": "Cole Ware",
            "seed": 2,
-           "score": 50,
+           "score": 100,
            "winner": true
           }
          }
