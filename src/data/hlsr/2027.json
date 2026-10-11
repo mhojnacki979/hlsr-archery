@@ -2386,29 +2386,11 @@
   },
   "3d": {
    "label": "3D",
-   "tournamentId": "Y0lXWGo0MkY4Zms4RTNBK2dkRDdaUT09",
-   "archers": 224,
+   "tournamentId": "UWcxL0RMaWx4RllZczhQU09yeVlTZz09",
+   "archers": 218,
    "divisions": [
     {
-     "name": "Pins Senior Female",
-     "champion": null,
-     "qualification": [],
-     "bracket": null
-    },
-    {
-     "name": "Pins Senior Male",
-     "champion": null,
-     "qualification": [],
-     "bracket": null
-    },
-    {
-     "name": "Pins Junior Female",
-     "champion": null,
-     "qualification": [],
-     "bracket": null
-    },
-    {
-     "name": "Pins Junior Male",
+     "name": "Pins Intermediate Male",
      "champion": null,
      "qualification": [],
      "bracket": null
@@ -2420,43 +2402,55 @@
      "bracket": null
     },
     {
-     "name": "Pins Intermediate Male",
+     "name": "Pins Senior Male",
      "champion": null,
      "qualification": [],
      "bracket": null
     },
     {
-     "name": "Barebow Intermediate Male",
+     "name": "Pins Senior Female",
      "champion": null,
      "qualification": [],
      "bracket": null
     },
     {
-     "name": "Barebow Intermediate Female",
+     "name": "Pins Junior Male",
      "champion": null,
      "qualification": [],
      "bracket": null
     },
     {
-     "name": "Barebow Junior Female",
+     "name": "Pins Junior Female",
      "champion": null,
      "qualification": [],
      "bracket": null
     },
     {
-     "name": "Barebow Junior Male",
+     "name": "Recurve Junior Open",
      "champion": null,
      "qualification": [],
      "bracket": null
     },
     {
-     "name": "Barebow Senior Male",
+     "name": "Recurve Intermediate Open",
      "champion": null,
      "qualification": [],
      "bracket": null
     },
     {
-     "name": "Barebow Senior Female",
+     "name": "Recurve Senior Open",
+     "champion": null,
+     "qualification": [],
+     "bracket": null
+    },
+    {
+     "name": "Open Intermediate Male",
+     "champion": null,
+     "qualification": [],
+     "bracket": null
+    },
+    {
+     "name": "Open Intermediate Female",
      "champion": null,
      "qualification": [],
      "bracket": null
@@ -2474,13 +2468,7 @@
      "bracket": null
     },
     {
-     "name": "Open Intermediate Female",
-     "champion": null,
-     "qualification": [],
-     "bracket": null
-    },
-    {
-     "name": "Open Intermediate Male",
+     "name": "Open Junior Male",
      "champion": null,
      "qualification": [],
      "bracket": null
@@ -2492,43 +2480,13 @@
      "bracket": null
     },
     {
-     "name": "Open Junior Male",
+     "name": "Barebow Intermediate Open",
      "champion": null,
      "qualification": [],
      "bracket": null
     },
     {
-     "name": "Recurve Intermediate Female",
-     "champion": null,
-     "qualification": [],
-     "bracket": null
-    },
-    {
-     "name": "Recurve Intermediate Male",
-     "champion": null,
-     "qualification": [],
-     "bracket": null
-    },
-    {
-     "name": "Recurve Junior Male",
-     "champion": null,
-     "qualification": [],
-     "bracket": null
-    },
-    {
-     "name": "Recurve Junior Female",
-     "champion": null,
-     "qualification": [],
-     "bracket": null
-    },
-    {
-     "name": "Recurve Senior Female",
-     "champion": null,
-     "qualification": [],
-     "bracket": null
-    },
-    {
-     "name": "Recurve Senior Male",
+     "name": "Barebow Senior Open",
      "champion": null,
      "qualification": [],
      "bracket": null
