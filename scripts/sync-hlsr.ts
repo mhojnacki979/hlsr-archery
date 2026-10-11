@@ -58,6 +58,16 @@ interface SegmentConfig {
    * competition is set up this way, which is why it read as all zeros.
    */
   privateScores?: boolean
+  /**
+   * EOS id of the bracket's Finals round, read for its arrow counts.
+   *
+   * EOS flags whoever is AHEAD of a match as its "winner" while the match is
+   * still being shot, so a 2-of-3-ends lead read as a won final and the site
+   * named champions mid-match. Its round score list carries arrows shot out of
+   * arrows in the match; a final counts as decided only once every archer in
+   * it has shot them all. This is the id EOS's own live-bracket page reads.
+   */
+  finalsRoundId?: string
 }
 
 interface EventConfig {
@@ -80,7 +90,12 @@ const EVENTS: EventConfig[] = [
     venue: 'Reliant Center, Hall A',
     dates: 'October 9-11, 2026',
     segments: [
-      { key: 'target', label: 'Target', id: 'MWNOdFN5WnJ4VFZmQThEUk9jNUVadz09' },
+      {
+        key: 'target',
+        label: 'Target',
+        id: 'MWNOdFN5WnJ4VFZmQThEUk9jNUVadz09',
+        finalsRoundId: 'ZENxVmxXV0xUaE8wczdmMzhGNUZHdz09',
+      },
       {
         key: '3d',
         label: '3D',
@@ -149,6 +164,69 @@ function toMatches(shooters: any[]) {
   return matches
 }
 
+/** Arrows shot and arrows in the match, per division and archer name. */
+type ArrowCounts = Map<string, Map<string, { shot: number; of: number }>>
+
+/**
+ * Arrow counts for every archer in the Finals round, in one call.
+ *
+ * Returns null when they cannot be read. Callers must then treat every final
+ * as undecided: the alternative is trusting EOS's leader flag, which is
+ * exactly the mistake this exists to stop.
+ */
+async function finalsArrowCounts(roundId: string): Promise<ArrowCounts | null> {
+  try {
+    const res = await fetch(
+      `${API}/bracket_tournament_score_list?is_private=false&id=${roundId}&for_fav=true`,
+      { headers: HEADERS },
+    )
+    const json = await res.json()
+    if (json.status_code !== 200) throw new Error(json.message ?? String(res.status))
+    const counts: ArrowCounts = new Map()
+    for (const [group, blob] of Object.entries(json.data?.sortingResult ?? {})) {
+      const byName = new Map<string, { shot: number; of: number }>()
+      for (const r of Object.values(blob as object) as any[]) {
+        if (typeof r !== 'object' || r === null || !('name' in r)) continue
+        const shot = toInt(r.total_attended_arrows_count)
+        const of = toInt(r.total_arrow_count)
+        byName.set(String(r.name ?? '').trim().toLowerCase(), { shot, of })
+      }
+      counts.set(group, byName)
+    }
+    return counts
+  } catch (err) {
+    console.warn(`finals arrow counts unavailable (${String(err)}) — every final treated as undecided`)
+    return null
+  }
+}
+
+function isArcher(name: string): boolean {
+  const key = name.trim().toLowerCase()
+  return key !== '' && key !== 'bye'
+}
+
+/**
+ * Clear the winner flags on any final that is not finished.
+ *
+ * Finished means every archer in the match has shot every arrow. A match
+ * against a BYE is a walkover and keeps its winner — it is never shot.
+ */
+function holdUnfinishedFinals(
+  rounds: { name: string; matches: any[] }[],
+  counts: Map<string, { shot: number; of: number }> | undefined,
+): void {
+  const finalRound = rounds[rounds.length - 1]
+  for (const m of finalRound?.matches ?? []) {
+    const sides = [m.a, m.b].filter((x: any) => x !== null && isArcher(x.name))
+    if (sides.length < 2) continue
+    const finished = sides.every((x: any) => {
+      const c = counts?.get(x.name.trim().toLowerCase())
+      return c !== undefined && c.of > 0 && c.shot >= c.of
+    })
+    if (!finished) for (const x of sides) x.winner = false
+  }
+}
+
 function sessionDate(rows: any[]): string {
   for (const r of rows) {
     const m = /(\d{2})-(\d{2})-(\d{4})/.exec(String(r.session ?? ''))
@@ -157,11 +235,17 @@ function sessionDate(rows: any[]): string {
   return ''
 }
 
-async function syncSegment(id: string, privateScores = false, roundArrows?: number) {
+async function syncSegment(
+  id: string,
+  privateScores = false,
+  roundArrows?: number,
+  finalsRoundId?: string,
+) {
   const qual = await post(
     `${API}/tournament_score_list?is_private=${privateScores}&id=${id}&for_fav=true`,
   )
   const qualSorting = qual.sortingResult ?? {}
+  const finalsCounts = finalsRoundId === undefined ? undefined : await finalsArrowCounts(finalsRoundId)
 
   const divisions: any[] = []
   let archers = 0
@@ -203,6 +287,7 @@ async function syncSegment(id: string, privateScores = false, roundArrows?: numb
           .map(([name, shooters]) => ({ name, matches: toMatches(shooters as any[]) }))
           .filter((r) => r.matches.length > 0)
         if (rounds.length > 0) {
+          if (finalsCounts !== undefined) holdUnfinishedFinals(rounds, finalsCounts?.get(group))
           bracket = { rounds }
           const finalRound = rounds[rounds.length - 1]
           const goldMatch = finalRound?.matches[0]
@@ -247,6 +332,7 @@ async function syncEvent(event: EventConfig): Promise<void> {
       seg.id,
       seg.privateScores === true,
       seg.roundArrows,
+      seg.finalsRoundId,
     )
     if (date === '' && segDate !== '') date = segDate
     // Withhold qualification scores where the committee asked us not to publish
