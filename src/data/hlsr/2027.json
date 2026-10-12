@@ -934,6 +934,15 @@
       },
       {
        "rank": 4,
+       "name": "Stockton DeRouen",
+       "avg": "9.45",
+       "score": 567,
+       "shooterId": "SDlxcno5ZGJUS2Z6RkdNRmZQVXk3UT09",
+       "arrows": 60,
+       "arrowsTotal": 60
+      },
+      {
+       "rank": 5,
        "name": "Kaydon Shell",
        "avg": "9.42",
        "score": 565,
@@ -942,7 +951,7 @@
        "arrowsTotal": 60
       },
       {
-       "rank": 5,
+       "rank": 6,
        "name": "Noah Ross",
        "avg": "9.42",
        "score": 565,
@@ -951,20 +960,11 @@
        "arrowsTotal": 60
       },
       {
-       "rank": 6,
+       "rank": 7,
        "name": "Logan Hartman",
        "avg": "9.38",
        "score": 563,
        "shooterId": "bXV6WmRKVnNTUkl5UFlBVFBnME84UT09",
-       "arrows": 60,
-       "arrowsTotal": 60
-      },
-      {
-       "rank": 7,
-       "name": "Stockton DeRouen",
-       "avg": "9.38",
-       "score": 563,
-       "shooterId": "SDlxcno5ZGJUS2Z6RkdNRmZQVXk3UT09",
        "arrows": 60,
        "arrowsTotal": 60
       },
@@ -1619,6 +1619,15 @@
       },
       {
        "rank": 2,
+       "name": "Kendall Garner",
+       "avg": "8.62",
+       "score": 517,
+       "shooterId": "YU83UnVBaWZsZy9IL0pzMG1TQmVyUT09",
+       "arrows": 60,
+       "arrowsTotal": 60
+      },
+      {
+       "rank": 3,
        "name": "Lona Toomer",
        "avg": "8.45",
        "score": 507,
@@ -1627,7 +1636,7 @@
        "arrowsTotal": 60
       },
       {
-       "rank": 3,
+       "rank": 4,
        "name": "Evelyn Echavarria-Hyden",
        "avg": "8.38",
        "score": 503,
@@ -1636,7 +1645,7 @@
        "arrowsTotal": 60
       },
       {
-       "rank": 4,
+       "rank": 5,
        "name": "Riley Berger",
        "avg": "7.73",
        "score": 464,
@@ -1645,7 +1654,7 @@
        "arrowsTotal": 60
       },
       {
-       "rank": 5,
+       "rank": 6,
        "name": "Emeri Burden",
        "avg": "7.25",
        "score": 435,
@@ -1654,21 +1663,12 @@
        "arrowsTotal": 60
       },
       {
-       "rank": 6,
+       "rank": 7,
        "name": "Everly Ebarb",
        "avg": "7.22",
        "score": 433,
        "shooterId": "WW93dDVPcDROZWJZU2s3NmtWeGFnZz09",
        "arrows": 60,
-       "arrowsTotal": 60
-      },
-      {
-       "rank": 7,
-       "name": "Kendall Garner",
-       "avg": "8.60",
-       "score": 430,
-       "shooterId": "YU83UnVBaWZsZy9IL0pzMG1TQmVyUT09",
-       "arrows": 50,
        "arrowsTotal": 60
       },
       {
@@ -2238,6 +2238,15 @@
       },
       {
        "rank": 2,
+       "name": "Lona Toomer",
+       "avg": "8.45",
+       "score": 507,
+       "shooterId": "S3pSVTU3ZEU4VUJMN3MwMUdtNW50QT09",
+       "arrows": 60,
+       "arrowsTotal": 60
+      },
+      {
+       "rank": 3,
        "name": "Kendall Garner",
        "avg": "8.07",
        "score": 484,
@@ -2246,7 +2255,7 @@
        "arrowsTotal": 60
       },
       {
-       "rank": 3,
+       "rank": 4,
        "name": "Bryleigh Morse",
        "avg": "6.95",
        "score": 417,
@@ -2255,21 +2264,12 @@
        "arrowsTotal": 60
       },
       {
-       "rank": 4,
+       "rank": 5,
        "name": "Lucy Lane",
        "avg": "6.40",
        "score": 384,
        "shooterId": "cHRpTkwvcUw2c3Z2UFlxT3hWR2dJUT09",
        "arrows": 60,
-       "arrowsTotal": 60
-      },
-      {
-       "rank": 5,
-       "name": "Lona Toomer",
-       "avg": "8.42",
-       "score": 379,
-       "shooterId": "S3pSVTU3ZEU4VUJMN3MwMUdtNW50QT09",
-       "arrows": 45,
        "arrowsTotal": 60
       },
       {
