@@ -1690,7 +1690,76 @@
        "arrowsTotal": 60
       }
      ],
-     "bracket": null
+     "bracket": {
+      "rounds": [
+       {
+        "name": "Semi Finals",
+        "matches": [
+         {
+          "a": {
+           "name": "Gianna Ross",
+           "seed": 1,
+           "score": 146,
+           "winner": true
+          },
+          "b": {
+           "name": "Riley Berger",
+           "seed": 4,
+           "score": 109,
+           "winner": false
+          }
+         },
+         {
+          "a": {
+           "name": "Evelyn Echavarria-Hyden",
+           "seed": 3,
+           "score": 137,
+           "winner": true
+          },
+          "b": {
+           "name": "Lona Toomer",
+           "seed": 2,
+           "score": 120,
+           "winner": false
+          }
+         }
+        ]
+       },
+       {
+        "name": "Finals",
+        "matches": [
+         {
+          "a": {
+           "name": "Gianna Ross",
+           "seed": 1,
+           "score": 145,
+           "winner": true
+          },
+          "b": {
+           "name": "Evelyn Echavarria-Hyden",
+           "seed": 3,
+           "score": 136,
+           "winner": false
+          }
+         },
+         {
+          "a": {
+           "name": "Riley Berger",
+           "seed": 4,
+           "score": 120,
+           "winner": false
+          },
+          "b": {
+           "name": "Lona Toomer",
+           "seed": 2,
+           "score": 120,
+           "winner": true
+          }
+         }
+        ]
+       }
+      ]
+     }
     },
     {
      "name": "Freestyle Compound Junior Male",
