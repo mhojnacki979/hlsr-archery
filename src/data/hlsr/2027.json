@@ -2336,7 +2336,76 @@
        "arrowsTotal": 60
       }
      ],
-     "bracket": null
+     "bracket": {
+      "rounds": [
+       {
+        "name": "Semi Finals",
+        "matches": [
+         {
+          "a": {
+           "name": "Nealee Vines",
+           "seed": 1,
+           "score": 133,
+           "winner": true
+          },
+          "b": {
+           "name": "Lucy Lane",
+           "seed": 4,
+           "score": 108,
+           "winner": false
+          }
+         },
+         {
+          "a": {
+           "name": "Bryleigh Morse",
+           "seed": 3,
+           "score": 101,
+           "winner": false
+          },
+          "b": {
+           "name": "Kendall Garner",
+           "seed": 2,
+           "score": 118,
+           "winner": true
+          }
+         }
+        ]
+       },
+       {
+        "name": "Finals",
+        "matches": [
+         {
+          "a": {
+           "name": "Nealee Vines",
+           "seed": 1,
+           "score": 126,
+           "winner": true
+          },
+          "b": {
+           "name": "Kendall Garner",
+           "seed": 2,
+           "score": 124,
+           "winner": false
+          }
+         },
+         {
+          "a": {
+           "name": "Lucy Lane",
+           "seed": 4,
+           "score": 114,
+           "winner": true
+          },
+          "b": {
+           "name": "Bryleigh Morse",
+           "seed": 3,
+           "score": 100,
+           "winner": false
+          }
+         }
+        ]
+       }
+      ]
+     }
     },
     {
      "name": "Fixed Pin Compound Junior Male",
